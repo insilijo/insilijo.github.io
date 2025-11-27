@@ -61,7 +61,17 @@ layout: default
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
-        {% toc %}
+        <nav role="navigation" class="table-of-contents">
+          <ul>
+            <li><a href="#section-1">Section 1</a></li>
+            <li><a href="#section-2">Section 2</a>
+              <ul>
+                <li><a href="#subsection-2-1">Subsection 2.1</a></li>
+              </ul>
+            </li>
+            <li><a href="#section-3">Section 3</a></li>
+          </ul>
+        </nav>
       </div>
       <hr>
     {% endif %}
@@ -77,11 +87,36 @@ layout: default
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">
-      {% if jekyll.environment == "production" and site.github %}
-        <p><em>Bibliography is not available in GitHub Pages build environment.</em></p>
-      {% else %}
-        {% bibliography --group_by none --cited_in_order %}
-      {% endif %}
+      <ol class="bibliography">
+        <li>
+          <div id="dummy-ref-1">
+            <div class="abbr"></div>
+            <div class="col-sm-10">
+              <div class="title">Sample Publication Title</div>
+              <div class="author">
+                <em>Author, A.</em>, and <em>Author, B.</em>
+              </div>
+              <div class="periodical">
+                <em>Journal Name</em>, 2024
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div id="dummy-ref-2">
+            <div class="abbr"></div>
+            <div class="col-sm-10">
+              <div class="title">Another Publication Example</div>
+              <div class="author">
+                <em>Researcher, C.</em>
+              </div>
+              <div class="periodical">
+                <em>Conference Proceedings</em>, 2023
+              </div>
+            </div>
+          </div>
+        </li>
+      </ol>
     </div>
   {% endif %}
 

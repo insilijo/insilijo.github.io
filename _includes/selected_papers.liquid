@@ -1,7 +1,18 @@
 <div class="publications">
-  {% if jekyll.environment == "production" and site.github %}
-    <p><em>Selected papers are not available in GitHub Pages build environment.</em></p>
-  {% else %}
-    {% bibliography --group_by none --query @*[selected=true]* %}
-  {% endif %}
+  <ol class="bibliography">
+    <li>
+      <div id="selected-1">
+        <div class="abbr"></div>
+        <div class="col-sm-10">
+          <div class="title">Selected Paper Example</div>
+          <div class="author">
+            <em>Researcher, A.</em>
+          </div>
+          <div class="periodical">
+            <em>Top Journal</em>, 2024
+          </div>
+        </div>
+      </div>
+    </li>
+  </ol>
 </div>

@@ -15,14 +15,59 @@ nav_order: 2
 
 <div class="publications">
 
-{% if jekyll.environment == "production" and site.github %}
-  <div class="publications-placeholder">
-    <h2>Publications</h2>
-    <p><em>Publications are not available in GitHub Pages build environment. Please view this site locally or use a custom build process that includes jekyll-scholar.</em></p>
-    <p>To view publications, run the site locally with <code>bundle exec jekyll serve</code>.</p>
-  </div>
-{% else %}
-  {% bibliography %}
-{% endif %}
+<ol class="bibliography">
+  <li>
+    <div id="pub-1">
+      <div class="abbr"></div>
+      <div class="col-sm-10">
+        <div class="title">Example Publication Title</div>
+        <div class="author">
+          <em>Author, A.</em>, <em>Author, B.</em>, and <em>Author, C.</em>
+        </div>
+        <div class="periodical">
+          <em>Journal of Example Research</em>, 
+          <strong>2024</strong>
+        </div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <a href="#" class="btn btn-sm z-depth-0" role="button">Code</a>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div id="pub-2">
+      <div class="abbr"></div>
+      <div class="col-sm-10">
+        <div class="title">Another Research Paper</div>
+        <div class="author">
+          <em>Researcher, D.</em>, and <em>Researcher, E.</em>
+        </div>
+        <div class="periodical">
+          <em>Conference on Example Topics</em>, 
+          <strong>2023</strong>
+        </div>
+        <div class="links">
+          <a href="#" class="btn btn-sm z-depth-0" role="button">PDF</a>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div id="pub-3">
+      <div class="abbr"></div>
+      <div class="col-sm-10">
+        <div class="title">Sample Academic Work</div>
+        <div class="author">
+          <em>Scholar, F.</em>
+        </div>
+        <div class="periodical">
+          <em>Example Review</em>, 
+          <strong>2022</strong>
+        </div>
+      </div>
+    </div>
+  </li>
+</ol>
 
 </div>
