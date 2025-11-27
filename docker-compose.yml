@@ -16,6 +16,9 @@ services:
       - 8080:8080
       - 35729:35729
     volumes:
-      - .:/srv/jekyll
+      # Use cached volume for better performance on Windows
+      - .:/srv/jekyll:cached
     environment:
       - JEKYLL_ENV=development
+      # Force polling for file watching on Windows
+      - JEKYLL_POLLING=true

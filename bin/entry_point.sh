@@ -21,17 +21,33 @@ manage_gemfile_lock() {
 
 start_jekyll() {
     manage_gemfile_lock
-    bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling &
+    echo "Starting Jekyll with watch and livereload..."
+    # Use --force_polling for better Windows Docker support
+    bundle exec jekyll serve \
+        --watch \
+        --port=8080 \
+        --host=0.0.0.0 \
+        --livereload \
+        --livereload-port=35729 \
+        --verbose \
+        --trace \
+        --force_polling &
+    JEKYLL_PID=$!
+    echo "Jekyll started with PID: $JEKYLL_PID"
 }
 
 start_jekyll
 
+# Watch for config file changes and restart Jekyll
 while true; do
-    inotifywait -q -e modify,move,create,delete $CONFIG_FILE
+    inotifywait -q -e modify,move,create,delete $CONFIG_FILE 2>/dev/null || sleep 1
     if [ $? -eq 0 ]; then
         echo "Change detected to $CONFIG_FILE, restarting Jekyll"
-        jekyll_pid=$(pgrep -f jekyll)
-        kill -KILL $jekyll_pid
+        jekyll_pid=$(pgrep -f "jekyll serve" || echo "")
+        if [ -n "$jekyll_pid" ]; then
+            kill -KILL $jekyll_pid 2>/dev/null || true
+            sleep 1
+        fi
         start_jekyll
     fi
 done
