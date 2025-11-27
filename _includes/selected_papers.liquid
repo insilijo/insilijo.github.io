@@ -1,3 +1,7 @@
 <div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+  {% if jekyll.environment == "production" and site.github %}
+    <p><em>Selected papers are not available in GitHub Pages build environment.</em></p>
+  {% else %}
+    {% bibliography --group_by none --query @*[selected=true]* %}
+  {% endif %}
 </div>

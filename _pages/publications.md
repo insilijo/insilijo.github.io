@@ -15,6 +15,14 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+{% if jekyll.environment == "production" and site.github %}
+  <div class="publications-placeholder">
+    <h2>Publications</h2>
+    <p><em>Publications are not available in GitHub Pages build environment. Please view this site locally or use a custom build process that includes jekyll-scholar.</em></p>
+    <p>To view publications, run the site locally with <code>bundle exec jekyll serve</code>.</p>
+  </div>
+{% else %}
+  {% bibliography %}
+{% endif %}
 
 </div>
