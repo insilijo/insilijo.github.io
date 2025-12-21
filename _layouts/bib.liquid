@@ -367,7 +367,7 @@
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
-        <p>{{ entry.abstract }}</p>
+        <p>{{ entry.abstract | newline_to_br }}</p>
       </div>
     {% endif %}
 
