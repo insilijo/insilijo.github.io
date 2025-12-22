@@ -259,15 +259,8 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": [
-        "Quantum Teleportation",
-        "Quantum Cryptography"
-      ],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Fresh Start Food Network",
+      "summary": "Fresh Start Food Network sources, reclaims, and distributes vast tons of fresh produce that would otherwise go to waste and provides it to underserved neighborhoods in the Boston metro area."
     }
   ]
 }
