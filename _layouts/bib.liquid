@@ -364,7 +364,7 @@
       </div>
     {% endif %}
 
-    {% if entry.abstract %}
+    {% if entry.abstract and page.layout != 'about' %}
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
         <p>{{ entry.abstract | newline_to_br }}</p>
