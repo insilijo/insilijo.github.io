@@ -5,14 +5,84 @@ layout: page
 
 {% if page.collection and page.collection.size > 0 %}
   {% assign collection = site[page.collection] %}
-  {% if collection and collection.size > 0 %}
-    {% for item in collection reversed %}
+{% endif %}
+
+{% if collection and collection.size > 0 %}
+  {%- comment -%}
+    =========================
+    FAVORITES (PINNED AT TOP)
+    =========================
+  {%- endcomment -%}
+
+  {% assign has_favorites = false %}
+  {% for item in collection %}
+    {% if item.favorite == true %}
+      {% assign has_favorites = true %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if has_favorites %}
+    <h1>Favorites</h1>
+    <ul class="favorites">
+      {% for item in collection reversed %}
+        {% if item.favorite == true %}
+          <figure class="cover">
+            <a class="cover-link" href="{{ item.url | relative_url }}">
+              {% if item.cover %}
+                <img
+                  alt="{{ item.title }} cover"
+                  src="{{ item.cover | prepend: page.covers | relative_url }}"
+                  style="height:200px"
+                >
+              {% elsif item.olid %}
+                <img
+                  alt="{{ item.title }} cover"
+                  src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false"
+                  style="height:200px"
+                >
+              {% elsif item.isbn %}
+                <img
+                  alt="{{ item.title }} cover"
+                  src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false"
+                  style="height:200px"
+                >
+              {% endif %}
+
+              {% if item.status %}
+                {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+                {% assign status = item.status | downcase | strip %}
+                {% if statuses contains status %}
+                  <figcaption class="{{ status }}">{{ status | upcase }}</figcaption>
+                {% else %}
+                  <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+                {% endif %}
+              {% else %}
+                <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+              {% endif %}
+            </a>
+          </figure>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {%- comment -%}
+    =========================
+    NON-FAVORITES (BY YEAR)
+    =========================
+  {%- endcomment -%}
+
+  {% assign year = null %}
+  {% for item in collection reversed %}
+    {% unless item.favorite == true %}
       {% assign current_year = item.date | date: '%Y' %}
+
       {% if current_year != year %}
         {% unless forloop.first %}
           </ul>
         {% endunless %}
-        <h1 id="y{{item.date | date: "%Y"}}">
+        <h1 id="y{{ current_year }}">
           <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
         </h1>
         <ul>
@@ -22,17 +92,30 @@ layout: page
       <figure class="cover">
         <a class="cover-link" href="{{ item.url | relative_url }}">
           {% if item.cover %}
-            <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
+            <img
+              alt="{{ item.title }} cover"
+              src="{{ item.cover | prepend: page.covers | relative_url }}"
+              style="height:200px"
+            >
           {% elsif item.olid %}
-            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
+            <img
+              alt="{{ item.title }} cover"
+              src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false"
+              style="height:200px"
+            >
           {% elsif item.isbn %}
-            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
+            <img
+              alt="{{ item.title }} cover"
+              src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false"
+              style="height:200px"
+            >
           {% endif %}
+
           {% if item.status %}
             {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
             {% assign status = item.status | downcase | strip %}
             {% if statuses contains status %}
-              <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
+              <figcaption class="{{ status }}">{{ status | upcase }}</figcaption>
             {% else %}
               <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
             {% endif %}
@@ -41,9 +124,7 @@ layout: page
           {% endif %}
         </a>
       </figure>
-      {% if forloop.last %}
-        </ul>
-      {% endif %}
-    {% endfor %}
-  {% endif %}
+    {% endunless %}
+  {% endfor %}
+  </ul>
 {% endif %}
