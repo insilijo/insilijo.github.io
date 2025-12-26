@@ -25,7 +25,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey! Thanks for dropping by. I'm Joey. I write because I like to. I write also because I'm opinionated on the following categories, each with different levels of trustworthy experience from high to low:
+Hey! Thanks for dropping by. I'm Joey. I have a B.S. and Ph.D. in Chemical and Biological Engineering, the latter of which I completed under the advisement of Dr. Nanette R. Boyle at Colorado School of Mines. We used agent-based modeling and flux balance analysis (code acting like individuals + figuring out the fastest route to grow in metabolism) to interrogate _Trichodesmium erythraeum_'s colony forming behavior and capacity to fix nitrogen and $CO_2$ simultaneously during the day. Since then, I've been involved in engineering to optimize nitrogen fixation for industrial ag, finding drug targets for autoimmune disorders using metabolism-centric approaches, untargeted metabolomics, microbiome research, and software for science research. In my other life, I'm trying to build a non-profit to provide fresh produce for at-risk communities in Boston in a way that actually saves the city money. I'm a hit at parties.
+
+I write because I like to. I write also because I'm opinionated on the following categories, each with different levels of trustworthy experience from high to low:
 
 ## I'm pretty good at this
 
