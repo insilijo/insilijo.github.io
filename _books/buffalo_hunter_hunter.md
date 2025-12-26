@@ -9,5 +9,5 @@ finished: 2025-06-15
 released: 2025-03-18
 stars: 5
 status: Finished
-favorites: true
+favorite: true
 ---
