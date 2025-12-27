@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Public repositories I&#39;m working on.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "books-a-brief-history-of-seven-killings",
           title: 'A Brief History of Seven Killings',
           description: "",
