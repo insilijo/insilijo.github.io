@@ -9,6 +9,39 @@ layout: page
 
 {% if collection and collection.size > 0 %}
   {%- comment -%}
+    Collect all unique categories from books
+  {%- endcomment -%}
+  {% assign all_categories = '' | split: '' %}
+  {% for item in collection %}
+    {% if item.categories %}
+      {% assign item_categories = item.categories | split: ' ' %}
+      {% for cat in item_categories %}
+        {% unless all_categories contains cat %}
+          {% assign all_categories = all_categories | push: cat %}
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+  {% assign all_categories = all_categories | sort %}
+
+  {%- comment -%}
+    Tag filter UI
+  {%- endcomment -%}
+  {% if all_categories.size > 0 %}
+    <div class="book-filter-container" style="margin-bottom: 2rem;">
+      <div class="book-filter-buttons" style="display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;">
+        <button class="book-filter-btn active" data-filter="all" style="padding: 0.5rem 1rem; border: 1px solid var(--global-divider-color); background: var(--global-bg-color); color: var(--global-text-color); cursor: pointer; border-radius: 4px; transition: all 0.2s;">
+          All
+        </button>
+        {% for category in all_categories %}
+          <button class="book-filter-btn" data-filter="{{ category }}" style="padding: 0.5rem 1rem; border: 1px solid var(--global-divider-color); background: var(--global-bg-color); color: var(--global-text-color); cursor: pointer; border-radius: 4px; transition: all 0.2s;">
+            {{ category | replace: '-', ' ' | capitalize }}
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+  {%- comment -%}
     =========================
     FAVORITES (PINNED AT TOP)
     =========================
@@ -27,7 +60,7 @@ layout: page
     <ul class="favorites">
       {% for item in collection reversed %}
         {% if item.favorite == true %}
-          <figure class="cover">
+          <figure class="cover book-item" {% if item.categories %}data-categories="{{ item.categories }}"{% endif %}>
             <a class="cover-link" href="{{ item.url | relative_url }}">
               {% if item.cover %}
                 <img
@@ -89,7 +122,7 @@ layout: page
           {% assign year = current_year %}
       {% endif %}
 
-      <figure class="cover">
+      <figure class="cover book-item" {% if item.categories %}data-categories="{{ item.categories }}"{% endif %}>
         <a class="cover-link" href="{{ item.url | relative_url }}">
           {% if item.cover %}
             <img
@@ -128,3 +161,32 @@ layout: page
   {% endfor %}
   </ul>
 {% endif %}
+
+<script src="{{ '/assets/js/book-filter.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+
+<style>
+  .book-filter-btn:hover {
+    background: var(--global-theme-color) !important;
+    color: var(--global-bg-color) !important;
+    border-color: var(--global-theme-color) !important;
+  }
+  
+  .book-filter-btn.active {
+    background: var(--global-theme-color) !important;
+    color: var(--global-bg-color) !important;
+    border-color: var(--global-theme-color) !important;
+  }
+  
+  .book-item.hidden {
+    display: none;
+  }
+  
+  .book-item {
+    transition: opacity 0.3s ease;
+  }
+  
+  .book-item.filtered-out {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+</style>
