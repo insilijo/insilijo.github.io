@@ -271,8 +271,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/remains_of_the_day/";
-            },},{id: "books-",
-          title: '',
+            },},{id: "books-39-salem-39-s-lot",
+          title: '&amp;#39;Salem&amp;#39;s Lot',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/salems_lot/";
