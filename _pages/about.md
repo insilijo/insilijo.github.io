@@ -78,3 +78,4 @@ I've volunteered for a long time - it's a tradition that my grandma, mom, dad, a
 I'm also part of the wild underworld of youtube-influenced DIY, active at a book club, tend towards camping/hiking/outdoorsy things, and I like all sorts of nerdy/horror things (except video games... strangely). I'll write about my house/interior design, books and my diverse opinions, and the excursions I go on. I have another site where I post other things I write.
 </p>
 </details>
+<br>
