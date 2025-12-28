@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey! I'm Joey. Like the baby kangaroo. I'm a Principal Scientist and Bioinformatics Platform Manager at Metabolon, where we try to contextualize metabolomics data in terms of bioinformatics outcomes. I have a dog named Ducky (Hejduk) and I used to have a dog named Gizmo and a cat named PJ. They're the best.
+Hey! I'm Joey. Like the baby kangaroo. I'm a Principal Scientist and Bioinformatics Platform Manager at Metabolon, where we try to contextualize metabolomics data in terms of bioinformatics outcomes. I have a dog named Ducky (Hejduk) and I used to have a dog named Gizmo, a pony named Patches, and a cat named PJ. They're the best.
 
 <details>
   <summary class="large-details">
