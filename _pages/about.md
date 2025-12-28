@@ -42,7 +42,6 @@ Since then, I've been involved in engineering to optimize nitrogen fixation for 
 I write about <b>all sorts of things</b> but I'm most opinionated on <b>software-assisted biological research</b> including <b>building interactable, rich visualizations</b>, <b>organizing disparate data across ontologies</b>, and <b>the pros and cons of LLMs in assisting development</b>. My research focuses on <b>network approaches</b> in <b>multivariate, multiobjective contexts</b>. I really like discussing <b>teaching</b> as well as <b>mentorship and management of technical people</b>. Lastly, no product is complete without a marketing strategy, so it's important to me to find the right <b>product-market fit</b> so good science doesn't die on the vine.
 </p>
 </details>
-<br>
 <details>
   <summary class="large-details">
     Personal Stuff
