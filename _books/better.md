@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: Better: A Surgeon's Notes on Performance
+title: "Better: A Surgeon's Notes on Performance"
 author: Atul Gawande
 cover: assets/img/book_covers/better.jpg
 categories: nonfiction medicine science health memoir
