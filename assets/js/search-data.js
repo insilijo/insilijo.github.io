@@ -71,8 +71,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/always_lived_in_castle/";
-            },},{id: "books-",
-          title: '',
+            },},{id: "books-better-a-surgeon-39-s-notes-on-performance",
+          title: 'Better: A Surgeon&amp;#39;s Notes on Performance',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/better/";
@@ -91,8 +91,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/catch_22/";
-            },},{id: "books-",
-          title: '',
+            },},{id: "books-gigi-julie-de-carneilhan-and-chance-acquaintances-three-short-novels",
+          title: 'Gigi, Julie de Carneilhan, and Chance Acquaintances: Three Short Novels',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/colette/";
@@ -121,8 +121,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/dungeoncrawler_carl_3/";
-            },},{id: "books-",
-          title: '',
+            },},{id: "books-family-furnishings-selected-stories-1995-2014",
+          title: 'Family Furnishings: Selected Stories, 1995-2014',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/family_furnishings/";
@@ -171,13 +171,13 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/intermezzo/";
-            },},{id: "books-",
-          title: '',
+            },},{id: "books-the-invention-of-nature-alexander-von-humboldt-39-s-new-world",
+          title: 'The Invention of Nature: Alexander von Humboldt&amp;#39;s New World',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/invention_of_nature/";
-            },},{id: "books-",
-          title: '',
+            },},{id: "books-killers-of-the-flower-moon-the-osage-murders-and-the-birth-of-the-fbi",
+          title: 'Killers of the Flower Moon: The Osage Murders and the Birth of the...',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/killers_of_the_flower_moon/";
@@ -276,8 +276,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/salems_lot/";
-            },},{id: "books-",
-          title: '',
+            },},{id: "books-say-nothing-a-true-story-of-murder-and-memory-in-northern-ireland",
+          title: 'Say Nothing: A True Story of Murder and Memory in Northern Ireland',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/say_nothing/";
