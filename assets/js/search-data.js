@@ -66,6 +66,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/always_lived_in_castle/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/better/";
             },},{id: "books-the-buffalo-hunter-hunter",
           title: 'The Buffalo Hunter Hunter',
           description: "",
@@ -101,16 +106,46 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/dungeoncrawler_carl_3/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/family_furnishings/";
+            },},{id: "books-the-farthest-shore",
+          title: 'The Farthest Shore',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/farthest_shore/";
+            },},{id: "books-get-in-trouble",
+          title: 'Get in Trouble',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/get_in_trouble/";
             },},{id: "books-the-god-of-the-woods",
           title: 'The God of the Woods',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/god_of_the_woods/";
+            },},{id: "books-john-steinbeck",
+          title: 'John Steinbeck',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/grapes_of_wrath/";
             },},{id: "books-gravity-39-s-rainbow",
           title: 'Gravity&amp;#39;s Rainbow',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/gravitys_rainbow/";
+            },},{id: "books-the-handmaid-39-s-tale",
+          title: 'The Handmaid&amp;#39;s Tale',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/handmaids_tale/";
+            },},{id: "books-the-house-on-mango-street",
+          title: 'The House on Mango Street',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/house_on_mango_street/";
             },},{id: "books-how-to-solve-your-own-murder",
           title: 'How to Solve Your Own Murder',
           description: "",
@@ -126,16 +161,96 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/left_hand_of_darkness/";
+            },},{id: "books-the-little-prince",
+          title: 'The Little Prince',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/little_prince/";
+            },},{id: "books-manchild-in-the-promised-land",
+          title: 'Manchild in the Promised Land',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/manchild/";
+            },},{id: "books-the-martian-chronicles",
+          title: 'The Martian Chronicles',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/martian_chronicles/";
+            },},{id: "books-maus-i",
+          title: 'Maus I',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/maus_1/";
+            },},{id: "books-maus-ii",
+          title: 'Maus II',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/maus_2/";
             },},{id: "books-mexican-gothic",
           title: 'Mexican Gothic',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/mexican_gothic/";
+            },},{id: "books-middlemarch",
+          title: 'Middlemarch',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/middlemarch/";
+            },},{id: "books-middlesex",
+          title: 'Middlesex',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/middlesex/";
             },},{id: "books-never-flinch",
           title: 'Never Flinch',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/never_flinch/";
+            },},{id: "books-one-hundred-years-of-solitude",
+          title: 'One Hundred Years of Solitude',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/one_hundred_years_of_solitude/";
+            },},{id: "books-our-town",
+          title: 'Our Town',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/our_town/";
+            },},{id: "books-a-perfect-spy",
+          title: 'A Perfect Spy',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/perfect_spy/";
+            },},{id: "books-the-quiet-american",
+          title: 'The Quiet American',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/quiet_american/";
+            },},{id: "books-the-remains-of-the-day",
+          title: 'The Remains of the Day',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/remains_of_the_day/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/salems_lot/";
+            },},{id: "books-the-sirens-of-titan",
+          title: 'The Sirens of Titan',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sirens_of_titan/";
+            },},{id: "books-the-sound-and-the-fury",
+          title: 'The Sound and the Fury',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sound_and_fury/";
+            },},{id: "books-station-eleven",
+          title: 'Station Eleven',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/station_eleven/";
             },},{id: "books-the-devils",
           title: 'The Devils',
           description: "",
@@ -151,6 +266,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/visual_display/";
+            },},{id: "books-watership-down",
+          title: 'Watership Down',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/watership_down/";
             },},{id: "books-wide-sargasso-sea",
           title: 'Wide Sargasso Sea',
           description: "",
