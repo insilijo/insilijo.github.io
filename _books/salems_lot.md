@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: 'Salem's Lot
+title: "'Salem's Lot"
 author: Stephen King
 cover: assets/img/book_covers/salems_lot.jpg
 categories: fiction horror vampire thriller
