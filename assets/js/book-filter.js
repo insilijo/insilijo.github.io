@@ -242,21 +242,50 @@
         }
       });
 
-      // Hide favorites section if no favorites are visible
-      const favoritesSection = document.querySelector('h1:first-of-type');
-      if (favoritesSection && favoritesSection.textContent.trim() === 'Favorites') {
-        const favoritesUl = favoritesSection.nextElementSibling;
-        if (favoritesUl && favoritesUl.classList.contains('favorites')) {
-          const visibleFavorites = favoritesUl.querySelectorAll('.book-item:not(.hidden)');
-          if (visibleFavorites.length === 0 && hasFilters) {
-            favoritesSection.style.display = 'none';
-            favoritesUl.style.display = 'none';
-          } else {
-            favoritesSection.style.display = '';
-            favoritesUl.style.display = '';
-          }
+    // Hide reading section if no reading books are visible
+    const readingSection = document.querySelector('h1');
+    if (readingSection && readingSection.textContent.trim() === 'Reading') {
+      const readingUl = readingSection.nextElementSibling;
+      if (readingUl && readingUl.classList.contains('reading')) {
+        const visibleReading = readingUl.querySelectorAll('.book-item:not(.hidden)');
+        if (visibleReading.length === 0 && hasFilters) {
+          readingSection.style.display = 'none';
+          readingUl.style.display = 'none';
+        } else {
+          readingSection.style.display = '';
+          readingUl.style.display = '';
         }
       }
+    }
+
+    // Hide favorites section if no favorites are visible
+    const favoritesSection = document.querySelector('h1');
+    let favoritesUl = null;
+    // Find favorites section (could be second h1 if reading exists)
+    const allH1s = document.querySelectorAll('h1');
+    for (let h1 of allH1s) {
+      if (h1.textContent.trim() === 'Favorites') {
+        favoritesSection = h1;
+        favoritesUl = favoritesSection.nextElementSibling;
+        break;
+      }
+    }
+    
+    if (favoritesSection && favoritesSection.textContent.trim() === 'Favorites') {
+      if (!favoritesUl) {
+        favoritesUl = favoritesSection.nextElementSibling;
+      }
+      if (favoritesUl && favoritesUl.classList.contains('favorites')) {
+        const visibleFavorites = favoritesUl.querySelectorAll('.book-item:not(.hidden)');
+        if (visibleFavorites.length === 0 && hasFilters) {
+          favoritesSection.style.display = 'none';
+          favoritesUl.style.display = 'none';
+        } else {
+          favoritesSection.style.display = '';
+          favoritesUl.style.display = '';
+        }
+      }
+    }
     }
   }
 })();

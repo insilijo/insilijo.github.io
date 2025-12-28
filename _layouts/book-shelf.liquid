@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-
 {{ content }}
 
 {% if page.collection and page.collection.size > 0 %}
@@ -137,6 +136,80 @@ layout: page
   {% endif %}
   {%- comment -%}
     =========================
+    READING (CURRENTLY READING)
+    =========================
+  {%- endcomment -%}
+
+  {% assign has_reading = false %}
+  {% for item in collection %}
+    {% if item.status %}
+      {% assign status = item.status | downcase | strip %}
+      {% if status == 'reading' %}
+        {% assign has_reading = true %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
+  {% if has_reading %}
+    <h1>Reading</h1>
+    <ul class="reading">
+      {% for item in collection reversed %}
+        {% if item.status %}
+          {% assign status = item.status | downcase | strip %}
+          {% if status == 'reading' %}
+            <figure
+              class="cover book-item"
+              {% if item.categories %}
+                {%- if item.categories.first -%}
+                  data-categories="{{ item.categories | join: ' ' }}"
+                {%- else -%}
+                  data-categories="{{ item.categories }}"
+                {%- endif -%}
+              {% endif %}
+            >
+              <a class="cover-link" href="{{ item.url | relative_url }}">
+                {% if item.cover %}
+                  <img
+                    alt="{{ item.title }} cover"
+                    src="{{ item.cover | prepend: page.covers | relative_url }}"
+                    style="height:200px"
+                  >
+                {% elsif item.olid %}
+                  <img
+                    alt="{{ item.title }} cover"
+                    src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false"
+                    style="height:200px"
+                  >
+                {% elsif item.isbn %}
+                  <img
+                    alt="{{ item.title }} cover"
+                    src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false"
+                    style="height:200px"
+                  >
+                {% endif %}
+
+                {% if item.status %}
+                  {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+                  {% assign status = item.status | downcase | strip %}
+                  {% if statuses contains status %}
+                    <figcaption class="{{ status }}">{{ status | upcase }}</figcaption>
+                  {% else %}
+                    <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+                  {% endif %}
+                {% else %}
+                  <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+                {% endif %}
+              </a>
+            </figure>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {%- comment -%}
+    =========================
     FAVORITES (PINNED AT TOP)
     =========================
   {%- endcomment -%}
@@ -211,7 +284,14 @@ layout: page
 
   {% assign year = null %}
   {% for item in collection reversed %}
-    {% unless item.favorite == true %}
+    {% assign is_reading = false %}
+    {% if item.status %}
+      {% assign status = item.status | downcase | strip %}
+      {% if status == 'reading' %}
+        {% assign is_reading = true %}
+      {% endif %}
+    {% endif %}
+    {% unless item.favorite == true or is_reading == true %}
       {% assign current_year = item.date | date: '%Y' %}
 
       {% if current_year != year %}
@@ -280,7 +360,7 @@ layout: page
   /* Page Header Styling */
   .bookshelf-page-header {
     margin-bottom: 3rem;
-    padding: 2rem 0;
+    padding: 1.5rem 0 2rem 0;
     position: relative;
   }
 
@@ -577,6 +657,32 @@ layout: page
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   }
 
+  /* Reading section styling */
+  .reading {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    border-bottom: 2px solid var(--global-divider-color);
+  }
+
+  .reading h1 {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: var(--global-theme-color);
+    font-weight: 700;
+  }
+
+  .reading .cover {
+    border: 2px solid var(--global-theme-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  }
+
+  .reading .cover:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
+  }
+
   /* Favorites section styling */
   .favorites {
     display: flex;
@@ -630,7 +736,7 @@ layout: page
   }
 
   /* Book list styling */
-  ul:not(.favorites) {
+  ul:not(.favorites):not(.reading) {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
