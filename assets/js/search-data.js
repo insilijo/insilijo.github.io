@@ -61,6 +61,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/albert_camus/";
+            },},{id: "books-albion-39-s-seed",
+          title: 'Albion&amp;#39;s Seed',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/albions_seed/";
             },},{id: "books-we-have-always-lived-in-the-castle",
           title: 'We Have Always Lived in the Castle',
           description: "",
@@ -71,6 +76,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/better/";
+            },},{id: "books-between-the-world-and-me",
+          title: 'Between The World and Me',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/between_the_world_and_me/";
             },},{id: "books-the-buffalo-hunter-hunter",
           title: 'The Buffalo Hunter Hunter',
           description: "",
@@ -86,6 +96,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/colette/";
+            },},{id: "books-crying-in-h-mart",
+          title: 'Crying in H Mart',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/crying_in_h_mart/";
             },},{id: "books-dubliners",
           title: 'Dubliners',
           description: "",
@@ -156,11 +171,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/intermezzo/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/invention_of_nature/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/killers_of_the_flower_moon/";
             },},{id: "books-the-left-hand-of-darkness",
           title: 'The Left Hand of Darkness',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/left_hand_of_darkness/";
+            },},{id: "books-lincoln-in-the-bardo",
+          title: 'Lincoln in the Bardo',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/lincoln_in_the_bardo/";
             },},{id: "books-the-little-prince",
           title: 'The Little Prince',
           description: "",
@@ -216,6 +246,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/our_town/";
+            },},{id: "books-pachinko",
+          title: 'Pachinko',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/pachinko/";
             },},{id: "books-a-perfect-spy",
           title: 'A Perfect Spy',
           description: "",
@@ -226,6 +261,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/quiet_american/";
+            },},{id: "books-rattling-the-cages",
+          title: 'Rattling the Cages',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/rattling_the_cages/";
             },},{id: "books-the-remains-of-the-day",
           title: 'The Remains of the Day',
           description: "",
@@ -236,6 +276,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/salems_lot/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/say_nothing/";
+            },},{id: "books-sea-of-tranquility",
+          title: 'Sea of Tranquility',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sea_of_tranquility/";
+            },},{id: "books-the-silence-of-the-lambs",
+          title: 'The Silence of the Lambs',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/silence_of_the_lambs/";
             },},{id: "books-the-sirens-of-titan",
           title: 'The Sirens of Titan',
           description: "",
@@ -251,6 +306,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/station_eleven/";
+            },},{id: "books-the-storm-is-here",
+          title: 'The Storm is Here',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/storm_is_here/";
+            },},{id: "books-a-swim-in-the-pond-in-the-rain",
+          title: 'A Swim in the Pond in the Rain',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/swim_in_the_pond/";
             },},{id: "books-the-devils",
           title: 'The Devils',
           description: "",
