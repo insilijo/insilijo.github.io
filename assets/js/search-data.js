@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-bookshelf",
+          title: "bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -37,13 +44,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-bookshelf",
-          title: "bookshelf",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/books/";
-          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Public repositories I&#39;m working on.",
@@ -56,11 +56,36 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/a_brief_history_of_seven_killings/";
+            },},{id: "books-lyrical-and-critical-essays",
+          title: 'Lyrical and Critical Essays',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/albert_camus/";
+            },},{id: "books-we-have-always-lived-in-the-castle",
+          title: 'We Have Always Lived in the Castle',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/always_lived_in_castle/";
             },},{id: "books-the-buffalo-hunter-hunter",
           title: 'The Buffalo Hunter Hunter',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/buffalo_hunter_hunter/";
+            },},{id: "books-catch-22",
+          title: 'Catch-22',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/catch_22/";
+            },},{id: "books-",
+          title: '',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/colette/";
+            },},{id: "books-dubliners",
+          title: 'Dubliners',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dubliners/";
             },},{id: "books-dungeon-crawler-carl",
           title: 'Dungeon Crawler Carl',
           description: "",
@@ -81,6 +106,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/god_of_the_woods/";
+            },},{id: "books-gravity-39-s-rainbow",
+          title: 'Gravity&amp;#39;s Rainbow',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/gravitys_rainbow/";
             },},{id: "books-how-to-solve-your-own-murder",
           title: 'How to Solve Your Own Murder',
           description: "",
@@ -91,6 +121,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/intermezzo/";
+            },},{id: "books-the-left-hand-of-darkness",
+          title: 'The Left Hand of Darkness',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/left_hand_of_darkness/";
             },},{id: "books-mexican-gothic",
           title: 'Mexican Gothic',
           description: "",
@@ -111,6 +146,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/under_the_glacier/";
+            },},{id: "books-the-visual-display-of-quantitative-information",
+          title: 'The Visual Display of Quantitative Information',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/visual_display/";
+            },},{id: "books-wide-sargasso-sea",
+          title: 'Wide Sargasso Sea',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/wide_sargasso_sea/";
+            },},{id: "books-world-war-z",
+          title: 'World War Z',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/world_war_z/";
             },},{
         id: 'social-cv',
         title: 'CV',
