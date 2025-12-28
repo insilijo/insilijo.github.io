@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+
 {{ content }}
 
 {% if page.collection and page.collection.size > 0 %}
@@ -276,12 +277,166 @@ layout: page
 <script src="{{ '/assets/js/book-filter.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 
 <style>
+  /* Page Header Styling */
+  .bookshelf-page-header {
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    position: relative;
+  }
+
+  .bookshelf-page-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--global-theme-color);
+    opacity: 0.8;
+  }
+
+  .bookshelf-header-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .bookshelf-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--global-text-color);
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  .bookshelf-description {
+    font-size: 1.1rem;
+    color: var(--global-text-color-light);
+    margin: 0;
+    font-style: italic;
+  }
+
+  /* Enhanced details/summary styling */
+  details {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--global-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-left: 3px solid var(--global-theme-color);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+
+  details:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+  }
+
+  details[open] {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  summary {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--global-theme-color);
+    cursor: pointer;
+    padding: 0.5rem 0;
+    user-select: none;
+    transition: color 0.2s ease;
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::before {
+    content: '▶';
+    display: inline-block;
+    margin-right: 0.5rem;
+    transition: transform 0.2s ease;
+    font-size: 0.8em;
+    color: var(--global-theme-color);
+  }
+
+  details[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  summary:hover {
+    color: var(--global-text-color);
+  }
+
+  details[open] summary {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  /* Content area styling */
+  .post {
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Enhanced typography in content */
+  .post article {
+    line-height: 1.8;
+  }
+
+  .post article p {
+    margin-bottom: 1.25rem;
+  }
+
+  .post article em {
+    font-style: italic;
+    color: var(--global-text-color);
+  }
+
+  .post article br + br {
+    margin-top: 1rem;
+  }
+
   .book-filter-dropdown {
     position: relative;
   }
 
+  .book-filter-input-wrapper input {
+    border: 2px solid var(--global-divider-color) !important;
+    transition: all 0.3s ease;
+  }
+
+  .book-filter-input-wrapper input:focus {
+    border-color: var(--global-theme-color) !important;
+    box-shadow: 0 0 0 3px rgba(0, 159, 6, 0.1) !important;
+    outline: none;
+  }
+
+  .book-filter-dropdown-menu {
+    border: 1px solid var(--global-divider-color) !important;
+    border-top: 2px solid var(--global-theme-color) !important;
+  }
+
+  .book-filter-option {
+    border-left: 3px solid transparent;
+    transition: all 0.2s ease;
+  }
+
   .book-filter-option:hover {
     background: var(--global-hover-color) !important;
+    border-left-color: var(--global-theme-color);
+    transform: translateX(4px);
   }
 
   .book-filter-option input[type='checkbox']:checked + span {
@@ -289,8 +444,14 @@ layout: page
     color: var(--global-theme-color);
   }
 
+  .book-filter-chip {
+    background: var(--global-theme-color) !important;
+    transition: all 0.3s ease;
+  }
+
   .book-filter-chip:hover {
     opacity: 0.9;
+    transform: translateY(-2px);
   }
 
   .book-filter-chip-remove:hover {
@@ -308,7 +469,184 @@ layout: page
   }
 
   .book-item {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: fadeInUp 0.5s ease-out;
+    animation-fill-mode: both;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Stagger animation for books */
+  .book-item:nth-child(1) {
+    animation-delay: 0.05s;
+  }
+  .book-item:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  .book-item:nth-child(3) {
+    animation-delay: 0.15s;
+  }
+  .book-item:nth-child(4) {
+    animation-delay: 0.2s;
+  }
+  .book-item:nth-child(5) {
+    animation-delay: 0.25s;
+  }
+  .book-item:nth-child(6) {
+    animation-delay: 0.3s;
+  }
+  .book-item:nth-child(n + 7) {
+    animation-delay: 0.35s;
+  }
+
+  /* Enhanced book cover styling */
+  figure.cover {
+    position: relative;
+    margin: 0.75rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background: var(--global-bg-color);
+  }
+
+  figure.cover:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+  }
+
+  figure.cover a.cover-link {
+    display: block;
+    position: relative;
+    overflow: hidden;
+  }
+
+  figure.cover img {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    margin: 0 auto;
+  }
+
+  figure.cover:hover img {
+    transform: scale(1.05);
+  }
+
+  /* Overlay effect on hover */
+  figure.cover a.cover-link::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.1) 100%);
+    opacity: 0;
     transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  figure.cover:hover a.cover-link::after {
+    opacity: 1;
+  }
+
+  /* Enhanced status badges */
+  figure.cover figcaption {
+    position: relative;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  figure.cover:hover figcaption {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Favorites section styling */
+  .favorites {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    border-bottom: 2px solid var(--global-divider-color);
+  }
+
+  .favorites h1 {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: var(--global-theme-color);
+    font-weight: 700;
+  }
+
+  .favorites .cover {
+    border: 2px solid var(--global-theme-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  }
+
+  .favorites .cover:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Year section headers */
+  h1[id^='y'] {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--global-theme-color);
+    font-size: 1.5rem;
+    color: var(--global-text-color);
+    font-weight: 700;
+  }
+
+  h1[id^='y']:first-of-type {
+    margin-top: 1rem;
+  }
+
+  /* Year links */
+  h1[id^='y'] a {
+    color: var(--global-text-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  h1[id^='y'] a:hover {
+    color: var(--global-theme-color);
+  }
+
+  /* Book list styling */
+  ul:not(.favorites) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    figure.cover {
+      margin: 0.5rem;
+    }
+
+    figure.cover:hover {
+      transform: translateY(-4px) scale(1.01);
+    }
   }
 
   .book-filter-dropdown-menu::-webkit-scrollbar {
