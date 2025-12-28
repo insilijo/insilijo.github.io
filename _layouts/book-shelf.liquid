@@ -9,11 +9,14 @@ layout: page
 
 {% if collection and collection.size > 0 %}
   {%- comment -%}
-    Collect all unique categories from books
+    Collect all unique categories from books and count occurrences
     Handles both YAML array format and space-separated string format
     Filters out empty strings and invalid values
   {%- endcomment -%}
   {% assign all_categories = '' | split: '' %}
+  {% assign category_counts = '' | split: '' %}
+
+  {%- comment -%} First, collect all unique categories {%- endcomment -%}
   {% for item in collection %}
     {% if item.categories %}
       {% if item.categories.first %}
@@ -33,7 +36,32 @@ layout: page
       {% endfor %}
     {% endif %}
   {% endfor %}
-  {% assign all_categories = all_categories | sort %}
+
+  {%- comment -%} Count books for each category {%- endcomment -%}
+  {% for category in all_categories %}
+    {% assign count = 0 %}
+    {% for item in collection %}
+      {% if item.categories %}
+        {% if item.categories.first %}
+          {% assign item_categories = item.categories %}
+        {% else %}
+          {% assign item_categories = item.categories | split: ' ' %}
+        {% endif %}
+        {% for cat in item_categories %}
+          {% assign cat_trimmed = cat | strip %}
+          {% if cat_trimmed == category %}
+            {% assign count = count | plus: 1 %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    {% assign category_counts = category_counts | push: count %}
+  {% endfor %}
+
+  {%- comment -%} Keep categories and counts in parallel arrays - JavaScript will sort them {%- endcomment -%}
+  {% assign sorted_categories = all_categories %}
+  {% assign sorted_counts = category_counts %}
 
   {%- comment -%}
     Searchable multiselect dropdown for tags
@@ -63,20 +91,28 @@ layout: page
           style="display: none; position: absolute; top: 100%; left: 0; right: 0; margin-top: 0.25rem; background: var(--global-bg-color); border: 1px solid var(--global-divider-color); border-radius: 4px; max-height: 300px; overflow-y: auto; z-index: 1000; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
         >
           <div class="book-filter-options" id="book-filter-options">
-            {% for category in all_categories %}
-              <label
-                class="book-filter-option"
-                style="display: flex; align-items: center; padding: 0.5rem 1rem; cursor: pointer; transition: background 0.2s;"
-                data-category="{{ category }}"
-              >
-                <input
-                  type="checkbox"
-                  class="book-filter-checkbox"
-                  value="{{ category }}"
-                  style="margin-right: 0.5rem;"
+            {% for i in (0..sorted_categories.size) %}
+              {% if i < sorted_categories.size %}
+                {% assign category = sorted_categories[i] %}
+                {% assign count = sorted_counts[i] %}
+                <label
+                  class="book-filter-option"
+                  style="display: flex; align-items: center; justify-content: space-between; padding: 0.5rem 1rem; cursor: pointer; transition: background 0.2s;"
+                  data-category="{{ category }}"
+                  data-count="{{ count }}"
                 >
-                <span>{{ category | replace: '-', ' ' | capitalize }}</span>
-              </label>
+                  <span style="display: flex; align-items: center;">
+                    <input
+                      type="checkbox"
+                      class="book-filter-checkbox"
+                      value="{{ category }}"
+                      style="margin-right: 0.5rem;"
+                    >
+                    <span>{{ category | replace: '-', ' ' | capitalize }}</span>
+                  </span>
+                  <span style="color: var(--global-text-color-light); font-size: 0.85rem; margin-left: 0.5rem;">{{ count }}</span>
+                </label>
+              {% endif %}
             {% endfor %}
           </div>
         </div>
@@ -84,9 +120,17 @@ layout: page
       <div
         class="book-filter-selected"
         id="book-filter-selected"
-        style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; min-height: 1.5rem;"
+        style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; min-height: 1.5rem; align-items: center;"
       >
         <!-- Selected tags will appear here -->
+        <button
+          id="book-filter-clear"
+          class="book-filter-clear-btn"
+          style="display: none; padding: 0.25rem 0.75rem; background: var(--global-text-color-light); color: var(--global-bg-color); border: 1px solid var(--global-divider-color); border-radius: 4px; font-size: 0.85rem; cursor: pointer; transition: all 0.2s;"
+          title="Clear all filters"
+        >
+          Clear all
+        </button>
       </div>
     </div>
   {% endif %}
@@ -251,6 +295,12 @@ layout: page
 
   .book-filter-chip-remove:hover {
     opacity: 1 !important;
+  }
+
+  .book-filter-clear-btn:hover {
+    background: var(--global-theme-color) !important;
+    color: var(--global-bg-color) !important;
+    border-color: var(--global-theme-color) !important;
   }
 
   .book-item.hidden {

@@ -19,11 +19,17 @@
     const filterOptions = document.getElementById('book-filter-options');
     const selectedContainer = document.getElementById('book-filter-selected');
     const bookItems = document.querySelectorAll('.book-item');
-    const checkboxes = document.querySelectorAll('.book-filter-checkbox');
+    let checkboxes = document.querySelectorAll('.book-filter-checkbox');
 
     if (!searchInput || !dropdownMenu || bookItems.length === 0) {
       return; // Required elements not found
     }
+
+    // Sort options by count (descending)
+    sortOptionsByCount(filterOptions);
+
+    // Re-query checkboxes after sorting
+    checkboxes = document.querySelectorAll('.book-filter-checkbox');
 
     let selectedTags = new Set();
 
@@ -63,6 +69,28 @@
       });
     });
 
+    // Handle clear button
+    const clearButton = document.getElementById('book-filter-clear');
+    if (clearButton) {
+      clearButton.addEventListener('click', function() {
+        // Clear all selected tags
+        selectedTags.clear();
+        
+        // Uncheck all checkboxes
+        checkboxes.forEach(checkbox => {
+          checkbox.checked = false;
+        });
+        
+        // Clear search input
+        searchInput.value = '';
+        filterOptionsList('');
+        
+        // Update UI and filter
+        updateSelectedTags();
+        filterBooks(selectedTags, bookItems);
+      });
+    }
+
     function toggleDropdown(show) {
       if (show === undefined) {
         dropdownMenu.style.display = dropdownMenu.style.display === 'none' ? 'block' : 'none';
@@ -86,6 +114,22 @@
       }
     }
 
+    function sortOptionsByCount(container) {
+      const options = Array.from(container.querySelectorAll('.book-filter-option'));
+      
+      options.sort((a, b) => {
+        const countA = parseInt(a.getAttribute('data-count') || '0');
+        const countB = parseInt(b.getAttribute('data-count') || '0');
+        return countB - countA; // Descending order
+      });
+      
+      // Clear container and re-append sorted options
+      container.innerHTML = '';
+      options.forEach(option => {
+        container.appendChild(option);
+      });
+    }
+
     function filterOptionsList(searchTerm) {
       const options = filterOptions.querySelectorAll('.book-filter-option');
       options.forEach(option => {
@@ -99,14 +143,24 @@
     }
 
     function updateSelectedTags() {
-      selectedContainer.innerHTML = '';
+      const clearButton = document.getElementById('book-filter-clear');
+      
+      // Remove all chips but keep the clear button
+      const chips = selectedContainer.querySelectorAll('.book-filter-chip');
+      chips.forEach(chip => chip.remove());
       
       if (selectedTags.size === 0) {
+        if (clearButton) {
+          clearButton.style.display = 'none';
+        }
         selectedContainer.style.display = 'none';
         return;
       }
 
       selectedContainer.style.display = 'flex';
+      if (clearButton) {
+        clearButton.style.display = 'inline-block';
+      }
 
       selectedTags.forEach(tag => {
         const chip = document.createElement('span');
@@ -134,7 +188,12 @@
           filterBooks(selectedTags, bookItems);
         });
         
-        selectedContainer.appendChild(chip);
+        // Insert before the clear button
+        if (clearButton) {
+          selectedContainer.insertBefore(chip, clearButton);
+        } else {
+          selectedContainer.appendChild(chip);
+        }
       });
     }
 
