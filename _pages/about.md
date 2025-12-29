@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey! I'm Joey. Like the baby kangaroo. I'm a Principal Scientist and Bioinformatics Platform Manager at Metabolon, where we try to contextualize metabolomics data in terms of bioinformatics outcomes. I have a dog named Ducky (Hejduk) and I used to have a dog named Gizmo, a pony named Patches, and a cat named PJ. They're the best.
+Hey! I'm Joey. Like the baby kangaroo. I'm a **Principal Scientist and Bioinformatics Platform Manager at Metabolon**, where we perform metabolomics at scale to a variety of biology-relevant outcomes. I've specifically worked on contextualizing multiomics on the bioinformatics platform, modernizing our cheminformatics methods, and building our microbiome product. I have a dog named Ducky (Hejduk) and I used to have a dog named Gizmo, a pony named Patches, and a cat named PJ. They're the best.
 
 <details>
   <summary class="large-details">
@@ -49,27 +49,6 @@ I write about <b>all sorts of things</b> but I'm most opinionated on <b>software
 <p>
 In my other life, I'm trying to build a non-profit to provide fresh produce for at-risk communities in Boston in a way that actually saves the city money. Right now, we see a ton of food gone to waste and a lot of people hungry; it's our goal to treat food as a human right and receiving it is natural and dignified. We focus mostly on the logistics of sourcing food that would go to waste and distributing it in places where food deserts exist. We save on disposal costs, we feed the hungry, and less food goes to waste. Triple threat. The organization is called the Fresh Start Food Network.
 </p>
-
-<details>
-<summary class="small-details"><i>The Grapes of Wrath</i></summary>
-<blockquote>
-<p>The works of the roots of the vines, of the trees, must be destroyed to keep up the price, and this is the saddest, bitterest thing of all. Carloads of oranges dumped on the ground. The people came for miles to take the fruit, but this could not be. How would they buy oranges at twenty cents a dozen if they could drive out and pick them up? And men with hoses squirt kerosene on the oranges, and they are angry at the crime, angry at the people who have come to take the fruit. A million people hungry, needing the fruit - and kerosene sprayed over the golden mountains. And the smell of rot fills the country. Burn coffee for fuel in the ships. Burn corn to keep warm, it makes a hot fire. Dump potatoes in the rivers and place guards along the banks to keep the hungry people from fishing them out. Slaughter the pigs and bury them, and let the putrescence drip down into the earth.
-</p>
-<p>
-There is a crime here that goes beyond denunciation. 
-</p>
-<p>
-There is a sorrow here that weeping cannot symbolize. 
-</p>
-<p>
-There is a failure here that topples all our success. 
-</p>
-<p>
-The fertile earth, the straight tree rows, the sturdy trunks, and the ripe fruit. And children dying of pellagra must die because a profit cannot be taken from an orange. And coroners must fill in the certificate - died of malnutrition - because the food must rot, must be forced to rot. The people come with nets to fish for potatoes in the river, and the guards hold them back; they come in rattling cars to get the dumped oranges, but the kerosene is sprayed. And they stand still and watch the potatoes float by, listen to the screaming pigs being killed in a ditch and covered with quick-lime, watch the mountains of oranges slop down to a putrefying ooze; and in the eyes of the people there is the failure; and in the eyes of the hungry there is a growing wrath. In the souls of the people the grapes of wrath are filling and growing heavy, growing heavy for the vintage.
-</p>
-John Steinbeck
-</blockquote>
-</details>
 <p>
 I've volunteered for a long time - it's a tradition that my grandma, mom, dad, and sister instilled in me - and grew up on a ranch with ~12-16 horses. We used to operate something called Aspen Hollow Young Ranchers, which sought to give an alternative therapeutic environment for underserved communities like adolescents in residential treatment and folks with PTSD. They got to interact with horses (theory being that they're prey animals but also massive, so good for folks to figure out their own emotions).
 </p>
