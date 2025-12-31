@@ -1572,6 +1572,22 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-text-color);
 }
 
+// Inline images that wrap with text (al-folio)
+.inline-img {
+  float: left;
+  height: auto;
+  margin: 0.25rem 1rem 0.75rem 0;
+}
+
+.inline-right {
+  float: right;
+  margin: 0.25rem 0 0.75rem 1rem;
+}
+
+.inline-left {
+  float: left;
+}
+
 figure.cover {
   display: inline-block;
   text-align: center;

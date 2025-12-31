@@ -84,8 +84,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Change Throw # blog_name will be displayed in your blog page
-blog_description: Thoughts on small molecules and big communities
+blog_name: Babelomics # blog_name will be displayed in your blog page
+blog_description: From small molecules to collective meaning
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
