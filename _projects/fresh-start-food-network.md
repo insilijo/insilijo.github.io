@@ -2,11 +2,15 @@
 title: "Fresh Start Food Network"
 date: 2026-01-10
 repo: "../food-justice"
-repo_url: "https://github.com/<your-username>/food-justice"  # replace with actual repo URL
+repo_url: "https://github.com/insilijo/food-justice"
 site: "https://fresh-start-food-network.pages.dev"
 status: "planning"
 tags: ["food justice","community","boston"]
 thumbnail: "/assets/images/projects/fresh-start-food-network.png"
+description: "Connect policy makers, distributors, and volunteers to improve equitable food distribution in Boston."
+category: "work"
+importance: 1
+github: "https://github.com/insilijo/food-justice"
 ---
 
 ## Overview
