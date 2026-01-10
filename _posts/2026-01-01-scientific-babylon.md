@@ -11,7 +11,12 @@ pretty_table: true
 thumbnail: "assets/img/blogs/2026-01-01/tower_of_babylon.jpg"
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/blogs/2026-01-01/tower_of_babylon.jpg" alt="By Pieter Brueghel the Elder - Levels adjusted from File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project.jpg, originally from Google Art Project., Public Domain, https://commons.wikimedia.org/w/index.php?curid=22179117" class="inline-img inline-right" %}
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-01-01/tower_of_babylon.jpg"
+  alt="By Pieter Brueghel the Elder - Levels adjusted from File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project.jpg, originally from Google Art Project., Public Domain, https://commons.wikimedia.org/w/index.php?curid=22179117"
+  class="inline-img inline-right"
+%}
 
 In accounts from The Bible and The Torah, the Tower of Babel is built to prevent a second flood, only to result in the fragmentation of human language. Variations on the same theme appear across Greek, Estonian, Sumerian, and Aztec traditions: a once-unified humanity loses a shared understanding of the world through linguistic division. In these stories, collective power gives way to confusion: not through catastrophe, but through meaning itself.
 
@@ -19,34 +24,45 @@ Modern linguistics offers a less mythic explanation. Languages diverge naturally
 
 Science faces a related, but sharper, problem. We attempt to describe systems that are not only complex, but mostly unobservable, probabilistic, and dynamic. The challenge extends past measurement and into representation: data are meaningless without a structured, shared, and preserved system. That system has to subscribe to the same orders as all data: Findable, Accessible, Interoperable, and Reproducible (FAIR) because its value lies in how it interfaces with colleagues and other data.
 
-{% include figure.liquid loading="eager" path="assets/img/blogs/2026-01-01/dikw_pyramid.svg" class="inline-img inline-right" alt="DIKW pyramid showing data, information, knowledge, and wisdom" %}
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-01-01/dikw_pyramid.svg"
+  class="inline-img inline-right"
+  alt="DIKW pyramid showing data, information, knowledge, and wisdom"
+%}
 
 <div class="caption small">
-DIKW Pyramid by Longlivetheux, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:DIKW_Pyramid.svg
+  DIKW Pyramid by Longlivetheux, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:DIKW_Pyramid.svg
 </div>
 
 Ontologies attempt to resolve this fragmentation by enforcing shared meaning. In practice, they often expose the cost of assuming meaning can be fixed at all. Applying an alternative standard to these processes -- instead of resulting in meaning -- adds another standard on top of the dozens already there. We confront our own Tower of Babel, then: we find ourselves playing a massive, expensive game of telephone where meaning is exchanged, lost, and mutated between experts.
 
 In metabolomics alone, biological, chemical, and analytical vocabularies coexist; each developed in different ecologies, each optimized for a different audience, and each only partially compatible with the others.
 
-{% include figure.liquid loading="eager" path="assets/img/blogs/2026-01-01/xkcd_927_standards.png" class="inline-img inline-left" max-width="400" alt="xkcd 927 Standards comic" %}
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-01-01/xkcd_927_standards.png"
+  class="inline-img inline-left"
+  max-width="400"
+  alt="xkcd 927 Standards comic"
+%}
 
 <div class="caption small">
   xkcd 927 "Standards" by Randall Munroe, CC BY-NC 2.5, https://xkcd.com/927/
 </div>
 
-These three ontologies factor in as crucial steps **even before** we get to any sort of useful interpretation. Moreover, each individual discipline involved is nuanced, requiring years of experience or education to get to a foundational knowledge. These ontologies are the connective tissue that flattens these disciplinary nuances.
-
-<div>
-    {% include figure.liquid loading="eager" path="assets/img/blogs/2026-01-01/1.svg" class="img-fluid rounded z-depth-1" %}
-</div>
-<div class="caption">
-    This LC/MS example illustrates a broader pattern across scientific measurements: long chains of translation separate measurement from interpretation, and trust/meaning must be preserved across every handoff.
-</div>
-
-The above illustrates how data flows from the instrument to interpretation through context. In this case, we're looking at how metabolomics data flows from Liquid Chromatography/Mass Spectrometry (LC/MS) through reference spectra (ideally developed on the same machine and method) and finally to a format that's accessible to a biochemist (typically a table). Even in this simplified representation, it's clear that there's a substantial amount of effort involved in developing the method, creating the infrastructure around managing/storing the data, selecting/synthesizing reference compounds, analyzing data, and engineering it for interpretation.
+These ontologies operate **long before** interpretation is even possible. Moreover, each individual discipline involved is nuanced, requiring years of experience or education to get to foundational understanding. These ontologies are the connective tissue that flattens these disciplinary nuances. For example, metabolomics data flows from Liquid Chromatography/Mass Spectrometry (LC/MS) through reference spectra (ideally developed on the same machine and method) and finally to a format that's accessible to a biochemist (typically a table). Even in this simplified process, it's clear that there's a substantial amount of effort involved in developing the method, creating the infrastructure around managing/storing the data, selecting/synthesizing reference compounds, analyzing data, and engineering it for interpretation.
 
 Even getting to the point where we're comfortable analyzing the data requires a tremendous amount of effort and coordination. Moreover, no scientist has the capacity or time to ensure quality of the product, and relies on the data originator to deliver precise, accurate, and relevant results. It's crucial, for both internal and external purposes, to maintain a paper trail that makes it clear how each step integrates into the useful data. Otherwise, we're left with a mess of isolated numbers.
+
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-01-01/1.svg"
+  class="img-fluid rounded z-depth-1"
+%}
+<div class="caption">
+  This LC/MS example illustrates a broader pattern across scientific measurements: long chains of translation separate measurement from interpretation, and trust/meaning must be preserved across every handoff.
+</div>
 
 This isn't just a factor in metabolomics. In fact, this specific analytical example can be applied directly to proteomics with a few small tweaks. Genomics, too, can claim to have done an excellent job of exploiting integrated analytics and ontologies to create reliable, consistent pipelines that are broadly interpretable and trustworthy. What we're trying to do here -- use extremely expensive, sensitive instruments on extremely expensive, sensitive biological samples -- is difficult and important. The first step is being able to adequately describe what's going on to other people.
 
