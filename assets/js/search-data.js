@@ -359,7 +359,7 @@ ninja.data = [{
               window.location.href = "/books/world_war_z/";
             },},{id: "projects-fresh-start-food-network",
           title: 'Fresh Start Food Network',
-          description: "",
+          description: "Connect policy makers, distributors, and volunteers to improve equitable food distribution in Boston.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fresh-start-food-network/";
             },},{
