@@ -31,7 +31,7 @@ Science faces a related, but sharper, problem. We attempt to describe systems th
   alt="DIKW pyramid showing data, information, knowledge, and wisdom"
 %}
 
-<div class="caption small">
+<div class="caption inline-right">
   DIKW Pyramid by Longlivetheux, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:DIKW_Pyramid.svg
 </div>
 
@@ -47,7 +47,7 @@ In metabolomics alone, biological, chemical, and analytical vocabularies coexist
   alt="xkcd 927 Standards comic"
 %}
 
-<div class="caption small">
+<div class="caption inline-left">
   xkcd 927 "Standards" by Randall Munroe, CC BY-NC 2.5, https://xkcd.com/927/
 </div>
 
