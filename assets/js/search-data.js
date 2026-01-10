@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "books-a-brief-history-of-seven-killings",
+        },{id: "post-scientific-babylon",
+        
+          title: "Scientific Babylon",
+        
+        description: "An essay on how meaning, incentives, and governance shape scientific systems across teams and institutions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/scientific-babylon/";
+          
+        },
+      },{id: "books-a-brief-history-of-seven-killings",
           title: 'A Brief History of Seven Killings',
           description: "",
           section: "Books",handler: () => {
