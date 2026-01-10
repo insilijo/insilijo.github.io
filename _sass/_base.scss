@@ -1576,6 +1576,8 @@ ninja-keys::part(ninja-input-wrapper) {
 .inline-img {
   float: left;
   height: auto;
+  width: auto;
+  max-width: 45%;
   margin: 0.25rem 1rem 0.75rem 0;
 }
 
@@ -1586,6 +1588,15 @@ ninja-keys::part(ninja-input-wrapper) {
 
 .inline-left {
   float: left;
+}
+
+@media (max-width: 768px) {
+  .inline-img {
+    float: none;
+    display: block;
+    max-width: 100%;
+    margin: 0.75rem auto;
+  }
 }
 
 figure.cover {
