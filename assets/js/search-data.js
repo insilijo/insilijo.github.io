@@ -357,6 +357,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/world_war_z/";
+            },},{id: "projects-fresh-start-food-network",
+          title: 'Fresh Start Food Network',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fresh-start-food-network/";
             },},{
         id: 'social-cv',
         title: 'CV',
