@@ -1602,6 +1602,27 @@ ninja-keys::part(ninja-input-wrapper) {
 /* Ensure captions placed directly after a figure are constrained to the figure's visual width
    (useful when images are floated with `.inline-img`, `.inline-left`, or `.inline-right`)
 */
+figure + .caption,
+.caption.inline-right,
+figure > figcaption.inline-right {
+  float: right;
+  display: inline-block;
+  max-width: 45%;
+  margin: 0.25rem 0 0.75rem 1rem;
+  text-align: center;
+}
+
+figure + .caption,
+.caption.inline-left,
+figure > figcaption.inline-left {
+  float: left;
+  display: inline-block;
+  max-width: 45%;
+  margin: 0.25rem 1rem 0.75rem 0;
+  text-align: center;
+}
+
+/* Fallback for captions without explicit side class */
 figure + .caption {
   display: inline-block;
   max-width: 45%;
@@ -1611,7 +1632,12 @@ figure + .caption {
 }
 
 @media (max-width: 768px) {
-  figure + .caption {
+  figure + .caption,
+  .caption.inline-left,
+  .caption.inline-right,
+  figure > figcaption.inline-left,
+  figure > figcaption.inline-right {
+    float: none;
     display: block;
     max-width: 100%;
     margin: 0.75rem auto;
