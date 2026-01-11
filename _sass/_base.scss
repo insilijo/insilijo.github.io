@@ -177,7 +177,6 @@ ul.task-list input[type="checkbox"] {
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
   text-align: center;
-  clear: both;
 }
 
 // Card
@@ -1593,6 +1592,38 @@ ninja-keys::part(ninja-input-wrapper) {
 
 @media (max-width: 768px) {
   .inline-img {
+    float: none;
+    display: block;
+    max-width: 100%;
+    margin: 0.75rem auto;
+  }
+}
+
+// Inline figures that keep captions attached to the image
+.inline-figure {
+  float: left;
+  width: auto;
+  max-width: 45%;
+  margin: 0.25rem 1rem 0.75rem 0;
+}
+
+.inline-figure.inline-right {
+  float: right;
+  margin: 0.25rem 0 0.75rem 1rem;
+}
+
+.inline-figure.inline-left {
+  float: left;
+}
+
+.inline-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .inline-figure {
     float: none;
     display: block;
     max-width: 100%;
