@@ -1602,7 +1602,9 @@ ninja-keys::part(ninja-input-wrapper) {
 // Inline figures that keep captions attached to the image
 .inline-figure {
   float: left;
-  width: auto;
+  display: inline-block;
+  width: max-content;
+  width: fit-content;
   max-width: 45%;
   margin: 0.25rem 1rem 0.75rem 0;
 }
