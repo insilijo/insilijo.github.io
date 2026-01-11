@@ -26,10 +26,10 @@ Science faces a related, but sharper, problem. We attempt to describe systems th
 
 {% include figure.liquid
   loading="eager"
-  path="assets/img/blogs/2026-01-01/dikw_pyramid.svg"
+  url="https://researchmoment.unl.edu/wp-content/uploads/2024/06/DIWK-pyramid-1024x576.png"
   figure_class="inline-figure inline-left"
-  alt="DIKW pyramid showing data, information, knowledge, and wisdom"
-  caption="DIKW Pyramid by Longlivetheux, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:DIKW_Pyramid.svg"
+  alt="DIKW pyramid illustrating data, information, knowledge, and wisdom"
+  caption="DIKW pyramid image from Research Moment, University of Nebraska-Lincoln Libraries, https://researchmoment.unl.edu/the-dikw-pyramid-and-the-process-of-conducting-an-advanced-review/"
   caption_class="caption small"
 %}
 
@@ -40,8 +40,8 @@ In metabolomics alone, biological, chemical, and analytical vocabularies coexist
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-01-01/xkcd_927_standards.png"
-  class="img-fluid rounded z-depth-1"
-  max-width="400"
+  figure_class="inline-figure inline-left"
+  max-width="280px"
   alt="xkcd 927 Standards comic"
   caption="xkcd 927 &quot;Standards&quot; by Randall Munroe, CC BY-NC 2.5, https://xkcd.com/927/"
   caption_class="caption small"
