@@ -40,7 +40,7 @@ In metabolomics alone, biological, chemical, and analytical vocabularies coexist
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-01-01/xkcd_927_standards.png"
-  figure_class="inline-figure inline-left"
+  class="img-fluid rounded z-depth-1"
   max-width="400"
   alt="xkcd 927 Standards comic"
   caption="xkcd 927 &quot;Standards&quot; by Randall Munroe, CC BY-NC 2.5, https://xkcd.com/927/"
