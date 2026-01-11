@@ -84,6 +84,7 @@
   </picture>
 
   {% if include.caption %}
-    <figcaption class="caption">{{ include.caption }}</figcaption>
+    {% assign caption_class = include.caption_class | default: "caption" %}
+    <figcaption class="{{ caption_class }}">{{ include.caption }}</figcaption>
   {% endif %}
 </figure>

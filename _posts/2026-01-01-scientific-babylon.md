@@ -15,7 +15,7 @@ thumbnail: "assets/img/blogs/2026-01-01/tower_of_babylon.jpg"
   loading="eager"
   path="assets/img/blogs/2026-01-01/tower_of_babylon.jpg"
   alt="By Pieter Brueghel the Elder - Levels adjusted from File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project.jpg, originally from Google Art Project., Public Domain, https://commons.wikimedia.org/w/index.php?curid=22179117"
-  class="inline-img inline-right"
+  figure_class="inline-figure inline-right"
 %}
 
 In accounts from The Bible and The Torah, the Tower of Babel is built to prevent a second flood, only to result in the fragmentation of human language. Variations on the same theme appear across Greek, Estonian, Sumerian, and Aztec traditions: a once-unified humanity loses a shared understanding of the world through linguistic division. In these stories, collective power gives way to confusion: not through catastrophe, but through meaning itself.
@@ -27,29 +27,25 @@ Science faces a related, but sharper, problem. We attempt to describe systems th
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-01-01/dikw_pyramid.svg"
-  class="inline-img inline-left"
+  figure_class="inline-figure inline-left"
   alt="DIKW pyramid showing data, information, knowledge, and wisdom"
+  caption="DIKW Pyramid by Longlivetheux, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:DIKW_Pyramid.svg"
+  caption_class="caption small"
 %}
 
-<div class="caption inline-left">
-  DIKW Pyramid by Longlivetheux, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:DIKW_Pyramid.svg
-</div>
-
-Ontologies attempt to resolve this fragmentation by enforcing shared meaning. Here, “ontology” is used in its applied sense: not as a claim about what exists, but as a practical expression of how knowledge is organized and exchanged. In practice, they often expose the cost of assuming meaning can be fixed at all. Applying an alternative standard to these processes -- instead of resulting in meaning -- adds another standard on top of the dozens already there. We confront our own Tower of Babel, then: we find ourselves playing a massive, expensive game of telephone where meaning is exchanged, lost, and mutated between experts.
+Ontologies attempt to resolve this fragmentation by enforcing shared meaning. Here, ontology is used in its applied sense: not as a claim about what exists, but as a practical expression of how knowledge is organized and exchanged. In practice, they often expose the cost of assuming meaning can be fixed at all. Applying an alternative standard to these processes -- instead of resulting in meaning -- adds another standard on top of the dozens already there. We confront our own Tower of Babel, then: we find ourselves playing a massive, expensive game of telephone where meaning is exchanged, lost, and mutated between experts.
 
 In metabolomics alone, biological, chemical, and analytical vocabularies coexist; each developed in different ecologies, each optimized for a different audience, and each only partially compatible with the others.
 
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-01-01/xkcd_927_standards.png"
-  class="inline-img"
+  figure_class="inline-figure inline-left"
   max-width="400"
   alt="xkcd 927 Standards comic"
+  caption="xkcd 927 &quot;Standards&quot; by Randall Munroe, CC BY-NC 2.5, https://xkcd.com/927/"
+  caption_class="caption small"
 %}
-
-<div class="caption">
-  xkcd 927 "Standards" by Randall Munroe, CC BY-NC 2.5, https://xkcd.com/927/
-</div>
 
 These ontologies operate **long before** interpretation is even possible. Moreover, each individual discipline involved is nuanced, requiring years of experience or education to get to foundational understanding. These ontologies are the connective tissue that flattens these disciplinary nuances. For example, metabolomics data flows from Liquid Chromatography/Mass Spectrometry (LC/MS) through reference spectra (ideally developed on the same machine and method) and finally to a format that's accessible to a biochemist (typically a table). Even in this simplified process, it's clear that there's a substantial amount of effort involved in developing the method, creating the infrastructure around managing/storing the data, selecting/synthesizing reference compounds, analyzing data, and engineering it for interpretation.
 
@@ -59,10 +55,8 @@ Even getting to the point where we're comfortable analyzing the data requires a 
   loading="eager"
   path="assets/img/blogs/2026-01-01/1.svg"
   class="img-fluid rounded z-depth-1"
+  caption="This LC/MS example illustrates a broader pattern across scientific measurements: long chains of translation separate measurement from interpretation, and trust/meaning must be preserved across every handoff."
 %}
-<div class="caption">
-  This LC/MS example illustrates a broader pattern across scientific measurements: long chains of translation separate measurement from interpretation, and trust/meaning must be preserved across every handoff.
-</div>
 
 This isn't just a factor in metabolomics. In fact, this specific analytical example can be applied directly to proteomics with a few small tweaks. Genomics, too, can claim to have done an excellent job of exploiting integrated analytics and ontologies to create reliable, consistent pipelines that are broadly interpretable and trustworthy. What we're trying to do here -- use extremely expensive, sensitive instruments on extremely expensive, sensitive biological samples -- is difficult and important. The first step is being able to adequately describe what's going on to other people.
 
