@@ -1599,6 +1599,25 @@ ninja-keys::part(ninja-input-wrapper) {
   }
 }
 
+/* Ensure captions placed directly after a figure are constrained to the figure's visual width
+   (useful when images are floated with `.inline-img`, `.inline-left`, or `.inline-right`)
+*/
+figure + .caption {
+  display: inline-block;
+  max-width: 45%;
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  figure + .caption {
+    display: block;
+    max-width: 100%;
+    margin: 0.75rem auto;
+  }
+}
+
 figure.cover {
   display: inline-block;
   text-align: center;
