@@ -34,6 +34,7 @@
         >
       {% endunless %}
     {% endif %}
+    {% assign img_title = include.title | default: include.alt %}
     <img
       src="{% if include.url %}{{ include.url }}{% elsif include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
       {% if include.class %}
@@ -68,8 +69,8 @@
       {% if include.alt %}
         alt="{{ include.alt }}"
       {% endif %}
-      {% if include.title %}
-        title="{{ include.title }}"
+      {% if img_title %}
+        title="{{ img_title }}"
       {% endif %}
       {% if include.zoomable %}
         data-zoomable
