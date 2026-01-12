@@ -41,7 +41,7 @@ Even getting to the point where we're comfortable analyzing the data requires a 
   figure_class="inline-figure inline-left"
   alt="xkcd 927 Standards comic"
   caption="xkcd 927 &quot;Standards&quot; by Randall Munroe, CC BY-NC 2.5, https://xkcd.com/927/"
-  width="360px"
+  width="360"
   caption_class="caption small"
 %}
 
