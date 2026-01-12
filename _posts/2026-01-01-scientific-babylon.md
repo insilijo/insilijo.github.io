@@ -17,7 +17,8 @@ In accounts from The Bible and The Torah, the Tower of Babel is built to prevent
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-01-01/tower_of_babylon.jpg"
-  caption="By Pieter Brueghel the Elder - Levels adjusted from File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project.jpg, originally from Google Art Project., Public Domain, https://commons.wikimedia.org/w/index.php?curid=22179117"
+  caption="The Tower of Babel By Pieter Brueghel the Elder - Levels adjusted from File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project.jpg, originally from Google Art Project., Public Domain, https://commons.wikimedia.org/w/index.php?curid=22179117"
+  alt="The Tower of Babel By Pieter Brueghel the Elder - Levels adjusted from File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project.jpg, originally from Google Art Project., Public Domain, https://commons.wikimedia.org/w/index.php?curid=22179117"
   figure_class="inline-figure inline-right"
   caption_class="caption small"
 %}

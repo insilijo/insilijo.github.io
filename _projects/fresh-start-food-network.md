@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: "Fresh Start Food Network"
 date: 2026-01-10
 repo: "../food-justice"
