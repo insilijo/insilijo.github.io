@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ra_cohorts: Organizing Across Graphs
-date: 2026-01-11 12:00:00
+title: ra_cohorts Organizing Across Graphs
+date: 2027-01-11 12:00:00
 description: How ra_cohorts turns cohort data into graphs, compares them, and applies the structure to validation and domain shift.
 tags: graphs cohorts validation metabolomics
 categories: software science
