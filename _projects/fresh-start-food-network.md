@@ -1,4 +1,5 @@
 ---
+layout: project
 title: "Fresh Start Food Network"
 date: 2026-01-10
 repo: "../food-justice"
@@ -15,7 +16,7 @@ github: "https://github.com/insilijo/food-justice"
 
 ## Overview
 
-**Mission:** _(placeholder — you'll fill this in later)_
+**Mission:** _(placeholder -- you'll fill this in later)_
 
 Fresh Start Food Network is a community-focused project aimed at improving equitable food distribution in Boston by connecting policy makers, distributors, and volunteers.
 
@@ -24,6 +25,7 @@ Fresh Start Food Network is a community-focused project aimed at improving equit
 **Audience:** Policy makers, food distributors (Boston), volunteers
 
 **Initial goals:**
+
 - Build an open site with resources and coordination tools for local distribution efforts
 - Provide clear ways for volunteers and distributors to participate
 - Create an evidence-driven set of policy recommendations for city stakeholders
@@ -42,8 +44,6 @@ Fresh Start Food Network is a community-focused project aimed at improving equit
 
 ## Links & Notes
 
-- **Repo (placeholder):** `https://github.com/<your-username>/food-justice` (please confirm)
+- **Repo (placeholder):** `https://github.com/insilijo/food-justice` (please confirm)
 - **Live site (Pages):** `https://fresh-start-food-network.pages.dev`
-- **License:** MIT — see the project repo `LICENSE`
-
-> **Next step:** Confirm the repo GitHub URL and provide the mission text; I'll swap placeholders and add badges/screenshots.
+- **License:** MIT -- see the project repo `LICENSE`

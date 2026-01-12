@@ -11,15 +11,16 @@ pretty_table: true
 thumbnail: "assets/img/blogs/2026-01-01/tower_of_babylon.jpg"
 ---
 
+
+In accounts from The Bible and The Torah, the Tower of Babel is built to prevent a second flood, only to result in the fragmentation of human language. Variations on the same theme appear across Greek, Estonian, Sumerian, and Aztec traditions: a once-unified humanity loses a shared understanding of the world through linguistic division. In these stories, collective power gives way to confusion: not through catastrophe, but through meaning itself.
+
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-01-01/tower_of_babylon.jpg"
   caption="By Pieter Brueghel the Elder - Levels adjusted from File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project.jpg, originally from Google Art Project., Public Domain, https://commons.wikimedia.org/w/index.php?curid=22179117"
   figure_class="inline-figure inline-right"
-  caption_class="caption-small"
+  caption_class="caption small"
 %}
-
-In accounts from The Bible and The Torah, the Tower of Babel is built to prevent a second flood, only to result in the fragmentation of human language. Variations on the same theme appear across Greek, Estonian, Sumerian, and Aztec traditions: a once-unified humanity loses a shared understanding of the world through linguistic division. In these stories, collective power gives way to confusion: not through catastrophe, but through meaning itself.
 
 Modern linguistics offers a less mythic explanation. Languages diverge naturally, shaped by ecology, geography, isolation, and social structure. Language is not merely a labeling system; it is a lens for interpreting a complex world. As perspectives diverge, so too must the structures used to describe them.
 
@@ -36,8 +37,8 @@ Even getting to the point where we're comfortable analyzing the data requires a 
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-01-01/xkcd_927_standards.png"
-  figure_class="inline-figure inline-right xkcd-figure"
-  width="280"
+  figure_class="inline-figure inline-left xkcd-figure"
+  width="320"
   alt="xkcd 927 Standards comic"
   caption="xkcd 927 &quot;Standards&quot; by Randall Munroe, CC BY-NC 2.5, https://xkcd.com/927/"
   caption_class="caption small"
