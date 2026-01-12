@@ -1625,6 +1625,16 @@ ninja-keys::part(ninja-input-wrapper) {
   max-width: 100%;
 }
 
+.xkcd-figure {
+  width: 280px;
+  max-width: 100%;
+}
+
+.xkcd-figure img {
+  width: 280px;
+  max-width: 100%;
+}
+
 @media (max-width: 768px) {
   .inline-figure {
     float: none;
