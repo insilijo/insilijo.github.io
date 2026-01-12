@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-scientific-babylon",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2026-01-11-ra-cohorts-graphs/";
+          
+        },
+      },{id: "post-scientific-babylon",
         
           title: "Scientific Babylon",
         
