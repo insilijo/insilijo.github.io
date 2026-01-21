@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-scientific-babylon",
+        },{id: "post-the-catalog-of-catalogs",
+        
+          title: "The Catalog of Catalogs",
+        
+        description: "Data is meaningless without context and our role as scientists is to provide that relationship.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/catalog-of-catalogs/";
+          
+        },
+      },{id: "post-scientific-babylon",
         
           title: "Scientific Babylon",
         
