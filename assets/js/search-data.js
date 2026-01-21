@@ -55,7 +55,7 @@ ninja.data = [{
         
           title: "The Catalog of Catalogs",
         
-        description: "Data is meaningless without context and our role as scientists is to provide that relationship.",
+        description: "Coherence, not completeness, is the limiting factor of data in modern scientific organizations.",
         section: "Posts",
         handler: () => {
           
