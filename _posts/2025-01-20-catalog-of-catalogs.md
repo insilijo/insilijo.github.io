@@ -22,7 +22,7 @@ In 1941, Borges imagined a universe in which the limitation of knowledge was not
   loading="eager"
   path="assets/img/blogs/2026-01-20/Desmazieres-biblio-alphabet1-sm.webp"
   caption="Erik Desmazieres, 1997, __La Bibliothèque de Babel__ (above and thumbnail) for Le Livre Contermporain and Les Bibliophiles Franco-Suisses." 
-  figure_class=""
+  figure_class="inline-figure inline-right"
   caption_class="caption small"
 %}
 
