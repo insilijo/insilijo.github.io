@@ -8,7 +8,7 @@ categories: software science
 giscus_comments: true
 related_posts: true
 pretty_table: true
-thumbnail: "assets/img/blogs/2026-01-01/tower_of_babylon.jpg"
+thumbnail: "assets/img/blogs/2026-01-20/Desmazieres-biblio-planetes-sm.webp"
 ---
 
 
@@ -17,6 +17,14 @@ thumbnail: "assets/img/blogs/2026-01-01/tower_of_babylon.jpg"
 — Jorge Luis Borges, The Library of Babel
 
 In 1941, Borges imagined a universe in which the limitation of knowledge was not scarcity but excess. Every possible book existed, yet nothing was meaningfully accessible. In this world, the librarian’s hope rests on a mythical object: a _Catalog of Catalogs_, a structure that might impose order on overwhelming noise, and the Book-Man, who has studied it.
+
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-01-20/Desmazieres-biblio-alphabet1-sm.webp"
+  caption="Erik Desmazieres, 1997, __La Bibliothèque de Babel__ (above and thumbnail) for Le Livre Contermporain and Les Bibliophiles Franco-Suisses." 
+  figure_class="inline-figure inline-right"
+  caption_class="caption small"
+%}
 
 In 2026, modern scientific organizations increasingly resemble Borges’ library. Data accumulates faster than meaning can be maintained, and organization becomes the difference between insight and noise. We're not faced with a lack of quantitative or qualitative metrics, we're faced with a lack of coherence.
 
@@ -34,7 +42,7 @@ A lot of focus is put on the first two elements (findable and accessible), but i
 ### Focus
 Structure frames and orients knowledge, but it does not direct it. Most organizations do not lack data; they lack agreement about which questions matter. Focus provides the bridge between what is technically possible and what is operationally relevant.
 
-In the absence of focus, data systems become encyclopedic rather than instrumental: impressive in scope, but disconnected from decision-making. Everything is recorded, nothing or no one is prioritized, and insight is deferred indefinitely.
+In the absence of focus, data systems become encyclopedic rather than instrumental: impressive in scope, but disconnected from decision-making. Everything is recorded, nothing is prioritized, and insight is deferred indefinitely.
 
 Focus requires constraint. It means explicitly defining:
 * which problems are in scope,
@@ -48,7 +56,14 @@ Where structured, focused data enable valuable prototypes, orchestration is what
 
 Orchestration requires stewardship and governance. It is the ongoing maintenance of alignment between structure, focus, and reality as systems grow. Initial models of data flow are necessary, but insufficient; organizations must adapt as methods change, incentives shift, and markets evolve. That adaptability does not emerge spontaneously. It requires deliberate ownership, revision authority, and sustained care.
 
----
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-01-20/man_of_action.gif"
+  caption="Calvin and Hobbes: Man of Action by Bill Watterson. September 21, 1993"
+  figure_class="inline-figure"
+  caption_class="caption small"
+%}
+
 When Borges wrote about his library, he did so appealing to the philosophical arrangement of knowledge and how we make sense of the world. In this perfect and infinite arrangement of all possible things that could be described, his best case still was seeking a digested, comprehensible version of it.
 
 In scientific systems, it's our reality to take pragmatic approaches to our expanding means of measuring and describing the world. Whether we're collecting and making decisions in the current AI revolution, the "Big Data" boom of the last decade, or Borges' 1941, we're still restricted by the same conditions. No amount of technological advancement can replace our core need for coherence, not completeness, in data. On the contrary, the limitless supply will make our disciplined approach all the more necessary.
