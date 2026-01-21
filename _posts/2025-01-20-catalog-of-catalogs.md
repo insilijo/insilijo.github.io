@@ -4,7 +4,7 @@ title: The Catalog of Catalogs
 date: 2026-01-20 12:00:00
 description: Coherence, not completeness, is the limiting factor of data in modern scientific organizations.
 tags: ontologies standards omics multiomics coherence strategy governance
-categories: software science
+categories: software science data
 giscus_comments: true
 related_posts: true
 pretty_table: true
