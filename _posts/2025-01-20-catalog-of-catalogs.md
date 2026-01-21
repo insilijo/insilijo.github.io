@@ -2,8 +2,8 @@
 layout: post
 title: The Catalog of Catalogs
 date: 2026-01-20 12:00:00
-description: Data is meaningless without context and our role as scientists is to provide that relationship.
-tags: ontologies standards omics multiomics
+description: Coherence, not completeness, is the limiting factor of data in modern scientific organizations.
+tags: ontologies standards omics multiomics coherence strategy governance
 categories: software science
 giscus_comments: true
 related_posts: true
@@ -22,7 +22,7 @@ In 1941, Borges imagined a universe in which the limitation of knowledge was not
   loading="eager"
   path="assets/img/blogs/2026-01-20/Desmazieres-biblio-alphabet1-sm.webp"
   caption="Erik Desmazieres, 1997, __La Bibliothèque de Babel__ (above and thumbnail) for Le Livre Contermporain and Les Bibliophiles Franco-Suisses." 
-  figure_class="inline-figure inline-right"
+  figure_class=""
   caption_class="caption small"
 %}
 
@@ -60,10 +60,11 @@ Orchestration requires stewardship and governance. It is the ongoing maintenance
   loading="eager"
   path="assets/img/blogs/2026-01-20/man_of_action.gif"
   caption="Calvin and Hobbes: Man of Action by Bill Watterson. September 21, 1993"
-  figure_class="inline-figure"
   caption_class="caption small"
 %}
 
 When Borges wrote about his library, he did so appealing to the philosophical arrangement of knowledge and how we make sense of the world. In this perfect and infinite arrangement of all possible things that could be described, his best case still was seeking a digested, comprehensible version of it.
 
-In scientific systems, it's our reality to take pragmatic approaches to our expanding means of measuring and describing the world. Whether we're collecting and making decisions in the current AI revolution, the "Big Data" boom of the last decade, or Borges' 1941, we're still restricted by the same conditions. No amount of technological advancement can replace our core need for coherence, not completeness, in data. On the contrary, the limitless supply will make our disciplined approach all the more necessary.
+In scientific systems, it's our reality to take pragmatic approaches to our expanding means of measuring and describing the world. Whether we're collecting and making decisions in the current AI revolution, the "Big Data" boom of the last decade, or Borges' 1941, we're still restricted by the same conditions. 
+
+No amount of technological advancement can replace our core need for coherence, not completeness, in data. The limiting factor has never been measurement, storage, or computation. It has always been our willingness to decide what matters, who decides it, and who is accountable when meaning breaks.
