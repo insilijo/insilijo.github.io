@@ -128,21 +128,36 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/dubliners/";
+            },},{id: "books-the-butcher-39-s-masquerade-dungeon-crawler-carl-5",
+          title: 'The Butcher&amp;#39;s Masquerade (Dungeon Crawler Carl 5)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dungeon_crawler_carl_5/";
             },},{id: "books-dungeon-crawler-carl",
           title: 'Dungeon Crawler Carl',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/dungeoncrawler_carl_1/";
-            },},{id: "books-carl-39-s-doomsday-scenario",
-          title: 'Carl&amp;#39;s Doomsday Scenario',
+            },},{id: "books-carl-39-s-doomsday-scenario-dungeon-crawler-carl-2",
+          title: 'Carl&amp;#39;s Doomsday Scenario (Dungeon Crawler Carl 2)',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/dungeoncrawler_carl_2/";
-            },},{id: "books-dungeoncrawler-carl-3",
-          title: 'Dungeoncrawler_carl_3',
+            },},{id: "books-the-dungeon-anarchist-39-s-cookbook-dungeon-crawler-carl-3",
+          title: 'The Dungeon Anarchist&amp;#39;s Cookbook (Dungeon Crawler Carl 3)',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/dungeoncrawler_carl_3/";
+            },},{id: "books-gate-of-the-feral-gods-dungeon-crawler-carl-4",
+          title: 'Gate of the Feral Gods (Dungeon Crawler Carl 4)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dungeoncrawler_carl_4/";
+            },},{id: "books-the-eye-of-the-bedlam-bride-dungeon-crawler-carl-6",
+          title: 'The Eye of the Bedlam Bride (Dungeon Crawler Carl 6)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dungeoncrawler_carl_6/";
             },},{id: "books-family-furnishings-selected-stories-1995-2014",
           title: 'Family Furnishings: Selected Stories, 1995-2014',
           description: "",
@@ -368,6 +383,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/world_war_z/";
+            },},{id: "books-you-dreamed-of-empires",
+          title: 'You Dreamed of Empires',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/you_dreamed_of_empires/";
             },},{id: "projects-fresh-start-food-network",
           title: 'Fresh Start Food Network',
           description: "Connect policy makers, distributors, and volunteers to improve equitable food distribution in Boston.",
