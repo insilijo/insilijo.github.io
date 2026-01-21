@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: Carl's Doomsday Scenario
+title: Carl's Doomsday Scenario (Dungeon Crawler Carl 2)
 author: Mark Dinniman
 cover: assets/img/book_covers/dungeoncrawler_2_cover.jpg
 categories: fiction science-fiction video-games rpg heros-journey

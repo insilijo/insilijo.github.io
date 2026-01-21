@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title:
+title: The Dungeon Anarchist's Cookbook (Dungeon Crawler Carl 3)
 author: Mark Dinniman
 cover: assets/img/book_covers/dungeoncrawler_3_cover.jpg
 categories: fiction science-fiction video-games rpg heros-journey
