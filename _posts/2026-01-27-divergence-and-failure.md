@@ -17,7 +17,7 @@ Organizations face the same problem. We are increasingly aware of our fractured 
 
 Functional organizations are alike: clear ownership, shared purpose, and mechanisms for resolving conflicts or operational differences as they evolve. Dysfunctional organizations, by contrast, fail in many different ways. Those failures are not random. They tend to fracture along the same structural seams, where decisions were deferred, authority was ambiguous, or tradeoffs were never made explicit.
 
-In scientific organizations, these fractures are especially visible because messy, expensive, large, complex, and regulated data magnifies them. When coherence breaks down, it does so predictably—by eroding structure, dissolving focus, or overwhelming orchestration. What follows are not edge cases or cultural quirks, but recurring governance failures that turn abundance into noise.
+In scientific organizations, these fractures are especially visible because messy, expensive, large, complex, and regulated data magnifies them. When coherence breaks down, it does so predictably by eroding structure, dissolving focus, or overwhelming orchestration. What follows are not edge cases or cultural quirks, but recurring governance failures that turn abundance into noise.
 
 In the context of scientific data systems, I’ll outline five such failure modes.
 
@@ -41,7 +41,7 @@ Stewardship is an unassuming function. Its greatest yields are negative space: f
 
 Stewardship is not a technical role. It is an organizational function and an institutional posture. When it is underinvested, the closest contributors to the pain points often compensate through yeomanlike labor, building informal workarounds or cottage industries of reconciliation. To leadership, this can appear efficient. In reality, it externalizes cost.
 
-The burden of maintaining coherence shifts downstream. New hires have to play games of telephone and archaeology, adjacent teams must support domain knowledge they don't have, and end users—who must reconstruct context that was never preserved. Over time, the organization becomes dependent on memory rather than structure.
+The burden of maintaining coherence shifts downstream. New hires have to play games of telephone and archaeology, adjacent teams must support domain knowledge they don't have, and end users who must reconstruct context that was never preserved. Over time, the organization becomes dependent on memory rather than structure.
 
 Stewardship is the work of maintaining meaning across time. When it is absent, systems do not fail loudly; they rot quietly.
 
@@ -93,19 +93,16 @@ This is why Conway’s Law is not merely descriptive but predictive. Systems do 
 Conway’s Law explains why coherence cannot be fixed downstream. When communication breaks, architecture follows. When authority diffuses, meaning fractures. The system does not resist this outcome: it records it.
 
 ## Unwillingness to Revise
-All of these failure modes carry an element of inevitability. The future cannot be predicted, so the present cannot be perfectly constructed around it. In resource-constrained environments, time cannot simply be added to perform continuous stewardship. Science itself would look very different if technological change were fully anticipatable.
+All of these failure modes carry an element of inevitability. The future cannot be predicted, so the present cannot be perfectly constructed around it. Our flexibility can be a strength but can limit focus and our best attempts at orchestration can become outdated or misdirected.
 
-Left unmitigated, these dynamics can degrade systems. But none of them represent terminal failure.
+Left unmitigated, these dynamics can degrade systems. But none of them represent terminal failure. What __is__ terminal is the unwillingness to confront them.
 
-What __is__ terminal is the unwillingness to confront them.
+Revision is a fact of scientific life. Until 1944, proteins were thought to carry genetic information. Until the late nineteenth century, disease was attributed to miasma rather than microbes. Science isn't conducted by predicting, preserving, or even finding correct answers, but by revising frameworks when evidence demands it.
 
-Revision is a fact of scientific life. Until 1944, proteins were thought to carry genetic information. Until the late nineteenth century, disease was attributed to miasma rather than microbes. Progress occurs not by preserving correct answers, but by revising frameworks when evidence demands it.
+As scientists, we accept that hypotheses must change. The same principle must apply to how we record, structure, and govern our knowledge. When existing systems obstruct interpretation or decision-making, they must be revised, regardless of how successful or familiar they once were.
 
-As scientists, we accept that hypotheses must change. The same principle must apply to how we record, structure, and govern our knowledge. When existing systems obstruct interpretation or decision-making, they must be revised—regardless of how successful or familiar they once were.
-
-This is rarely easy. Revision is both technical and political. It requires deep institutional understanding and legitimate authority, a combination that is seldom concentrated in a single role. As a result, revision often occurs only when failure becomes visible enough to bridge the gap between technical insight and executive action.
+This is rarely easy. Revision is both technical and political. It requires deep institutional understanding and legitimate authority, a combination that is seldom concentrated in a single role. As a result, revision often occurs only when failure becomes visible enough to bridge the gap between technical insight and executive action. That can be too late in a competitive landscape.
 
 But without revision, failure modes compound. Original assumptions harden. Stewardship erodes. Exceptions proliferate. Organizational fractures imprint themselves onto systems. What begins as manageable drift becomes structural decay.
 
-Revision is the only counterforce. It must be deliberate, authorized, and decisive. Without it, systems do not merely age; they accumulate incoherence until meaning itself becomes inaccessible.
-
+Revision is the only counterforce. It must be deliberate, authorized, and decisive. Without it, systems do not merely age; they accumulate incoherence and fracture into individual, incompatible truths.
