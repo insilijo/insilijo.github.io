@@ -11,7 +11,7 @@ pretty_table: true
 thumbnail: "assets/img/blogs/2026-01-27/groundhog_day.webp"
 ---
 
-Loss through human divergence is a recurring motif across mythologies and modern narratives. Whether it’s the Tower of Babel, __Anna Karenina__, or Apple TV’s __Pluribus__, coherence is portrayed as fragile: something briefly held within a community before fragmenting under competing perspectives, incentives, or truths.
+Loss through human divergence is a recurring motif across mythologies and modern narratives. Whether it’s the Tower of Babel, _Anna Karenina_, or Apple TV’s _Pluribus_, coherence is portrayed as fragile: something briefly held within a community before fragmenting under competing perspectives, incentives, or truths.
 
 Organizations face the same problem. We are increasingly aware of our fractured knowledge ([as explored here]({% post_url 2026-01-01-scientific-babylon %})) and we even possess idealized models for addressing it ([outlined here]({% post_url 2026-01-20-catalog-of-catalogs %})). And yet, more often than not, we find ourselves in a disequilibrium between data in and meaning out.
 
@@ -21,7 +21,7 @@ In scientific organizations, these fractures are especially visible because mess
 
 In the context of scientific data systems, I’ll outline five such failure modes.
 
-1. Original Sin
+## Original Sin
 Every data system inherits its earliest assumptions. Those assumptions are almost never wrong, but they are always incomplete.
 
 Early success hardens into structure before its implications are understood or felt. In scientific organizations, this usually happens at moments of genuine discovery that translates to early commercial success or funding. A postdoc identifies a compound with higher efficacy and lower toxicity. A mid-career scientist devises a scalable manufacturing process for a difficult protein. The work is real, urgent, and valuable.
@@ -32,7 +32,7 @@ But early decisions -- from file formats, to identifiers, naming conventions, da
 
 Original Sin is not bad design. It is unexamined design, preserved long past the conditions that justified it.
 
-2. Underinvestment in Stewardship
+## Underinvestment in Stewardship
 As organizations evolve, they must become increasingly selective with resources. Early success often encourages investment in technology: more scientists, more direct support, more output. During periods of strategic repositioning, those same organizations may assume that existing systems are robust enough to persist with less attention. Even in uneventful drift, as stewards move on to new roles or opportunities, institutional protections quietly decay.
 
 The underlying assumption is that something built correctly (or even fit for purpose) will last indefinitely. It won’t.
@@ -47,12 +47,12 @@ Stewardship is the work of maintaining meaning across time. When it is absent, s
 
 {% include figure.liquid
   loading="eager"
-  path="assets/img/blogs/2026-01-27/garfield_existentialism.avif"
+  path="assets/img/blogs/2026-01-27/garfield-existentialism.avif"
   caption="Garfield Minus Garfield: Existentialism. Jim Davis and Dan Walsh"
   caption_class="caption small"
 %}
 
-3. Organic Growth
+## Organic Growth
 Organizations are never born just once. They pass through a series of transitions: promising platforms give way to new candidates, technologies are adopted, programs are cut, teams re-form, and key personnel move on. Throughout these changes, data continues to accumulate. What changes is not volume, but direction.
 
 It is natural to assume that methods which worked previously will continue to work. During transitions, however, pressure mounts. Deadlines tighten, scope shifts, and small deviations become necessary. A workaround is introduced to accommodate an edge case or unblock progress. The change functions, delivers value, and -- crucially -- appears harmless.
@@ -74,7 +74,7 @@ Organic overgrowth is entropy mistaken for flexibility. Without deliberate recon
   caption_class="caption small"
 %}
 
-4. Conway's Law
+## Conway's Law
 “Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization’s communication structure.”
 — Melvin Conway, 1968
 
@@ -92,7 +92,7 @@ This is why Conway’s Law is not merely descriptive but predictive. Systems do 
 
 Conway’s Law explains why coherence cannot be fixed downstream. When communication breaks, architecture follows. When authority diffuses, meaning fractures. The system does not resist this outcome: it records it.
 
-5. Unwillingness to Revise
+## Unwillingness to Revise
 All of these failure modes carry an element of inevitability. The future cannot be predicted, so the present cannot be perfectly constructed around it. In resource-constrained environments, time cannot simply be added to perform continuous stewardship. Science itself would look very different if technological change were fully anticipatable.
 
 Left unmitigated, these dynamics can degrade systems. But none of them represent terminal failure.
