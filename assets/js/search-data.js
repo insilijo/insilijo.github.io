@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-the-catalog-of-catalogs",
+        },{id: "post-anti-governance-original-sin-and-conway-39-s-law",
+        
+          title: "Anti-Governance, Original Sin, and Conway&#39;s Law",
+        
+        description: "&quot;All happy families are alike; each unhappy family is unhappy in its own way.&quot; - Leo Tolstoy",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/divergence-and-failure/";
+          
+        },
+      },{id: "post-the-catalog-of-catalogs",
         
           title: "The Catalog of Catalogs",
         
