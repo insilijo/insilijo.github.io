@@ -71,8 +71,6 @@ The problem isn't quantity, it's logistics. Our typical response to hunger isn't
   figure_class="inline-figure inline-left"
 %}
 
-With the exception of Jamaica Plain, there is significant concentration of service for food pantries in the denser, visibly homeless areas. This is great; these people need food -- especially fresh food -- and direct access.
-
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-02-02/boston-cost-per-room.png"
@@ -81,6 +79,8 @@ With the exception of Jamaica Plain, there is significant concentration of servi
   figure_class="inline-figure inline-left"
 %}
 
+
+With the exception of Jamaica Plain, there is significant concentration of service for food pantries in the denser, visibly homeless areas. This is great; these people need food -- especially fresh food -- and direct access.
 
 However, we're seeing a negligence of a vast amount of people who would meet that "food insecure" label and claim SNAP. Indeed, the locations with the *highest median cost per room* are very near the locations of food pantries in the downtown, Back Bay, Fenway, South End, and South Boston regions, right where the food pantries are.
 
