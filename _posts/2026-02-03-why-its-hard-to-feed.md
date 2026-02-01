@@ -60,6 +60,7 @@ The demand is there, and the supply is there. If markets alone solved coordinati
    path="assets/img/blogs/2026-02-02/water_delivery_2x.png"
    caption="Randall Munroe. https://xkcd.com/1599/. When I was a kid, I asked my parents why our houses didn't have toothpaste pipes in addition to water ones. I'm strangely pleased to see Amazon thinking the same way."
    caption_class="caption small"
+   figure_class="inline-figure inline-right"
 %}
 
 The problem isn't quantity, it's logistics. Our typical response to hunger isn't to meet it where it is, it's to meet it where it *visibly* is. Boston homelessness is at 2.4% and mostly concentrated in a multi-block radius around a few sites downtown near MGH at "Mass and Cass" or "Methadone Mile", North Roxbury/the South End, and in Jamaica Plain near Southeast Franklin Park at the Shattuck Shelter Pine Street Inn.
