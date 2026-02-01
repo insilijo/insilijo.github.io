@@ -27,9 +27,9 @@ In 1939, John Steinbeck wrote a haunting passage about the real source of hunger
  ><br>
  >The fertile earth, the straight tree rows, the sturdy trunks, and the ripe fruit. And children dying of pellagra must die because a profit cannot be taken from an orange. And coroners must fill in the certificate - died of malnutrition - because the food must rot, must be forced to rot. The people come with nets to fish for potatoes in the river, and the guards hold them back; they come in rattling cars to get the dumped oranges, but the kerosene is sprayed. And they stand still and watch the potatoes float by, listen to the screaming pigs being killed in a ditch and covered with quick-lime, watch the mountains of oranges slop down to a putrefying ooze; and in the eyes of the people there is the failure; and in the eyes of the hungry there is a growing wrath. In the souls of the people the grapes of wrath are filling and growing heavy, growing heavy for the vintage.
 
-- John Steinbeck, __The Grapes of Wrath__
+- John Steinbeck, *The Grapes of Wrath*
 
-What Steinbeck identifies as most disturbing is not the hunger itself or even the diagnosis of a clear villain that leads to it. There is no cartoonish president directly promoting genocide, no subversive group of wealthy individuals advocating for hunger, not even a __Phytophthora infestans__ blighting the crops as it did during the Irish Potato Famine. Instead, there's the quiet and bleak assumption that -- sometimes -- many have to be sacrificed to keep the machine of industry running, even if it results in obvious inefficiency.
+What Steinbeck identifies as most disturbing is not the hunger itself or even the diagnosis of a clear villain that leads to it. There is no cartoonish president directly promoting genocide, no subversive group of wealthy individuals advocating for hunger, not even a *Phytophthora infestans* blighting the crops as it did during the Irish Potato Famine. Instead, there's the quiet and bleak assumption that -- sometimes -- many have to be sacrificed to keep the machine of industry running, even if it results in obvious inefficiency.
 
 Even in Boston — a city with high transit access, strong social programs, and deep institutional wealth — food insecurity remains widespread. 37% of Massachusetts families report facing food insecurity and nearly [20% rely](https://www.boston.gov/news/mayor-wu-boston-officials-share-local-response-looming-lapse-snap-benefits) directly on SNAP assistance to make ends meet ([see the report](https://www.gbfb.org/news/press-releases/2025-annual-statewide-food-access-report/)).
 
@@ -61,14 +61,14 @@ The demand is there, and the supply is there. If markets alone solved coordinati
    caption_class="caption small"
 %}
 
-The problem isn't quantity, it's logistics. Our typical response to hunger isn't to meet it where it is, it's to meet it where it __visibly__ is. Boston homelessness is at 2.4% and mostly concentrated in a multi-block radius around a few sites downtown near MGH at "Mass and Cass" or "Methadone Mile", North Roxbury/the South End, and in Jamaica Plain near Southeast Franklin Park at the Shattuck Shelter Pine Street Inn.
+The problem isn't quantity, it's logistics. Our typical response to hunger isn't to meet it where it is, it's to meet it where it *visibly* is. Boston homelessness is at 2.4% and mostly concentrated in a multi-block radius around a few sites downtown near MGH at "Mass and Cass" or "Methadone Mile", North Roxbury/the South End, and in Jamaica Plain near Southeast Franklin Park at the Shattuck Shelter Pine Street Inn.
 
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-02-02/food-pantries-neighborhood.png"
   caption="Food Pantries by Neighborhood. City of Boston Food Access: Food Access and Insecurity."
   caption_class="caption small"  
-  figure_class="inline-figure inline-right"
+  figure_class="inline-figure inline-left"
 %}
 
 With the exception of Jamaica Plain, there is significant concentration of service for food pantries in the denser, visibly homeless areas. This is great; these people need food -- especially fresh food -- and direct access.
@@ -82,7 +82,7 @@ With the exception of Jamaica Plain, there is significant concentration of servi
 %}
 
 
-However, we're seeing a negligence of a vast amount of people who would meet that "food insecure" label and claim SNAP. Indeed, the locations with the __highest median cost per room__ are very near the locations of food pantries in the downtown, Back Bay, Fenway, South End, and South Boston regions, right where the food pantries are.
+However, we're seeing a negligence of a vast amount of people who would meet that "food insecure" label and claim SNAP. Indeed, the locations with the *highest median cost per room* are very near the locations of food pantries in the downtown, Back Bay, Fenway, South End, and South Boston regions, right where the food pantries are.
 
 ## What Exactly Are We Doing Here?
 We have a functional food delivery apparatus, a lot of food, and a lot of people willing to resolve hunger. But there remains a lot of hunger. We're still in Steinbeck's America.
