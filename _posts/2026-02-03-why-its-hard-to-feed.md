@@ -101,4 +101,4 @@ People are forgotten because we've lost revision, the ability to update systems 
 
 (I look forward to discussing solutions in future posts.)
 
-Maps taken from https://storymaps.arcgis.com/stories/956debdf80c0492bbceeedff9f6a4bac".
+Maps taken from https://storymaps.arcgis.com/stories/956debdf80c0492bbceeedff9f6a4bac.
