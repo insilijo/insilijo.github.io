@@ -27,7 +27,7 @@ In 1939, John Steinbeck wrote a haunting passage about the real source of hunger
  ><br>
  >The fertile earth, the straight tree rows, the sturdy trunks, and the ripe fruit. And children dying of pellagra must die because a profit cannot be taken from an orange. And coroners must fill in the certificate - died of malnutrition - because the food must rot, must be forced to rot. The people come with nets to fish for potatoes in the river, and the guards hold them back; they come in rattling cars to get the dumped oranges, but the kerosene is sprayed. And they stand still and watch the potatoes float by, listen to the screaming pigs being killed in a ditch and covered with quick-lime, watch the mountains of oranges slop down to a putrefying ooze; and in the eyes of the people there is the failure; and in the eyes of the hungry there is a growing wrath. In the souls of the people the grapes of wrath are filling and growing heavy, growing heavy for the vintage.
 
-- John Steinbeck, *The Grapes of Wrath*
+John Steinbeck, *The Grapes of Wrath*
 
 What Steinbeck identifies as most disturbing is not the hunger itself or even the diagnosis of a clear villain that leads to it. There is no cartoonish president directly promoting genocide, no subversive group of wealthy individuals advocating for hunger, not even a *Phytophthora infestans* blighting the crops as it did during the Irish Potato Famine. Instead, there's the quiet and bleak assumption that -- sometimes -- many have to be sacrificed to keep the machine of industry running, even if it results in obvious inefficiency.
 
@@ -36,9 +36,6 @@ Even in Boston — a city with high transit access, strong social programs, and 
 So how can we be so wealthy and so poor at the same time?
 
 ## What Do We Know?
-General statistics tell a big part of the story. Boston has a rich history, and unfortunately a segregated history. Research suggests that demographics are the biggest predictor with 62% of Hispanic households, 46% of Black households, and 56% of LGBTQIA+ households facing insecurity from the same report as above.
-
-Indeed, neighborhood-level maps support this theory, with communities of color like Roxbury, Dorchester, and Mattapan disproportionately affected.
 
 {% include figure.liquid
   loading="eager"
@@ -47,6 +44,10 @@ Indeed, neighborhood-level maps support this theory, with communities of color l
   caption_class="caption small"
   figure_class="inline-figure inline-left"
 %}
+
+General statistics tell a big part of the story. Boston has a rich history, and unfortunately a segregated history. Research suggests that demographics are the biggest predictor with 62% of Hispanic households, 46% of Black households, and 56% of LGBTQIA+ households facing insecurity from the same report as above.
+
+Indeed, neighborhood-level maps support this theory, with communities of color like Roxbury, Dorchester, and Mattapan disproportionately affected.
 
 While the city of Boston, predominantly through the Greater Boston Food Bank, distributes nearly 90 million healthy meals to 190 cities and towns in Eastern Massachusetts while operating over 600 community-based pantries. Massachusetts, as a whole, distributes over [$2.6 billion](https://www.cbpp.org/research/food-assistance/snap-state-by-state-data-fact-sheets-and-resources) dollars to food assistance in the state.
 
