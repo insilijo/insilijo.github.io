@@ -8,8 +8,17 @@ categories: charity giving nonprofits
 giscus_comments: true
 related_posts: true
 pretty_table: true
-thumbnail: "assets/img/blogs/2026-02-02/grapes-of-wrath.png"
+thumbnail: "assets/img/blogs/2026-02-02/the-grapes-of-wrath-book-cover.jpg"
 ---
+
+
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-02-02/the-grapes-of-wrath-book-cover.jpg"
+  caption="<i>The Grapes of Wrath</i> by John Steinbeck. Cover art by Elmer Hader. 1939."
+  caption_class="caption small"
+  figure_class="inline-figure inline-left"
+%}
 
 In 1939, John Steinbeck wrote a haunting passage about the real source of hunger in the Dust Bowl and Great Depression:
 
@@ -31,9 +40,11 @@ John Steinbeck, *The Grapes of Wrath*
 
 What Steinbeck identifies as most disturbing is not the hunger itself or even the diagnosis of a clear villain that leads to it. There is no cartoonish president directly promoting genocide, no subversive group of wealthy individuals advocating for hunger, not even a *Phytophthora infestans* blighting the crops as it did during the Irish Potato Famine. Instead, there's the quiet and bleak assumption that -- sometimes -- many have to be sacrificed to keep the machine of industry running, even if it results in obvious inefficiency.
 
+What Steinbeck describes is not a historical aberration but a recurring coordination failure: abundance without access. We live in a world of logistical myopia where we record and feed the visibly needy but lose many we could help.
+
 Even in Boston — a city with high transit access, strong social programs, and deep institutional wealth — food insecurity remains widespread. 37% of Massachusetts families report facing food insecurity and nearly [20% rely](https://www.boston.gov/news/mayor-wu-boston-officials-share-local-response-looming-lapse-snap-benefits) directly on SNAP assistance to make ends meet ([see the report](https://www.gbfb.org/news/press-releases/2025-annual-statewide-food-access-report/)).
 
-So how can we be so wealthy and so poor at the same time?
+So how can we be so wealthy and so poor at the same time? Because hunger is not primarily a problem of supply, but of context, coordination, and representation.
 
 ## What Do We Know?
 
@@ -45,7 +56,7 @@ So how can we be so wealthy and so poor at the same time?
   figure_class="inline-figure inline-left"
 %}
 
-General statistics tell a big part of the story. Boston has a rich history, and unfortunately a segregated history. Research suggests that demographics are the biggest predictor with 62% of Hispanic households, 46% of Black households, and 56% of LGBTQIA+ households facing insecurity from the same report as above.
+General statistics tell a big part of the story. Research suggests that demographics are the biggest predictor with 62% of Hispanic households, 46% of Black households, and 56% of LGBTQIA+ households facing insecurity from the same report as above. That kind of segregation persists even in a progressive, history-rich city like Boston.
 
 Indeed, neighborhood-level maps support this theory, with communities of color like Roxbury, Dorchester, and Mattapan disproportionately affected.
 
@@ -53,7 +64,7 @@ While the city of Boston, predominantly through the Greater Boston Food Bank, di
 
 Despite this, [Boston's Office of Food Justice (OFJ) along with the National Resources Development Council (NRDC)](https://www.boston.gov/news/mayor-wu-mass-general-brigham-and-ymca-greater-boston-announce-new-cold-storage-infrastructure) estimates that 21% of all of Boston's waste -- 130,000 tons -- is food, with an additional 1,100 that could be recovered through further interventions.
 
-The demand is there, and the supply is there. If markets alone solved coordination problems, hunger would already be rare.
+The demand is there, and the supply is there. Markets optimize price and throughput, not for local constraint. This is the myopia: we cannot use centralized information and solutions to solve the local failures.
 
 {% include figure.liquid
    loading="eager"
@@ -63,7 +74,9 @@ The demand is there, and the supply is there. If markets alone solved coordinati
    figure_class="inline-figure inline-right"
 %}
 
-The problem isn't quantity, it's logistics. Our typical response to hunger isn't to meet it where it is, it's to meet it where it *visibly* is. Boston homelessness is at 2.4% and mostly concentrated in a multi-block radius around a few sites downtown near MGH at "Mass and Cass" or "Methadone Mile", North Roxbury/the South End, and in Jamaica Plain near Southeast Franklin Park at the Shattuck Shelter Pine Street Inn.
+Therefore, the problem isn't quantity, it's logistics. Logistics determines who can access help without sacrificing time, income, or dignity.
+
+Our typical response to hunger isn't to meet it where it is, it's to meet it where it *visibly* is. Boston homelessness is at 2.4% and mostly concentrated in a multi-block radius around a few sites downtown near MGH at "Mass and Cass" or "Methadone Mile", North Roxbury/the South End, and in Jamaica Plain near Southeast Franklin Park at the Shattuck Shelter Pine Street Inn.
 
 {% include figure.liquid
   loading="eager"
@@ -87,17 +100,23 @@ With the exception of Jamaica Plain, there is significant concentration of servi
 However, we're seeing a negligence of a vast amount of people who would meet that "food insecure" label and claim SNAP. Indeed, the locations with the *highest median cost per room* are very near the locations of food pantries in the downtown, Back Bay, Fenway, South End, and South Boston regions, right where the food pantries are.
 
 ## What Exactly Are We Doing Here?
-We have a functional food delivery apparatus, a lot of food, and a lot of people willing to resolve hunger. But there remains a lot of hunger. We're still in Steinbeck's America.
+We have a functional food delivery apparatus, a lot of food, and a lot of people willing to resolve hunger. But there remains a lot of hunger. We're still in Steinbeck's America. We're still serving a singular, visible context.
 
-The people most consistently missed by the emergency food system are not the unhoused, but the "working poor". These people -- parents, blue-collar workers, and students -- are too far from food pantries and too busy to get there. They're stuck in a twilight zone of doing everything right but losing access as a result.
+The practical solution is to centralize: use tax dollars and volunteer labor to aggregate resources in a utilitarian function. In a smaller city like this, if we serve downtown access hubs that are near the supply sites, the needy, and the transportation hubs, we're doing the most with what we have, right?
 
-The data we have aren't sufficient. We fall prey to the same modes of decision-making that I've discussed before: [many people who need to work together]({% post_url 2026-01-01-scientific-babylon %}), [speak different professional languages]({% post_url 2026-01-20-catalog-of-catalogs %}), and [repeatedly fail to translate between them]({% post_url 2026-01-27-divergence-and-failure %}).
+Unfortunately, the people most consistently missed by the emergency food system are not the unhoused, but the "working poor". These people -- parents, blue-collar workers (people with jobs, schedules, and constraints, in other words, folks doing it "the right way") -- are too far from food pantries and too busy to get there. They're stuck in a twilight zone of doing everything right but losing access as a result.
 
-In this case, we have people with money trying to find the right way to leverage it by buying food and labor from the people who have it so they can give it to the communities with the greatest impact. But if you ask a politician, they're looking at the figures above or listening to disgruntled community members driving by Mass and Cass. If you're the Greater Boston Food Bank or the YMCA or one of the many other wonderful organizations, you're trying to balance volunteering, minimal monetary resources, and centralized logistics to maximize output. If you're a grocery store, farmers' market, or food importer, you're trying to maximize revenue but also minimize waste. And if you're a community advocate, you see your neighbors and can say -- directly -- to whom the food should go.
+Our current methods of resolving hunger are well-meaning and well-directed but miss a majority of people we can serve. This is the disconnect, and we can do something about it.
 
-There are a lot of experts we need to integrate with different ontologies but one goal.
+First of all, the context we have isn't sufficient. We fall prey to the same modes of decision-making that I've discussed before: [many people who need to work together]({% post_url 2026-01-01-scientific-babylon %}), [speak different professional languages]({% post_url 2026-01-20-catalog-of-catalogs %}), and [repeatedly fail to translate between them]({% post_url 2026-01-27-divergence-and-failure %}). Even records like the USDA's food desert map are predicated on indirect measures of access by distance, vehicle access, and income, but miss local resolution like modes of transport, cost of living, and other clues.
 
-People are forgotten because we've lost revision, the ability to update systems when reality shifts. We collect data, but acting on it is either decentralized or divorced from local needs. Local groups do really good work and cities are actively pursuing zero waste and food distribution initiatives. But the connective tissue -- acting concurrently at a county and neighborhood level -- means that the working poor are forgotten. Hunger persists not because food is scarce, but because distribution requires local context that centralized systems are structurally bad at representing.
+Hunger persists not because food is scarce, but because context is.
+
+In this case, we have people with money trying to find the right way to leverage it by buying food and labor from the people who have it so they can give it to the communities with the greatest impact. But if you ask a politician, they're looking at the figures above or listening to disgruntled community members driving by Mass and Cass. If you're the Greater Boston Food Bank or the YMCA or one of the many other wonderful organizations, you're trying to balance volunteering, minimal monetary resources, and centralized logistics to maximize output. If you're a grocery store, farmers' market, or food importer, you're trying to maximize revenue but also minimize waste. If you're a community advocate, you see your neighbors and can say -- directly -- to whom the food should go. If you're a scientist, you consume these data indirectly, trying to assemble questions from fragments rather than a unified record.
+
+The only reason I can see it is because I've been embedded with a good number of these experts for over three years and have been working in food justice and hunger prevention for over 10. There are a lot of experts with one goal, but it's hard to compile this much context into a coherent, actionable framework without losing part of the story. To the outside observer, it appears more like a typical supply-constrained environment rather than an unrecorded and unactioned narrative. This is not a moral failure. It is a representational one, and representation determines who is seen, served, and remembered.
+
+This narrative is forgotten. These people are forgotten. We've found complacency and lost revision, the ability to update systems when reality shifts or is incompletely satisfied. We collect data, but acting on it is either decentralized or divorced from local needs. Local groups do really good work and cities are actively pursuing zero waste and food distribution initiatives. But the connective tissue -- acting concurrently at a county and neighborhood level -- means that the working poor are forgotten. Hunger persists not because food and goodwill are scarce, but because distribution requires local context that centralized systems are structurally bad at representing.
 
 (I look forward to discussing solutions in future posts.)
 
