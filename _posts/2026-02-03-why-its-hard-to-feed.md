@@ -70,7 +70,7 @@ The problem isn't quantity, it's logistics. Our typical response to hunger isn't
   path="assets/img/blogs/2026-02-02/food-pantries-neighborhood.png"
   caption="Food Pantries by Neighborhood. City of Boston Food Access: Food Access and Insecurity."
   caption_class="caption small"  
-  figure_class="inline-figure inline-left"
+  figure_class="inline-figure inline-right"
 %}
 
 {% include figure.liquid
@@ -78,7 +78,7 @@ The problem isn't quantity, it's logistics. Our typical response to hunger isn't
   path="assets/img/blogs/2026-02-02/boston-cost-per-room.png"
   caption="Food Pantries by Neighborhood. City of Boston Food Access: Food Access and Insecurity."
   caption_class="caption small"
-  figure_class="inline-figure inline-right"
+  figure_class="inline-figure inline-left"
 %}
 
 
