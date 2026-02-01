@@ -42,12 +42,6 @@ What Steinbeck identifies as most disturbing is not the hunger itself or even th
 
 What Steinbeck describes is not a historical aberration but a recurring coordination failure: abundance without access. We live in a world of logistical myopia where we record and feed the visibly needy but lose many we could help.
 
-Even in Boston — a city with high transit access, strong social programs, and deep institutional wealth — food insecurity remains widespread. 37% of Massachusetts families report facing food insecurity and nearly [20% rely](https://www.boston.gov/news/mayor-wu-boston-officials-share-local-response-looming-lapse-snap-benefits) directly on SNAP assistance to make ends meet ([see the report](https://www.gbfb.org/news/press-releases/2025-annual-statewide-food-access-report/)).
-
-So how can we be so wealthy and so poor at the same time? Because hunger is not primarily a problem of supply, but of context, coordination, and representation.
-
-## What Do We Know?
-
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-02-02/food-insecurity-neighborhood.png"
@@ -55,6 +49,12 @@ So how can we be so wealthy and so poor at the same time? Because hunger is not 
   caption_class="caption small"
   figure_class="inline-figure inline-left"
 %}
+
+Even in Boston — a city with high transit access, strong social programs, and deep institutional wealth — food insecurity remains widespread. 37% of Massachusetts families report facing food insecurity and nearly [20% rely](https://www.boston.gov/news/mayor-wu-boston-officials-share-local-response-looming-lapse-snap-benefits) directly on SNAP assistance to make ends meet ([see the report](https://www.gbfb.org/news/press-releases/2025-annual-statewide-food-access-report/)).
+
+So how can we be so wealthy and so poor at the same time? Because hunger is not primarily a problem of supply, but of context, coordination, and representation.
+
+## What Do We Know?
 
 General statistics tell a big part of the story. Research suggests that demographics are the biggest predictor with 62% of Hispanic households, 46% of Black households, and 56% of LGBTQIA+ households facing insecurity from the same report as above. That kind of segregation persists even in a progressive, history-rich city like Boston.
 
@@ -67,24 +67,16 @@ Despite this, [Boston's Office of Food Justice (OFJ) along with the National Res
 The demand is there, and the supply is there. Markets optimize price and throughput, not for local constraint. This is the myopia: we cannot use centralized information and solutions to solve the local failures.
 
 {% include figure.liquid
-   loading="eager"
-   path="assets/img/blogs/2026-02-02/water_delivery_2x.png"
-   caption="Randall Munroe. https://xkcd.com/1599/. When I was a kid, I asked my parents why our houses didn't have toothpaste pipes in addition to water ones. I'm strangely pleased to see Amazon thinking the same way."
-   caption_class="caption small"
-   figure_class="inline-figure inline-right"
-%}
-
-Therefore, the problem isn't quantity, it's logistics. Logistics determines who can access help without sacrificing time, income, or dignity.
-
-Our typical response to hunger isn't to meet it where it is, it's to meet it where it *visibly* is. Boston homelessness is at 2.4% and mostly concentrated in a multi-block radius around a few sites downtown near MGH at "Mass and Cass" or "Methadone Mile", North Roxbury/the South End, and in Jamaica Plain near Southeast Franklin Park at the Shattuck Shelter Pine Street Inn.
-
-{% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-02-02/food-pantries-neighborhood.png"
   caption="Food Pantries by Neighborhood. City of Boston Food Access: Food Access and Insecurity."
   caption_class="caption small"  
   figure_class="inline-figure inline-right"
 %}
+
+Therefore, the problem isn't quantity, it's logistics. Logistics determines who can access help without sacrificing time, income, or dignity.
+
+Our typical response to hunger isn't to meet it where it is, it's to meet it where it *visibly* is. Boston homelessness is at 2.4% and mostly concentrated in a multi-block radius around a few sites downtown near MGH at "Mass and Cass" or "Methadone Mile", North Roxbury/the South End, and in Jamaica Plain near Southeast Franklin Park at the Shattuck Shelter Pine Street Inn.
 
 {% include figure.liquid
   loading="eager"
@@ -109,6 +101,14 @@ Unfortunately, the people most consistently missed by the emergency food system 
 Our current methods of resolving hunger are well-meaning and well-directed but miss a majority of people we can serve. This is the disconnect, and we can do something about it.
 
 First of all, the context we have isn't sufficient. We fall prey to the same modes of decision-making that I've discussed before: [many people who need to work together]({% post_url 2026-01-01-scientific-babylon %}), [speak different professional languages]({% post_url 2026-01-20-catalog-of-catalogs %}), and [repeatedly fail to translate between them]({% post_url 2026-01-27-divergence-and-failure %}). Even records like the USDA's food desert map are predicated on indirect measures of access by distance, vehicle access, and income, but miss local resolution like modes of transport, cost of living, and other clues.
+
+{% include figure.liquid
+   loading="eager"
+   path="assets/img/blogs/2026-02-02/water_delivery_2x.png"
+   caption="Randall Munroe. https://xkcd.com/1599/. When I was a kid, I asked my parents why our houses didn't have toothpaste pipes in addition to water ones. I'm strangely pleased to see Amazon thinking the same way."
+   caption_class="caption small"
+   figure_class="inline-figure inline-right"
+%}
 
 Hunger persists not because food is scarce, but because context is.
 
