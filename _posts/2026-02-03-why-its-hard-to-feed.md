@@ -17,7 +17,7 @@ thumbnail: "assets/img/blogs/2026-02-02/the-grapes-of-wrath-book-cover.jpg"
   path="assets/img/blogs/2026-02-02/the-grapes-of-wrath-book-cover.jpg"
   caption="<i>The Grapes of Wrath</i> by John Steinbeck. Cover art by Elmer Hader. 1939."
   caption_class="caption small"
-  figure_class="inline-figure inline-left"
+  figure_class="inline-figure inline-right"
 %}
 
 In 1939, John Steinbeck wrote a haunting passage about the real source of hunger in the Dust Bowl and Great Depression:
