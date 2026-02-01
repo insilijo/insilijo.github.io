@@ -14,12 +14,16 @@ thumbnail: "assets/img/blogs/2026-02-02/grapes-of-wrath.png"
 In 1939, John Steinbeck wrote a haunting passage about the real source of hunger in the Dust Bowl and Great Depression:
 
  >The works of the roots of the vines, of the trees, must be destroyed to keep up the price, and this is the saddest, bitterest thing of all. Carloads of oranges dumped on the ground. The people came for miles to take the fruit, but this could not be. How would they buy oranges at twenty cents a dozen if they could drive out and pick them up? And men with hoses squirt kerosene on the oranges, and they are angry at the crime, angry at the people who have come to take the fruit. A million people hungry, needing the fruit - and kerosene sprayed over the golden mountains. And the smell of rot fills the country. Burn coffee for fuel in the ships. Burn corn to keep warm, it makes a hot fire. Dump potatoes in the rivers and place guards along the banks to keep the hungry people from fishing them out. Slaughter the pigs and bury them, and let the putrescence drip down into the earth.
+ ><br>
  >
  >There is a crime here that goes beyond denunciation. 
+ ><br>
  >
  >There is a sorrow here that weeping cannot symbolize. 
+ ><br>
  >
  >There is a failure here that topples all our success. 
+ ><br>
  >
  >The fertile earth, the straight tree rows, the sturdy trunks, and the ripe fruit. And children dying of pellagra must die because a profit cannot be taken from an orange. And coroners must fill in the certificate - died of malnutrition - because the food must rot, must be forced to rot. The people come with nets to fish for potatoes in the river, and the guards hold them back; they come in rattling cars to get the dumped oranges, but the kerosene is sprayed. And they stand still and watch the potatoes float by, listen to the screaming pigs being killed in a ditch and covered with quick-lime, watch the mountains of oranges slop down to a putrefying ooze; and in the eyes of the people there is the failure; and in the eyes of the hungry there is a growing wrath. In the souls of the people the grapes of wrath are filling and growing heavy, growing heavy for the vintage.
 
@@ -39,7 +43,7 @@ Indeed, neighborhood-level maps support this theory, with communities of color l
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-02-02/food-insecurity-neighborhood.png"
-  caption="SNAP Access by Neighborhood. City of Boston Food Access: Food Access and Insecurity. https://storymaps.arcgis.com/stories/956debdf80c0492bbceeedff9f6a4bac"
+  caption="SNAP Access by Neighborhood. City of Boston Food Access: Food Access and Insecurity."
   caption_class="caption small"
   figure_class="inline-figure inline-left"
 %}
@@ -62,7 +66,7 @@ The problem isn't quantity, it's logistics. Our typical response to hunger isn't
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-02-02/food-pantries-neighborhood.png"
-  caption="Food Pantries by Neighborhood. City of Boston Food Access: Food Access and Insecurity. https://storymaps.arcgis.com/stories/956debdf80c0492bbceeedff9f6a4bac"
+  caption="Food Pantries by Neighborhood. City of Boston Food Access: Food Access and Insecurity."
   caption_class="caption small"  
   figure_class="inline-figure inline-right"
 %}
@@ -74,7 +78,7 @@ However, we're seeing a negligence of a vast amount of people who would meet tha
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-02-02/boston-cost-per-room.png"
-  caption="Food Pantries by Neighborhood. City of Boston Food Access: Food Access and Insecurity. https://storymaps.arcgis.com/stories/956debdf80c0492bbceeedff9f6a4bac"
+  caption="Food Pantries by Neighborhood. City of Boston Food Access: Food Access and Insecurity."
   caption_class="caption small"
   figure_class="inline-figure inline-left"
 %}
@@ -93,3 +97,5 @@ There are a lot of experts we need to integrate with different ontologies but on
 People are forgotten because we've lost revision, the ability to update systems when reality shifts. We collect data, but acting on it is either decentralized or divorced from local needs. Local groups do really good work and cities are actively pursuing zero waste and food distribution initiatives. But the connective tissue -- acting concurrently at a county and neighborhood level -- means that the working poor are forgotten. Hunger persists not because food is scarce, but because distribution requires local context that centralized systems are structurally bad at representing.
 
 (I look forward to discussing solutions in future posts.)
+
+Maps taken from https://storymaps.arcgis.com/stories/956debdf80c0492bbceeedff9f6a4bac".
