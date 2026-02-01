@@ -42,6 +42,12 @@ What Steinbeck identifies as most disturbing is not the hunger itself or even th
 
 What Steinbeck describes is not a historical aberration but a recurring coordination failure: abundance without access. We live in a world of logistical myopia where we record and feed the visibly needy but lose many we could help.
 
+Even in Boston — a city with high transit access, strong social programs, and deep institutional wealth — food insecurity remains widespread. 37% of Massachusetts families report facing food insecurity and nearly [20% rely](https://www.boston.gov/news/mayor-wu-boston-officials-share-local-response-looming-lapse-snap-benefits) directly on SNAP assistance to make ends meet ([see the report](https://www.gbfb.org/news/press-releases/2025-annual-statewide-food-access-report/)).
+
+So how can we be so wealthy and so poor at the same time? Because hunger is not primarily a problem of supply, but of context, coordination, and representation.
+
+## What Do We Know?
+
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-02-02/food-insecurity-neighborhood.png"
@@ -49,12 +55,6 @@ What Steinbeck describes is not a historical aberration but a recurring coordina
   caption_class="caption small"
   figure_class="inline-figure inline-left"
 %}
-
-Even in Boston — a city with high transit access, strong social programs, and deep institutional wealth — food insecurity remains widespread. 37% of Massachusetts families report facing food insecurity and nearly [20% rely](https://www.boston.gov/news/mayor-wu-boston-officials-share-local-response-looming-lapse-snap-benefits) directly on SNAP assistance to make ends meet ([see the report](https://www.gbfb.org/news/press-releases/2025-annual-statewide-food-access-report/)).
-
-So how can we be so wealthy and so poor at the same time? Because hunger is not primarily a problem of supply, but of context, coordination, and representation.
-
-## What Do We Know?
 
 General statistics tell a big part of the story. Research suggests that demographics are the biggest predictor with 62% of Hispanic households, 46% of Black households, and 56% of LGBTQIA+ households facing insecurity from the same report as above. That kind of segregation persists even in a progressive, history-rich city like Boston.
 
@@ -65,14 +65,6 @@ While the city of Boston, predominantly through the Greater Boston Food Bank, di
 Despite this, [Boston's Office of Food Justice (OFJ) along with the National Resources Development Council (NRDC)](https://www.boston.gov/news/mayor-wu-mass-general-brigham-and-ymca-greater-boston-announce-new-cold-storage-infrastructure) estimates that 21% of all of Boston's waste -- 130,000 tons -- is food, with an additional 1,100 that could be recovered through further interventions.
 
 The demand is there, and the supply is there. Markets optimize price and throughput, not for local constraint. This is the myopia: we cannot use centralized information and solutions to solve the local failures.
-
-{% include figure.liquid
-  loading="eager"
-  path="assets/img/blogs/2026-02-02/food-pantries-neighborhood.png"
-  caption="Food Pantries by Neighborhood. City of Boston Food Access: Food Access and Insecurity."
-  caption_class="caption small"  
-  figure_class="inline-figure inline-right"
-%}
 
 Therefore, the problem isn't quantity, it's logistics. Logistics determines who can access help without sacrificing time, income, or dignity.
 
@@ -92,6 +84,15 @@ With the exception of Jamaica Plain, there is significant concentration of servi
 However, we're seeing a negligence of a vast amount of people who would meet that "food insecure" label and claim SNAP. Indeed, the locations with the *highest median cost per room* are very near the locations of food pantries in the downtown, Back Bay, Fenway, South End, and South Boston regions, right where the food pantries are.
 
 ## What Exactly Are We Doing Here?
+
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-02-02/food-pantries-neighborhood.png"
+  caption="Food Pantries by Neighborhood. City of Boston Food Access: Food Access and Insecurity."
+  caption_class="caption small"  
+  figure_class="inline-figure inline-right"
+%}
+
 We have a functional food delivery apparatus, a lot of food, and a lot of people willing to resolve hunger. But there remains a lot of hunger. We're still in Steinbeck's America. We're still serving a singular, visible context.
 
 The practical solution is to centralize: use tax dollars and volunteer labor to aggregate resources in a utilitarian function. In a smaller city like this, if we serve downtown access hubs that are near the supply sites, the needy, and the transportation hubs, we're doing the most with what we have, right?
