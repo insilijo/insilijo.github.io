@@ -89,7 +89,7 @@ Our typical response to hunger isn't to meet it where it is, it's to meet it whe
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-02-02/boston-cost-per-room.png"
-  caption="Food Pantries by Neighborhood. City of Boston Food Access: Food Access and Insecurity."
+  caption="Boston cost per room based on 2020 census data. Work my own."
   caption_class="caption small"
   figure_class="inline-figure inline-left"
 %}
