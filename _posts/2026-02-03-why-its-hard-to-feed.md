@@ -15,16 +15,16 @@ In 1939, John Steinbeck wrote a haunting passage about the real source of hunger
 
  >The works of the roots of the vines, of the trees, must be destroyed to keep up the price, and this is the saddest, bitterest thing of all. Carloads of oranges dumped on the ground. The people came for miles to take the fruit, but this could not be. How would they buy oranges at twenty cents a dozen if they could drive out and pick them up? And men with hoses squirt kerosene on the oranges, and they are angry at the crime, angry at the people who have come to take the fruit. A million people hungry, needing the fruit - and kerosene sprayed over the golden mountains. And the smell of rot fills the country. Burn coffee for fuel in the ships. Burn corn to keep warm, it makes a hot fire. Dump potatoes in the rivers and place guards along the banks to keep the hungry people from fishing them out. Slaughter the pigs and bury them, and let the putrescence drip down into the earth.
  ><br>
- >
+ ><br>
  >There is a crime here that goes beyond denunciation. 
  ><br>
- >
+ ><br>
  >There is a sorrow here that weeping cannot symbolize. 
  ><br>
- >
+ ><br>
  >There is a failure here that topples all our success. 
  ><br>
- >
+ ><br>
  >The fertile earth, the straight tree rows, the sturdy trunks, and the ripe fruit. And children dying of pellagra must die because a profit cannot be taken from an orange. And coroners must fill in the certificate - died of malnutrition - because the food must rot, must be forced to rot. The people come with nets to fish for potatoes in the river, and the guards hold them back; they come in rattling cars to get the dumped oranges, but the kerosene is sprayed. And they stand still and watch the potatoes float by, listen to the screaming pigs being killed in a ditch and covered with quick-lime, watch the mountains of oranges slop down to a putrefying ooze; and in the eyes of the people there is the failure; and in the eyes of the hungry there is a growing wrath. In the souls of the people the grapes of wrath are filling and growing heavy, growing heavy for the vintage.
 
 - John Steinbeck, __The Grapes of Wrath__
@@ -56,7 +56,7 @@ The demand is there, and the supply is there. If markets alone solved coordinati
 
 {% include figure.liquid
    loading="eager"
-   path="assets/img/blogs/2026-02-02/water_deliver_2x.png"
+   path="assets/img/blogs/2026-02-02/water_delivery_2x.png"
    caption="Randall Munroe. https://xkcd.com/1599/. When I was a kid, I asked my parents why our houses didn't have toothpaste pipes in addition to water ones. I'm strangely pleased to see Amazon thinking the same way."
    caption_class="caption small"
 %}
@@ -73,8 +73,6 @@ The problem isn't quantity, it's logistics. Our typical response to hunger isn't
 
 With the exception of Jamaica Plain, there is significant concentration of service for food pantries in the denser, visibly homeless areas. This is great; these people need food -- especially fresh food -- and direct access.
 
-However, we're seeing a negligence of a vast amount of people who would meet that "food insecure" label and claim SNAP. Indeed, the locations with the __highest median cost per room__ are very near the locations of food pantries in the downtown, Back Bay, Fenway, South End, and South Boston regions, right where the food pantries are.
-
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-02-02/boston-cost-per-room.png"
@@ -82,6 +80,9 @@ However, we're seeing a negligence of a vast amount of people who would meet tha
   caption_class="caption small"
   figure_class="inline-figure inline-left"
 %}
+
+
+However, we're seeing a negligence of a vast amount of people who would meet that "food insecure" label and claim SNAP. Indeed, the locations with the __highest median cost per room__ are very near the locations of food pantries in the downtown, Back Bay, Fenway, South End, and South Boston regions, right where the food pantries are.
 
 ## What Exactly Are We Doing Here?
 We have a functional food delivery apparatus, a lot of food, and a lot of people willing to resolve hunger. But there remains a lot of hunger. We're still in Steinbeck's America.
