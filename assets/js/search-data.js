@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-anti-governance-original-sin-and-conway-39-s-law",
+        },{id: "post-why-it-39-s-so-hard-to-feed-people",
+        
+          title: "Why it&#39;s so hard to feed people",
+        
+        description: "The logistical and contextual challenge of reducing food waste and giving it to our neediest",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/why-its-hard-to-feed/";
+          
+        },
+      },{id: "post-anti-governance-original-sin-and-conway-39-s-law",
         
           title: "Anti-Governance, Original Sin, and Conway&#39;s Law",
         
