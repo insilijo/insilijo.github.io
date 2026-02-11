@@ -43,7 +43,7 @@ But optimization is never free. Every boundary excludes variables that still act
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-02-07/pareto.jpg"
-  caption="We operate in a Pareto Front, where there is no 'perfect' choice, but a selected set of optima with tradeoffs. Kesireddy, A., & Medrano, F. A. (2024). Elite Multi-Criteria Decision Making—Pareto Front Optimization in Multi-Objective Optimization. Algorithms, 17(5), 206. https://doi.org/10.3390/a17050206."
+  caption="We operate in a Pareto Front, where there is no 'perfect' choice, but a selected set of optima with tradeoffs. We can move the curve and move along it, but it doesn't make the choice for us. Kesireddy, A., & Medrano, F. A. (2024). Elite Multi-Criteria Decision Making—Pareto Front Optimization in Multi-Objective Optimization. Algorithms, 17(5), 206. https://doi.org/10.3390/a17050206."
   figure_class="inline-figure inline-right"
   caption_class="caption small"
 %}
@@ -60,7 +60,7 @@ In organizations, we define success through metrics that can be counted: quarter
 
 {% include figure.liquid
   loading="eager"
-  path="assets/img/blogs/2026-02-07/integrative biology.jpg"
+  path="assets/img/blogs/2026-02-07/integrative_biology.jpg"
   caption="The complexity and sensitivity of biology requires we assemble knowledge from discrete, controlled frames. Urbanski AH, Araujo JD, Creighton R, et al. Integrative Biology Approaches Applied to Human Diseases. In: Husi H, editor. Computational Biology. Brisbane (AU): Codon Publications; 2019 Nov 21. Figure 1, [A framework for integrative biology...]. Available from: https://www.ncbi.nlm.nih.gov/books/NBK550336/figure/Ch2-f0001/ doi: 10.15586/computationalbiology.2019.ch2."
   figure_class="inline-figure"
   caption_class="caption small"
