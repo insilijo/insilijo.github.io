@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-why-it-39-s-so-hard-to-feed-people",
+        },{id: "post-boundary-illusions",
+        
+          title: "Boundary Illusions",
+        
+        description: "How we formulate is how we solve",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/boundary-illusions/";
+          
+        },
+      },{id: "post-why-it-39-s-so-hard-to-feed-people",
         
           title: "Why it&#39;s so hard to feed people",
         
