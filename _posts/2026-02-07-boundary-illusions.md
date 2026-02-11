@@ -26,8 +26,11 @@ This was a courageous take, especially at the time, when 35mm was rare and expen
 The phenomena of boundary selection isn't relegated to art. One of the core responsibilities of an engineer is not to think in global laws but apply boundaries to a system. We are confined to certain physical realities -- Newton's laws, $E=mc^2$, thermodynamics, conservation -- but we're not trying to __describe__ the world, we're trying to make a decision on a system. A reactor failing makes *physical* sense because entropy is created, heat is lost, material is converted to energy predictably. But it does not make sense to us, the designers, who are responsible for engineering a system that operates productively *by our definition* but also within the boundaries of physics.
 
 The goal, then, is not to manipulate physical reality, but to create a manageable one. The goal is to frame.
+<br>
+<br>
+<br>
 
-## How Do We Manage?
+### How Do We Manage?
 
 The challenge is the frame selection: what do we include to selectively manage and manipulate. This can look like a lot of different things: which products we select for market, which market segments we format for, what design choices we make. 
 
