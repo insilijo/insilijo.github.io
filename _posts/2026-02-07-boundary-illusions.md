@@ -26,9 +26,6 @@ This was a courageous take, especially at the time, when 35mm was rare and expen
 The phenomena of boundary selection isn't relegated to art. One of the core responsibilities of an engineer is not to think in global laws but apply boundaries to a system. We are confined to certain physical realities -- Newton's laws, $E=mc^2$, thermodynamics, conservation -- but we're not trying to __describe__ the world, we're trying to make a decision on a system. A reactor failing makes *physical* sense because entropy is created, heat is lost, material is converted to energy predictably. But it does not make sense to us, the designers, who are responsible for engineering a system that operates productively *by our definition* but also within the boundaries of physics.
 
 The goal, then, is not to manipulate physical reality, but to create a manageable one. The goal is to frame.
-<br>
-<br>
-<br>
 
 ### How Do We Manage?
 
@@ -62,7 +59,6 @@ In organizations, we define success through metrics that can be counted: quarter
   loading="eager"
   path="assets/img/blogs/2026-02-07/integrative_biology.jpg"
   caption="The complexity and sensitivity of biology requires we assemble knowledge from discrete, controlled frames. Urbanski AH, Araujo JD, Creighton R, et al. Integrative Biology Approaches Applied to Human Diseases. In: Husi H, editor. Computational Biology. Brisbane (AU): Codon Publications; 2019 Nov 21. Figure 1, [A framework for integrative biology...]. Available from: https://www.ncbi.nlm.nih.gov/books/NBK550336/figure/Ch2-f0001/ doi: 10.15586/computationalbiology.2019.ch2."
-  figure_class="inline-figure"
   caption_class="caption small"
 %}
 
