@@ -60,6 +60,7 @@ In organizations, we define success through metrics that can be counted: quarter
   path="assets/img/blogs/2026-02-07/integrative_biology.jpg"
   caption="The complexity and sensitivity of biology requires we assemble knowledge from discrete, controlled frames. Urbanski AH, Araujo JD, Creighton R, et al. Integrative Biology Approaches Applied to Human Diseases. In: Husi H, editor. Computational Biology. Brisbane (AU): Codon Publications; 2019 Nov 21. Figure 1, [A framework for integrative biology...]. Available from: https://www.ncbi.nlm.nih.gov/books/NBK550336/figure/Ch2-f0001/ doi: 10.15586/computationalbiology.2019.ch2."
   caption_class="caption small"
+  figure_class="inline-figure"
 %}
 
 Framing determines not only what a system can solve, but what it is allowed to know. Early choices harden into reporting structures, metrics, and incentives. Metrics become dashboards. Dashboards become strategy. Strategy becomes goals. Over time, a provisional frame calcifies into institutional knowledge, and what began as a modeling convenience becomes “how the system works.”
