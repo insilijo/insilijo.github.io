@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey! I'm Joey. Like the baby kangaroo. I'm a **Principal Scientist and Bioinformatics Platform Manager at Metabolon**, where we perform metabolomics at scale to a variety of biology-relevant outcomes. I've specifically worked on contextualizing multiomics on the bioinformatics platform, modernizing our cheminformatics methods, and building our microbiome product. I have a dog named Ducky (Hejduk) and I used to have a dog named Gizmo, a pony named Patches, and a cat named Tory. They're the best.
+Hey! I'm Joey. Like the baby kangaroo. I'm a **Principal Scientist and People Manager and End to End Product Executor**. I've worked across omics, contextualizing multiomics/pathways on the bioinformatics platform, modernizing cheminformatics methods, and building a microbiome product. I've worked to build knowledge graphs, integrative network methods, and predictive models, plus end-to-end software solutions. I have a dog named Ducky (Hejduk) and I used to have a dog named Gizmo, a pony named Patches, and a cat named Tory. They're the best.
 
 <details>
   <summary class="large-details">
