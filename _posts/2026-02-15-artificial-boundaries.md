@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Boundary Illusions
-date: 2026-02-07 12:00:00
-description: How we formulate is how we solve
-tags: problems organizations boundaries exclusion pareto
-categories: organizations science
+title: When the levees break
+date: 2026-02-15 12:00:00
+description: AI without containment guarantees systemic cost reallocation and markets will eventually correct
+tags: AI integration structure boundaries science integration
+categories: organizations science ai
 giscus_comments: true
 related_posts: true
 pretty_table: true
@@ -108,10 +108,6 @@ The technology has disrupted core economic and technical infrastructure. Crucial
 ### Who wins when the bubble pops?
 Losses follow when integration lags valuation. Winners invest in reintegration before markets force them to. They price governance as infrastructure and don't overindex the early hyped applications and spectacles. They treat workforce integration as asset development. They use AI for system augmentation, not output acceleration.
 
-Reintegration requires explicit cost attribution. If AI reduces labor in one function but increases review, infrastructure, and liability exposure elsewhere, those costs must be surfaced rather than absorbed invisibly. Organizations that treat AI as net labor compression without integrated cost accounting will misprice their gains.
-
-The winners will view the potentially displaced workers as ones that the technology will invest in and improve, not displace. The winners will not be those who maximize output. They will be those who intentionally manage and internalize displacement before the market forces them to.
-
 {% include figure.liquid
   loading="eager"
   path="assets/img/blogs/2026-02-15/ai_slip_opening_ceremony.webp"
@@ -119,6 +115,10 @@ The winners will view the potentially displaced workers as ones that the technol
   figure_class="inline-figure inline-right"
   caption_class="caption small"
 %}
+
+Reintegration requires explicit cost attribution. If AI reduces labor in one function but increases review, infrastructure, and liability exposure elsewhere, those costs must be surfaced rather than absorbed invisibly. Organizations that treat AI as net labor compression without integrated cost accounting will misprice their gains.
+
+The winners will view the potentially displaced workers as ones that the technology will invest in and improve, not displace. The winners will not be those who maximize output. They will be those who intentionally manage and internalize displacement before the market forces them to.
 
 A bubble is not excessive investment. It is enthusiasm expanding faster than containment.
 
