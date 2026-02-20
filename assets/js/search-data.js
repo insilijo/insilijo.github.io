@@ -51,11 +51,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-boundary-illusions",
+        },{id: "post-when-the-levees-break",
         
-          title: "Boundary Illusions",
+          title: "When the levees break",
         
-        description: "How we formulate is how we solve",
+        description: "AI without containment guarantees systemic cost reallocation and markets will eventually correct",
         section: "Posts",
         handler: () => {
           
