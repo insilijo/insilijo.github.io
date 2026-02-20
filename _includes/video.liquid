@@ -1,7 +1,30 @@
-{% assign extension = include.path | split: '.' | last %}
+{% assign extension = include.path | split: '.' | last | downcase %}
+{% assign ratio = include.ratio | default: "56.25%" %}
+
+{% assign iframe_src = include.path %}
+{% if include.youtube_id %}
+  {% assign iframe_src = "https://www.youtube.com/embed/" | append: include.youtube_id %}
+{% endif %}
+{% if include.vimeo_id %}
+  {% assign iframe_src = "https://player.vimeo.com/video/" | append: include.vimeo_id %}
+{% endif %}
+
+{% assign media_style = "" %}
+{% if include['min-width'] %}
+  {% assign media_style = media_style | append: "min-width: " | append: include.min-width | append: ";" %}
+{% endif %}
+{% if include['min-height'] %}
+  {% assign media_style = media_style | append: "min-height: " | append: include.min-height | append: ";" %}
+{% endif %}
+{% if include['max-width'] %}
+  {% assign media_style = media_style | append: "max-width: " | append: include.max-width | append: ";" %}
+{% endif %}
+{% if include['max-height'] %}
+  {% assign media_style = media_style | append: "max-height: " | append: include.max-height | append: ";" %}
+{% endif %}
 
 <figure>
-  {% if extension == 'mp4' or extension == 'webm' or extension == 'ogg' %}
+  {% if extension == "mp4" or extension == "webm" or extension == "ogg" %}
     <video
       src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
       {% if include.class %}
@@ -10,35 +33,21 @@
       {% if include.width %}
         width="{{ include.width }}"
       {% else %}
-        width="auto"
+        width="100%"
       {% endif %}
       {% if include.height %}
         height="{{ include.height }}"
-      {% else %}
-        height="auto"
       {% endif %}
-      {% if include['min-width'] %}
-        min-width="{{ include.min-width }}"
-      {% endif %}
-      {% if include['min-height'] %}
-        min-height="{{ include.min-height }}"
-      {% endif %}
-      {% if include['max-width'] %}
-        max-width="{{ include.max-width }}"
-      {% endif %}
-      {% if include['max-height'] %}
-        height="{{ include.max-height }}"
+      {% if media_style != "" %}
+        style="{{ media_style }}"
       {% endif %}
       {% if include.title %}
         title="{{ include.title }}"
       {% endif %}
-      {% if include.alt %}
-        alt="{{ include.alt }}"
-      {% endif %}
       {% if include.autoplay %}
         autoplay
       {% endif %}
-      {% if include.controls %}
+      {% if include.controls != false %}
         controls
       {% endif %}
       {% if include.loop %}
@@ -48,48 +57,32 @@
         muted
       {% endif %}
       {% if include.poster %}
-        poster="{{ include.poster }}"
+        poster="{{ include.poster | relative_url }}"
       {% endif %}
-    />
-
+      {% if include.loading %}
+        preload="{{ include.loading }}"
+      {% endif %}
+      playsinline
+    ></video>
   {% else %}
-    <iframe
-      src="{{ include.path }}"
-      {% if include.class %}
-        class="{{ include.class }}"
-      {% endif %}
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-      {% if include.width %}
-        width="{{ include.width }}"
-      {% else %}
-        width="auto"
-      {% endif %}
-      {% if include.height %}
-        height="{{ include.height }}"
-      {% else %}
-        height="auto"
-      {% endif %}
-      {% if include['min-width'] %}
-        min-width="{{ include.min-width }}"
-      {% endif %}
-      {% if include['min-height'] %}
-        min-height="{{ include.min-height }}"
-      {% endif %}
-      {% if include['max-width'] %}
-        max-width="{{ include.max-width }}"
-      {% endif %}
-      {% if include['max-height'] %}
-        height="{{ include.max-height }}"
-      {% endif %}
-      {% if include.alt %}
-        alt="{{ include.alt }}"
-      {% endif %}
-      {% if include.title %}
-        title="{{ include.title }}"
-      {% endif %}
-    />
+    <div style="position: relative; padding-bottom: {{ ratio }}; height: 0; overflow: hidden;">
+      <iframe
+        src="{{ iframe_src }}"
+        {% if include.class %}
+          class="{{ include.class }}"
+        {% endif %}
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; {% if media_style != "" %}{{ media_style }}{% endif %}"
+        {% if include.title %}
+          title="{{ include.title }}"
+        {% endif %}
+        {% if include.loading %}
+          loading="{{ include.loading }}"
+        {% endif %}
+      ></iframe>
+    </div>
   {% endif %}
   {% if include.caption %}
     <figcaption class="caption">{{ include.caption }}</figcaption>

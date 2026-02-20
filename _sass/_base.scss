@@ -1629,8 +1629,13 @@ ninja-keys::part(ninja-input-wrapper) {
   .inline-figure {
     float: none;
     display: block;
+    width: 100%;
     max-width: 100%;
     margin: 0.75rem auto;
+  }
+
+  .inline-figure img {
+    width: 100%;
   }
 }
 
