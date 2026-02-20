@@ -79,11 +79,15 @@ The sanitized executive narrative is empowerment: higher productivity per employ
 
 AI lowers the cost of crossing boundaries. But institutions were built around those boundaries. When crossing becomes cheap, containment becomes expensive. Oversight, review, and coordination were not inefficiencies. They were containment infrastructure.
 
-While AI promises access to upskilling, it's worth contending with Chesterton's Fence here. Responsibilities are encoded institutional memory; they are not just skill, they are context. In some cases it's useful to break and revisit these systems, but in others it can be catastrophic. We come by these containment structures honestly; they were direct responses to gaps between technical capability. Job descriptions contained knowledge, not only of how to do things, but of what is important to consider when doing those things. Context bleeds out first. Authorship diffuses, labor is conducted elsewhere, and liability is distributed beyond the person best equipped to handle it.
+AI does not integrate itself. It requires deliberate boundary redesign, cross-functional communication, and explicit ownership of review, infrastructure, and liability cost. Without that, what looks like productivity is simply deferred integration expense.
 
-Previously created pathways effecting formal oversight, audit layers, internal controls, and legal containment are now broken because the technical function is now elsewhere.
+AI without explicit integration design is not transformation. It is cost redistribution.
 
-AI creates the appearance of productivity gains by compressing labor boundaries. In exchange, it increases governance volatility.
+While AI promises access to upskilling, it's worth contending with Chesterton's Fence here. Responsibilities are encoded institutional memory; they are not just skill, they are context. In some cases it's useful to break and revisit these systems, but in others it can be catastrophic. We come by these containment structures honestly; they were direct responses to gaps between technical capability. 
+
+When disrupted, context bleeds out first. Authorship diffuses, labor is conducted elsewhere, and liability is distributed beyond the person best equipped to handle it. Previously created pathways effecting formal oversight, audit layers, internal controls, and legal containment are now broken because the technical function is now elsewhere.
+
+AI creates the appearance of productivity gains by compressing labor boundaries. In exchange, it increases governance volatility. This is not a tooling problem. It is an accounting problem, a liability problem, and a governance problem. Institutions that do not redesign their containment structures will discover that efficiency gains were cost deferrals.
 
 ### Why bubbles form
 A bubble forms when expectation outpaces containment.
@@ -122,6 +126,6 @@ The winners will view the potentially displaced workers as ones that the technol
 
 A bubble is not excessive investment. It is enthusiasm expanding faster than containment.
 
-That's where we are: AI appears mature because it is visible, but visibility is not integration, It's spectacle. Until then, we'll see JECK OUTIbIyMDES D'AIIVER at the Milan Winter Olympics.
+That's where we are: AI appears mature because it is visible, but visibility is not integration. It's spectacle. Until then, we'll see JECK OUTIbIyMDES D'AIIVER at the Milan Winter Olympics.
 
 Markets price acceleration. Reality prices containment.
