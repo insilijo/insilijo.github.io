@@ -59,6 +59,17 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
+            window.location.href = "/blog/2026/artificial-boundaries/";
+          
+        },
+      },{id: "post-boundary-illusions",
+        
+          title: "Boundary Illusions",
+        
+        description: "How we formulate is how we solve",
+        section: "Posts",
+        handler: () => {
+          
             window.location.href = "/blog/2026/boundary-illusions/";
           
         },
