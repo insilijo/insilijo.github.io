@@ -19,25 +19,21 @@ thumbnail: "assets/img/blogs/2026-02-15/olympics_opening_ceremony.webp"
   caption_class="caption small"
 %}
 
-The 2026 Winter Olympics in Milan opened with AI-assisted imagery. The Superbowl featured 15 AI-centered commercials: nearly $120 million in ad spend. This has led [some analysts like Carl Brown and the folks he cites](https://www.youtube.com/watch?v=Z68ncMsEgsI) to note the eerie similarities to the 2000 dot-com bubble where 14 of 61 spots were dot-com related. At $2.2 million per spot, that's $30.8 million, or nearly $60 million in today's dollars.
+The 2026 Winter Olympics in Milan opened with AI-assisted imagery. The Superbowl featured 15 AI-centered commercials: nearly \\$120 million in ad spend. This has led [some analysts like Carl Brown and the folks he cites](https://www.youtube.com/watch?v=Z68ncMsEgsI) to note the eerie similarities to the 2000 dot-com bubble where 14 of 61 spots were dot-com related. At \\$2.2 million per spot, that's \\$30.8 million, or nearly \\$60 million in today's dollars.
 
-The word now circulating is “bubble.” The comparison is obvious: it looks increasingly like a high-risk game of hot potato, played between 7 companies. Bloomberg’s Odd Lots recently suggested this cycle combines dot-com excess, real estate leverage, and aggressive financing models. We're seeing massive investments in a technology with real applications but without the promised productivity boon. 
-
-{% include video.liquid
-path="assets/videos/circular_data_economy.mp4"
-controls=true
-caption="Projected money flow between major AI companies by user jcceagle on [reddit.com/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/1ppla7o/oc_mapping_the_flow_of_revenue_and_investment/) using PlotSet" %}
+The word now circulating is “bubble.” The comparison is obvious: it looks increasingly like a high-risk game of hot potato, played between 7 companies. Bloomberg’s Odd Lots [recently suggested](https://www.youtube.com/watch?v=z4ct_eDYx2A) this cycle combines dot-com excess, real estate leverage, and aggressive financing models. We're seeing massive investments in a technology with real applications but without the promised productivity boon. 
 
 AI will almost certainly endure. It compresses cognition the way the internet compressed distribution. The capability expansion is real: the question is not whether it persists, but how institutions metabolize it.
+
+{% include video.liquid
+path="assets/video/circular_data_economy.mp4"
+controls=true
+caption="Projected money flow between major AI companies by user jcceagle on [reddit.com/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/1ppla7o/oc_mapping_the_flow_of_revenue_and_investment/) using PlotSet" %}
 
 ### Dissolution of self
 The public reaction hasn’t been awe. It’s been ridicule. Instead of being wowed by the technology, the discourse is tearing it apart: on the world's largest stages, we've seen unconscionable brand mistakes like incorrect logos, gibberish words, and eerie *I, Robot* style images.
 
 What I think the public is responding to is not the innate benefit or limitation of the technology; that story is yet to be written. It's the misalignment of the technology with reality. AI is a boundary-eroding force that redistributes cost, responsibility, and meaning faster than institutions can re-contain them. We're operating at the gap between promise and realization.
-
-From my previous post, I argue that a common institutional conceptualization of boundaries is core to mission focus and execution. Our existence in AI limbo indicates we're in an unbounded, unrealized territory. Institutions rely on boundaries to assign cost, responsibility, and deferral. When those boundaries fail, valuation detaches from structural reliability. Perceived value detaches when execution lags expectation.
-
-In the dot-com bubble, we saw a new technology (that has since become fundamental!) that excluded revenue models and profitability. What we gained was a completely novel industrial sector and productivity gains, but only after a devastating market crash that compromised the whole technological sector. Valuation outran integration and then integration became its own viable industry.
 
 {% include figure.liquid
   loading="eager"
@@ -46,6 +42,10 @@ In the dot-com bubble, we saw a new technology (that has since become fundamenta
   figure_class="inline-figure inline-right"
   caption_class="caption small"
 %}
+
+From my previous post, I argue that a common institutional conceptualization of boundaries is core to mission focus and execution. Our existence in AI limbo indicates we're in an unbounded, unrealized territory. Institutions rely on boundaries to assign cost, responsibility, and deferral. When those boundaries fail, valuation detaches from structural reliability. Perceived value detaches when execution lags expectation.
+
+In the dot-com bubble, we saw a new technology (that has since become fundamental!) that excluded revenue models and profitability. What we gained was a completely novel industrial sector and productivity gains, but only after a devastating market crash that compromised the whole technological sector. Valuation outran integration and then integration became its own viable industry.
 
 In the dot-com era, integration became its own industry — DevOps, cloud infrastructure, cybersecurity. AI will follow a similar path. The winners will build internal AI governance and review systems as products, not policies.
 
@@ -112,15 +112,16 @@ Reintegration requires explicit cost attribution. If AI reduces labor in one fun
 
 The winners will view the potentially displaced workers as ones that the technology will invest in and improve, not displace. The winners will not be those who maximize output. They will be those who intentionally manage and internalize displacement before the market forces them to.
 
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-02-15/ai_slip_opening_ceremony.webp"
+  caption="Still from Milano Cortina Winter Olympics 2026, NBC/Peacock."
+  figure_class="inline-figure inline-right"
+  caption_class="caption small"
+%}
+
 A bubble is not excessive investment. It is enthusiasm expanding faster than containment.
 
 That's where we are: AI appears mature because it is visible, but visibility is not integration, It's spectacle. Until then, we'll see JECK OUTIbIyMDES D'AIIVER at the Milan Winter Olympics.
 
 Markets price acceleration. Reality prices containment.
-{% include figure.liquid
-  loading="eager"
-  path="assets/img/blogs/2026-02-15/ai_slip_opening_ceremony.webp"
-  caption="Still from Milano Cortina Winter Olympics 2026, NBC/Peacock."
-  figure_class="inline-figure inline-left"
-  caption_class="caption small"
-%}
