@@ -130,6 +130,6 @@ They will:
 
 In practice, this means narrowing before expanding. Converting signal into one validated program before declaring five. Using AI to kill programs earlier rather than to justify new ones. Surface area that grows without proportional asset maturation is not platform strength. It is balance sheet brittleness.
 
-Markets reward acceleration. Selection rewards containment. The system is not irrational, it is optimizing defensively, until capital reintroduces discipline.
+Markets reward acceleration. Selection rewards containment. The system is not irrational. It is optimizing defensively, until capital reintroduces discipline.
 
 And when it does, the tallest trees with the fewest fruit will fall first, leaving the firms that stage-gate surface area expansion against validated asset conversion ratios.
