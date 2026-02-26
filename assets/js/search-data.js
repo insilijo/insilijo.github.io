@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-when-the-levees-break",
+        },{id: "post-dunkies-data-and-defensive-equilibrium",
+        
+          title: "Dunkies, Data, and Defensive Equilibrium",
+        
+        description: "John Nash smiles wanly on our capital-constrained, AI-rich environment in biotech&#39;s beach days.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/biotechs-beach-days/";
+          
+        },
+      },{id: "post-when-the-levees-break",
         
           title: "When the levees break",
         
