@@ -35,7 +35,7 @@ We mistake inefficiency for irrationality because we perceive a loss of utility.
 
 In biotech, the center of the beach is not geographic. It is narrative.
 
-### Narrative as Boundary Selection
+## Narrative as Boundary Selection
 
 In [Boundary Illusions]({% post_url 2026-02-07-boundary-illusions %}), I argued that framing determines what a system can solve. In [When the Levees Break]({% post_url 2026-01-01-scientific-babylon %}), I argued that AI erodes institutional containment faster than governance can redesign it.
 
@@ -57,7 +57,7 @@ The incentives are straightforward:
 
 Under these conditions, clustering around a hyped technology is rational. In other words, no firm wants to be the vendor at 25 yards when capital markets are crowding the center.
 
-### We Have Seen This Before
+## We Have Seen This Before
 
 This is not the first time biotech has clustered around a narrative center.
 
@@ -84,11 +84,19 @@ In each cycle, the technology was real. What failed was not the capability of th
 
 AI is following a similar trajectory.
 
-### Surface Area and Selection
+## Surface Area and Selection
+
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-02-22/american_chestnut.webp"
+  caption="The American chestnut tree (Castanea dentata) was once a dominant species in the Appalachian forests, making up an estimated 25% of the hardwood canopy. These majestic trees, which could grow over 100 feet tall and live for centuries. (Appelo Archives Museum)"
+  figure_class="inline-figure inline-right"
+  caption_class="caption small"
+%}
 
 Narrative convergence has a structural consequence: surface area expansion. The major hype cycles in each case promise abstraction and generalizability, but fail to live up to their most idealized potentials.
 
-In our current system, AI-first organizations often widen their declared scope, and these feel quite familiar: multi-indication platforms, horizontal data ingestion, end-to-end automation, cross-therapeutic applicability. Each additional claim presents both deja vu and an expansion of the boundary of responsibility.
+In our current system, AI-first organizations often widen their declared scope, and these feel quite familiar: multi-indication platforms, horizontal data ingestion, end-to-end automation, cross-therapeutic applicability. Each additional claim presents both déjà vu and an expansion of the boundary of responsibility.
 
 Surface area is not free.
 
@@ -100,14 +108,6 @@ In capital-abundant environments, surface area can be subsidized by signal. In c
 
 This means that the failure mode will not be technical incapacity. It will be capital starvation induced by surface-area inflation.
 
-{% include figure.liquid
-  loading="eager"
-  path="assets/img/blogs/2026-02-22/american_chestnut.webp"
-  caption="The American chestnut tree (Castanea dentata) was once a dominant species in the Appalachian forests, making up an estimated 25% of the hardwood canopy. These majestic trees, which could grow over 100 feet tall and live for centuries. (Appelo Archives Museum)"
-  figure_class="inline-figure inline-right"
-  caption_class="caption small"
-%}
-
 High-surface-area firms without validated assets will discover that their narrative canopy expanded faster than their root systems. Capital markets tolerate delayed yield because of collective signal mechanisms. Those same markets do not tolerate indefinite canopy without harvest.
 
 When signal density no longer compensates for burn, selection pressure intensifies.
@@ -118,7 +118,7 @@ Firms that optimized for height over yield will struggle to maintain themselves.
 
 The correction won't obliterate the surface, it will compress it.
 
-### After the Center
+## After the Center
 
 The durable organizations will not avoid the center of the beach. They will understand why they are standing there.
 
