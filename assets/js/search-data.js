@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-contact",
+          title: "contact",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
+          },
         },{id: "nav-repositories",
           title: "repositories",
           description: "Public repositories I&#39;m working on.",
@@ -51,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-dunkies-data-and-defensive-equilibrium",
+        },{id: "post-forge-a-multiomics-analytical-platform",
+        
+          title: "Forge: A Multiomics Analytical Platform",
+        
+        description: "Introducing Forge: a production-deployed multiomics analytical platform built for the full arc from raw data ingestion to interactive biological interpretation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/forge/";
+          
+        },
+      },{id: "post-dunkies-data-and-defensive-equilibrium",
         
           title: "Dunkies, Data, and Defensive Equilibrium",
         
