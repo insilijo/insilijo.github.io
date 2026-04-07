@@ -33,15 +33,6 @@ The central addition is a full multi-omics analysis module backed by seven integ
 
 **MOFA+** is a probabilistic latent factor model that identifies axes of variation shared across omics layers. Unlike JIVE, which is deterministic, MOFA+ provides uncertainty estimates and handles missing values natively, making it well-suited to datasets where not every sample has every assay.
 
-{% include figure.liquid
-  loading="eager"
-  path="assets/img/blogs/2026-04-07/forge_multiomics.png"
-  caption="Multi-omics integration hub. Each algorithm is selectable with its associated datasets; results include cross-assay visualizations and per-layer feature contributions."
-  alt="Forge multi-omics integration interface showing algorithm selection and cross-assay results"
-  figure_class="inline-figure"
-  caption_class="caption small"
-%}
-
 The integration hub gates availability on dataset composition: MCIA and JIVE require at least two aligned assays; DIABLO and variance partitioning additionally require a group label. The interface surfaces which datasets are eligible for each method and why, so the user understands what the algorithm needs rather than hitting an error.
 
 ---
@@ -49,15 +40,6 @@ The integration hub gates availability on dataset composition: MCIA and JIVE req
 ## GeMMA Integration
 
 GeMMA — the microbiome-metabolome integration module — is now available to all authenticated users. Previously gated to staff, it is accessible to any registered user whose project contains both a metabolomics dataset and a metagenomics dataset. Availability is checked automatically; tabs that require the combination are gated with a clear message when the precondition isn't met.
-
-{% include figure.liquid
-  loading="eager"
-  path="assets/img/blogs/2026-04-07/forge_gemma.png"
-  caption="GeMMA integration view, available when a project contains both metabolomics and metagenomics datasets. The interface shows concordance labels and pathway-level co-enrichment."
-  alt="Forge GeMMA microbiome-metabolome integration interface"
-  figure_class="inline-figure inline-right"
-  caption_class="caption small"
-%}
 
 This represents the first real cross-tool integration in the platform: Forge's preprocessing pipeline produces the metabolomics input that GeMMA consumes, and the output is pathway-level co-enrichment between the metabolome and the microbiome. The metabolon curation model — which allows curator-assigned ChEBI and HMDB identities for Metabolon features — feeds directly into GeMMA's pathway matching.
 
@@ -72,15 +54,6 @@ Forge now accepts mzML files directly. The untargeted metabolomics pipeline has 
 ## Case Study Infrastructure
 
 A new case study view exists at the project level. This is the infrastructure for the software paper validation requirement: a single page that walks through a complete analysis from data ingestion through preprocessing through statistical results, with the configuration captured and reproducible. The view is designed to be shareable — the intent is that a published case study can be reproduced exactly by loading the saved preprocessing profile and running the same analysis on the same public dataset.
-
-{% include figure.liquid
-  loading="eager"
-  path="assets/img/blogs/2026-04-07/forge_case_study.png"
-  caption="Case study view. The full analytical chain — ingestion, preprocessing configuration, statistical results — is presented as a reproducible, shareable document."
-  alt="Forge case study view showing end-to-end analysis documentation"
-  figure_class="inline-figure"
-  caption_class="caption small"
-%}
 
 ---
 
