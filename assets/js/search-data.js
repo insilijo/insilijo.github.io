@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-forge-a-multiomics-analytical-platform",
+        },{id: "post-forge-update-multi-omics-integration-mzml-processing-and-gemma",
+        
+          title: "Forge Update: Multi-Omics Integration, mzML Processing, and GeMMA",
+        
+        description: "A month in: what&#39;s landed in Forge since the launch post — multi-omics integration algorithms, raw mzML processing, GeMMA availability, and case study infrastructure.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/forge-multiomics/";
+          
+        },
+      },{id: "post-forge-a-multiomics-analytical-platform",
         
           title: "Forge: A Multiomics Analytical Platform",
         
