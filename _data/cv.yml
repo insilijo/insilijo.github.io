@@ -3,91 +3,86 @@
   contents:
     - name: Full Name
       value: Joseph J Gardner
+    - name: Location
+      value: Somerville, MA
+    - name: Email
+      value: joseph.j.gardner@gmail.com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: Colorado School of Mines
+    - title: Ph.D., Chemical and Biological Engineering
+      institution: Colorado School of Mines, Golden, CO
       year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "Advisor: Dr. Nanette R. Boyle"
+        - Agent-based modeling and flux balance analysis of colony formation and dual nitrogen/CO₂ fixation in <i>Trichodesmium erythraeum</i>.
+        - Developed computational frameworks integrating metabolic network reconstruction with emergent population-level behavior.
+    - title: B.S., Chemical and Biological Engineering
+      institution: Colorado School of Mines, Golden, CO
+      year: 2014
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Founder & Principal Scientist
+      institution: Insilijo Science
+      year: 2026 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Independent consulting and advisory practice in multiomics and life sciences data strategy.
+        - Built and deployed Forge, a production multiomics analytical platform covering metabolomics, proteomics, lipidomics, transcriptomics, and metagenomics.
+        - Clients in biotech, pharma, and academic research groups.
+    - title: Principal Scientist
+      institution: "[prior role — fill in]"
+      year: "[years]"
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - "[fill in]"
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/insilijo/GrAndMA">Forge (GrAndMA)</a>
+      year: 2026 - now
+      description: Production-deployed multiomics analytical platform. Preprocessing, statistical analysis, longitudinal modules, correlation networks, multi-omics integration, and knowledge graph pathway context.
+    - title: <a href="https://github.com/insilijo/GeMMA">GeMMA</a>
+      year: 2025 - now
+      description: Microbiome-metabolome integration. Abundance-weighted ORA, concordance labeling, network propagation, and gap-fill detection.
+    - title: <a href="https://github.com/insilijo/GIZMO">GIZMO</a>
+      year: 2025 - now
+      description: Knowledge graph for pathway interpretation across metabolomics, proteomics, and microbiome data.
+    - title: <a href="https://github.com/insilijo/SQuID-INC">SQuID-INC</a>
+      year: 2025 - now
+      description: Submodular optimization framework for anchor compound selection in untargeted metabolomics.
 
-- title: Honors and Awards
+- title: Service
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Board Secretary
+      institution: Fresh Start Food Network
+      year: 2024 - now
+      description:
+        - Nonprofit focused on food access in Boston — redistributing food that would go to waste to underserved communities.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Multiomics integration
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Multi-assay data fusion and cross-layer interpretation
+        - Metabolomics, proteomics, metagenomics, transcriptomics pipelines
+    - title: Network biology
       items:
-        - Description 1.
-        - Description 2.
+        - Knowledge graphs for biological pathway representation
+        - Correlation networks and community detection in omics data
+    - title: Reproducible analytical infrastructure
+      items:
+        - Production-deployable scientific software
+        - Preprocessing transparency and pipeline governance
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Community:</u> Food justice, volunteer work, Fresh Start Food Network
+    - <u>Writing:</u> Essays on scientific systems, data governance, and omics — Babelomics blog
+    - <u>Outdoors:</u> Hiking, camping, ranch background
+    - <u>Books:</u> Active book club member; wide reader across fiction and nonfiction
