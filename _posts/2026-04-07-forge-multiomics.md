@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Forge Update: Multi-Omics Integration, mzML Processing, and GeMMA"
+title: "Forge Update: Multi-Omics Integration"
 date: 2026-04-07 12:00:00
-description: "A month in: what's landed in Forge since the launch post — multi-omics integration algorithms, raw mzML processing, GeMMA availability, and case study infrastructure."
+description: "A month in: what's landed in Forge since the launch post — multi-omics integration algorithms and dataset infrastructure."
 tags: multiomics bioinformatics software forge update
 categories: software science
 giscus_comments: true
