@@ -13,6 +13,15 @@ thumbnail: "assets/img/blogs/2026-04-07/wikicommons-geographie_der_pflanzen_crop
 
 I wrote for Metabolon about the [value of multi-omics](https://www.metabolon.com/blog/commercial-opportunities-in-multiomics/). Specifically, I drew parallels to Alexander von Humboldt's conceptualization of the world as an ecosystem and how we have to measure it. It turns out that we didn't solve everything with the Human Genome Project, and we're still searching for ways to efficiently and effectively measure these incredibly dynamic, complex, and unobservable systems. A major focus, as I mentioned in that piece and have acted on here, is integrating multiple paradigms of large-scale data, particularly 'omics data, to probe the entire industry of a cell.
 
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-04-07/wikicommons-geographie_der_pflanzen_cropped.webp"
+  caption="Chimborazo's ecosystem as conceptualized by Alexander von Humboldt. Smithsonian/Wikicommons."
+  alt="Forge dataset filtering interface"
+  figure_class="inline-figure"
+  caption_class="caption small"
+%}
+
 We're in a weird but cool spot: instrument sensitivity is improving rapidly, costs are falling, and novel detection methods are being developed. We're a long way from a multi-million dollar processing run of a single set of representative genomes: we can now design experiments that profile the small molecule chemistry of multiple sample types, the genome of the host, epigenetic regulation, and proteomic activity all at once, should we so choose (and if the funding allows). We can even apply that to larger sample sets to derive the throughlines between biomolecular forces and the phenotypes they provoke.
 
 These changes have rebalanced the onus from sample acquisition/processing to experimental design/final analysis. It's attractive to throw AI at this problem: isn't it intended for large-scale data management and kitchen-sink analyses to derive biological hypotheses? This is where I'd exercise caution for several reasons:
