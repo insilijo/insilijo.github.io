@@ -22,14 +22,13 @@ These changes have rebalanced the onus from sample acquisition/processing to exp
 
 A month ago I published the [initial Forge post]({% post_url 2026-03-23-forge %}). At that point the platform handled single-assay preprocessing and analysis well; multi-omics integration was a labeled tab with a "coming soon" message. That tab now works.
 
-Website is live here: [www.insilijo.science]. Registration costs one email so I know who you are.
+Website is live here: www.insilijo.science. Registration costs one email (so I know who you are).
+
 ---
 
 ## Dataset Management
 
 ### Filtering
-
-I've added filtering as an essential mechanism for the app. You can find that at the top right, and it will conditionally section off features or samples based on metadata or statistical quantities. That preset can be saved per user and generally applied. This allows a user to iteratively investigate intentional or unintentional dataset parameters. For example, you can filter out near-zero variant features and then isolate only patients with severe phenotype on PCA and do the same with moderate phenotype, giving a perspective on how the disease manifests at its most advanced. These filtered datasets can be duplicated as filtered versions to retain provenance but also segment the data intentionally.
 
 {% include figure.liquid
   loading="eager"
@@ -39,6 +38,8 @@ I've added filtering as an essential mechanism for the app. You can find that at
   figure_class="inline-figure"
   caption_class="caption small"
 %}
+
+I've added filtering as an essential mechanism for the app. You can find that at the top right, and it will conditionally section off features or samples based on metadata or statistical quantities. That preset can be saved per user and generally applied. This allows a user to iteratively investigate intentional or unintentional dataset parameters. For example, you can filter out near-zero variant features and then isolate only patients with severe phenotype on PCA and do the same with moderate phenotype, giving a perspective on how the disease manifests at its most advanced. These filtered datasets can be duplicated as filtered versions to retain provenance but also segment the data intentionally.
 
 ### Outlier Detection
 
@@ -119,6 +120,15 @@ The integration hub gates availability on dataset composition: MCIA and JIVE req
 
 ### Combined Network
 
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-04-07/network.png"
+  caption="Combined multi-omics correlation network. Edges cross assay boundaries; node color indicates assay of origin. Edge significance is BH-corrected across all candidate pairs before threshold filtering."
+  alt="Forge combined multi-omics correlation network visualization"
+  figure_class="inline-figure"
+  caption_class="caption small"
+%}
+
 Single-assay correlation networks are useful; multi-omics correlation networks ask the harder question: which features co-vary not just within an assay but across them? The combined network builds from the aligned, concatenated multi-omics matrix and offers three modes depending on what the data and question support.
 
 **Pearson correlation** constructs edges between all feature pairs using BH-corrected Fisher z-transform p-values across the full candidate set before any correlation threshold is applied — the same approach used in the single-assay network, now operating across assay boundaries. A metabolite–transcript edge carries the same statistical treatment as a metabolite–metabolite edge.
@@ -128,15 +138,6 @@ Single-assay correlation networks are useful; multi-omics correlation networks a
 **Spearman** correlation ranks each feature's values across samples before computing the correlation coefficient. This makes it robust to outliers and appropriate for data that is not normally distributed — which describes most metabolomics and proteomics features after any real preprocessing pipeline. Edges are constructed using the same Fisher z-transform significance testing as Pearson, applied to the rank correlation coefficients.
 
 **Kendall** correlation also operates on ranks but uses concordant and discordant pair counts rather than a linear approximation. It is more conservative than Spearman — it produces lower correlation values for the same underlying relationship — but is more reliable at small sample sizes where Spearman's approximation is less stable. Prefer Kendall when sample counts are low (roughly n < 30) or when the data has many tied ranks.
-
-{% include figure.liquid
-  loading="eager"
-  path="assets/img/blogs/2026-04-07/network.png"
-  caption="Combined multi-omics correlation network. Edges cross assay boundaries; node color indicates assay of origin. Edge significance is BH-corrected across all candidate pairs before threshold filtering."
-  alt="Forge combined multi-omics correlation network visualization"
-  figure_class="inline-figure"
-  caption_class="caption small"
-%}
 
 ---
 
