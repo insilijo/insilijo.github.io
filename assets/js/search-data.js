@@ -58,11 +58,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-forge-update-multi-omics-integration-mzml-processing-and-gemma",
+        },{id: "post-forge-update-multi-omics-integration",
         
-          title: "Forge Update: Multi-Omics Integration, mzML Processing, and GeMMA",
+          title: "Forge Update: Multi-Omics Integration",
         
-        description: "A month in: what&#39;s landed in Forge since the launch post — multi-omics integration algorithms, raw mzML processing, GeMMA availability, and case study infrastructure.",
+        description: "A month in: what&#39;s landed in Forge since the launch post — multi-omics integration algorithms and dataset infrastructure.",
         section: "Posts",
         handler: () => {
           
