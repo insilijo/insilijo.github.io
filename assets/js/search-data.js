@@ -242,6 +242,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/dungeoncrawler_carl_6/";
+            },},{id: "books-dungeon-crawler-carl-book-7-this-inevitable-ruin",
+          title: 'Dungeon Crawler Carl Book 7: This Inevitable Ruin',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dungeoncrawler_carl_7/";
             },},{id: "books-family-furnishings-selected-stories-1995-2014",
           title: 'Family Furnishings: Selected Stories, 1995-2014',
           description: "",
@@ -252,6 +257,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/farthest_shore/";
+            },},{id: "books-foundryside",
+          title: 'Foundryside',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/foundryside/";
             },},{id: "books-get-in-trouble",
           title: 'Get in Trouble',
           description: "",
@@ -297,6 +307,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/invention_of_nature/";
+            },},{id: "books-james",
+          title: 'James',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/james/";
             },},{id: "books-killers-of-the-flower-moon-the-osage-murders-and-the-birth-of-the-fbi",
           title: 'Killers of the Flower Moon: The Osage Murders and the Birth of the...',
           description: "",
