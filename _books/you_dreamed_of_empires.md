@@ -5,8 +5,8 @@ author: Álvaro Enrigue
 cover: assets/img/book_covers/you_dreamed_of_empires.jpg
 categories: fiction historical-fiction magical-realism new-world colonialism
 started: 2026-01-20
-# finished: 2025-12-27
+finished: 2026-03-15
 released: 2024-01-09
-# stars: 4
+stars: 4
 status: Reading
 ---
