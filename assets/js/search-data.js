@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-case-studies",
+          title: "case studies",
+          description: "Public-data walkthroughs in Forge — preprocessing, statistics, multi-omics integration, and pathway analysis on real biological questions.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/case-studies/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
