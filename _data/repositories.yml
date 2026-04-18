@@ -4,9 +4,13 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - repository: insilijo/ra_cohorts
-    private: true
+  - repository: insilijo/forge
+    private: false
+  - repository: insilijo/GIZMO
+    private: false
+  - repository: insilijo/untargeted-metabolomics
+    private: false
   - repository: insilijo/food_justice
     private: false
-  - repository: MetabolonInternal/globalviz
+  - repository: insilijo/ra_cohorts
     private: true
