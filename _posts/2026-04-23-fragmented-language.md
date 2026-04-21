@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fragmented language: the liminal space"
-date: 2026-04-24 12:00:00
+date: 2026-04-21 12:00:00
 description: "Small molecule chemistry is a language that we can't seem to figure out."
 tags: metabolomics biology science words
 categories: strategy science biology
