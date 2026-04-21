@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Network Biology! Food Justice! Metabolism! Climate Change! Books!
+subtitle: Multiomics strategy, platform infrastructure, and network biology for life sciences teams.
 
 profile:
   align: right
@@ -25,21 +25,29 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey! I'm Joey. Like the baby kangaroo. I'm a **Principal Scientist and People Manager and End to End Product Executor**. I've worked across omics, contextualizing multiomics/pathways on the bioinformatics platform, modernizing cheminformatics methods, and building a microbiome product. I've worked to build knowledge graphs, integrative network methods, and predictive models, plus end-to-end software solutions. I have a dog named Ducky (Hejduk) and I used to have a dog named Gizmo, a pony named Patches, and a cat named Tory. They're the best.
+Hey! I'm Joey. Like the baby kangaroo.
+
+I run **[Insilijo Science](/contact/)**, an independent advisory and consulting practice for life sciences teams working through hard multiomics and data strategy questions — which analytical capabilities to build versus buy, how to structure a platform that stays useful as studies get more complex, where preprocessing decisions belong in the organization, and how to turn fragmented omics data into something a research team can actually reason about together. My clients are biotech, pharma, and academic groups somewhere between "we have the data" and "we know what the data means."
+
+I approach this as a scientist who builds. I've been designing computational platforms for metabolomics and multiomics since graduate school; [Forge](https://www.insilijo.science) is the fourth. The through-line is the same problem: making the path from raw instrument output to interpretable biology reproducible, defensible, and legible to the people who need to act on it.
+
+I have a dog named Ducky (Hejduk) and I used to have a dog named Gizmo, a pony named Patches, and a cat named Tory. They remain the best.
 
 <details>
   <summary class="large-details">
     Professional Bio
   </summary>
 <p>
-I have a B.S. and Ph.D. in Chemical and Biological Engineering, the latter of which I completed under the advisement of <a href="https://chemeng.mines.edu/project/boyle-nanette/">Dr. Nanette R. Boyle at Colorado School of Mines</a>. We used agent-based modeling and flux balance analysis (code acting like individuals + figuring out the fastest route to grow in metabolism) to interrogate
-<i>Trichodesmium erythraeum</i>'s colony forming behavior and capacity to fix nitrogen and CO$_2$ simultaneously during the day.
+I hold a B.S. and Ph.D. in Chemical and Biological Engineering, the latter completed under <a href="https://chemeng.mines.edu/project/boyle-nanette/">Dr. Nanette R. Boyle at Colorado School of Mines</a>. My thesis used agent-based modeling and flux balance analysis to interrogate how <i>Trichodesmium erythraeum</i> colonies coordinate nitrogen and CO<sub>2</sub> fixation simultaneously — a problem that required reasoning about individual cellular decisions, emergent population behavior, and the metabolic constraints that bound both.
 </p>
 <p>
-Since then, I've been involved in engineering to optimize nitrogen fixation for industrial ag, finding drug targets for autoimmune disorders using metabolism-centric approaches, untargeted metabolomics, microbiome research, and software for science research.
+Since then my work has moved across the applied spectrum: nitrogen fixation for industrial agriculture, metabolism-centric drug target discovery for autoimmune disorders, untargeted metabolomics, microbiome research, and the production software infrastructure that makes those kinds of analyses possible at scale. I've led and mentored interdisciplinary teams across those domains and shipped products that sit at the intersection of bioinformatics, data infrastructure, and commercial research use.
 </p>
 <p>
-I write about <b>all sorts of things</b> but I'm most opinionated on <b>software-assisted biological research</b> including <b>building interactable, rich visualizations</b>, <b>organizing disparate data across ontologies</b>, and <b>the pros and cons of LLMs in assisting development</b>. My research focuses on <b>network approaches</b> in <b>multivariate, multiobjective contexts</b>. I really like discussing <b>teaching</b> as well as <b>mentorship and management of technical people</b>. Lastly, no product is complete without a marketing strategy, so it's important to me to find the right <b>product-market fit</b> so good science doesn't die on the vine.
+The throughline in my work is strategic more than technical. Most of what makes multiomics analysis difficult is not a missing algorithm — it's unclear ownership of analytical decisions, preprocessing choices made invisibly, governance of what counts as a valid result, and the incentives that determine whether scientific infrastructure gets built to last or built to demo. I write and advise on all of these: <b>platform architecture</b>, <b>analytical governance</b>, <b>cross-domain interpretation</b>, the <b>real versus marketed</b> role of LLMs in scientific development, and the <b>organizational conditions</b> that make good science possible or preempt it.
+</p>
+<p>
+I also write about how products actually reach the people who need them. Good science dies on the vine without product-market fit, and the infrastructure around a scientific tool — the documentation, the deployment story, the analytical transparency — is often what determines whether it gets used at all.
 </p>
 </details>
 <details>
