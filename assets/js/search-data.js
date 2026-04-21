@@ -65,7 +65,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-forge-update-multi-omics-integration",
+        },{id: "post-fragmented-language-the-liminal-space",
+        
+          title: "Fragmented language: the liminal space",
+        
+        description: "Small molecule chemistry is a language that we can&#39;t seem to figure out.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/fragmented-language/";
+          
+        },
+      },{id: "post-forge-update-multi-omics-integration",
         
           title: "Forge Update: Multi-Omics Integration",
         
