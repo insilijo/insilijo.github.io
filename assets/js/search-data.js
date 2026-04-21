@@ -179,6 +179,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/albions_seed/";
+            },},{id: "books-all-systems-red",
+          title: 'All Systems Red',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/all_systems_red/";
             },},{id: "books-we-have-always-lived-in-the-castle",
           title: 'We Have Always Lived in the Castle',
           description: "",
