@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-16'
+  last_updated: '2026-04-22'
 papers:
   CgGMO7MAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -30,7 +30,7 @@ papers:
     title: 'Multiscale Multiobjective Systems Analysis (MiMoSA): an advanced metabolic modeling framework for complex systems'
     year: '2019'
   CgGMO7MAAAAJ:u-x6o8ySG0sC:
-    citations: 26
+    citations: 27
     title: "The use of genome-scale metabolic network reconstruction to predict fluxes and equilibrium composition of N-fixing versus C-fixing cells in a diazotrophic cyanobacterium \u2026"
     year: '2017'
   CgGMO7MAAAAJ:u5HHmVD_uO8C:
