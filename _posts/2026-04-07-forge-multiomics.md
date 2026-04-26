@@ -11,7 +11,7 @@ pretty_table: true
 thumbnail: "assets/img/blogs/2026-04-07/wikicommons-geographie_der_pflanzen_cropped.webp"
 ---
 
-I wrote for Metabolon about the [value of multi-omics](https://www.metabolon.com/blog/commercial-opportunities-in-multiomics/). Specifically, I drew parallels to Alexander von Humboldt's conceptualization of the world as an ecosystem and how we have to measure it. It turns out that we didn't solve everything with the Human Genome Project, and we're still searching for ways to efficiently and effectively measure these incredibly dynamic, complex, and unobservable systems. A major focus, as I mentioned in that piece and have acted on here, is integrating multiple paradigms of large-scale data, particularly 'omics data, to probe the entire industry of a cell.
+I've written elsewhere about the commercial value of multi-omics, drawing parallels to Alexander von Humboldt's conceptualization of the world as an ecosystem and how we have to measure it. It turns out that we didn't solve everything with the Human Genome Project, and we're still searching for ways to efficiently and effectively measure these incredibly dynamic, complex, and unobservable systems. A major focus, as I mentioned in that piece and have acted on here, is integrating multiple paradigms of large-scale data, particularly 'omics data, to probe the entire industry of a cell.
 
 {% include figure.liquid
   loading="eager"
@@ -182,7 +182,7 @@ GIZMO, the underlying knowledge graph and my dearly departed, wheelchair-bound p
 | [CTD](https://ctdbase.org) | Chemical–gene interactions, chemical–disease associations |
 | [T3DB](https://t3db.ca) | ~3,700 toxin records — targets, LD50, exposure routes |
 | [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/) | Pathogenic/likely pathogenic variants, clinical significance |
-| [Metabolon](https://zenodo.org/records/5893535) | 5,395 measured metabolites with platform metadata (PMC open-access subset) |
+| [Commercial metabolomics dictionary](https://zenodo.org/records/5893535) | 5,395 measured metabolites with platform metadata (PMC open-access subset) |
 
 From here you can run enrichment analysis, causal chain queries, or druggability targeting. A feature mapper checks that your dataset's identifiers align with the graph before any query runs. It supports multiple datasets simultaneously and accepts VIP scores, fold changes, or mean intensities as the input signal — whatever came out of your analysis.
 This is where I'll put the most work, both with managing the integrations and creating hypothesis-driving options like:
