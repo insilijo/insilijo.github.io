@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-05-11'
 papers:
   CgGMO7MAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -18,7 +18,7 @@ papers:
     title: Investigating nutrient cycling mechanisms in a filamentous cyanobacterium using advanced multi-scale multi-paradigm metabolic models
     year: '2019'
   CgGMO7MAAAAJ:W7OEmFMy1HYC:
-    citations: 7
+    citations: 8
     title: Investigating the Unique Ability of Trichodesmium To Fix Carbon and Nitrogen Simultaneously Using MiMoSA
     year: '2023'
   CgGMO7MAAAAJ:d1gkVwhDpl0C:
@@ -30,7 +30,7 @@ papers:
     title: 'Multiscale Multiobjective Systems Analysis (MiMoSA): an advanced metabolic modeling framework for complex systems'
     year: '2019'
   CgGMO7MAAAAJ:u-x6o8ySG0sC:
-    citations: 27
+    citations: 28
     title: "The use of genome-scale metabolic network reconstruction to predict fluxes and equilibrium composition of N-fixing versus C-fixing cells in a diazotrophic cyanobacterium \u2026"
     year: '2017'
   CgGMO7MAAAAJ:u5HHmVD_uO8C:
