@@ -8,7 +8,7 @@ categories: science methods
 giscus_comments: true
 related_posts: true
 pretty_table: true
-thumbnail: "assets/img/blogs/2026-05-19/PWFeb19Crease-original.jpg"
+thumbnail: "assets/img/blogs/2026-05-19/gizmo.jpg"
 ---
 
 {% include figure.liquid
@@ -24,6 +24,8 @@ I analyzed 11 multi-omic and single-omic cohorts including auto-immune inflammat
 I recovered the canonical oncometabolite from gene expression alone, by letting the curated graph's catalysis edges propagate signal from IDH1/IDH2/D2HGDH expression to the 2HG node it produces. The substrate filled in what wasn't measured.
 
 That's the framework's strategic claim, in one sentence: **measurement-modality heterogeneity across studies stops being a blocker for integrative biology when it's contextually aware through archived biology.** In some ways, biochemistry-aware 'omics is an alternative genomics integration where the genomics is the standardized *homo sapiens* knowledge graph.
+
+This borrows from Mendeleev's assumptions of the periodic table: we have a pattern, we understand the system, but we haven't measured it all yet. How do we assemble knowledge from disparate, inconsistent, and sparse data?
 
 ### Integration is a great idea until you have to do it
 
