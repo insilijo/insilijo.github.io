@@ -1,15 +1,23 @@
 ---
 layout: post
-title: "Ship of Theseus-Omics"
+title: "Mendeleev-Omics"
 date: 2026-05-19 09:00:00
-description: "Using graph theory and contextualized tabular data to tell a more complete story"
+description: "Using graph theory, interpolation, and contextualized tabular data to tell a more complete story"
 tags: multiomics gizmo metabolomics graph-methods preprint
 categories: science methods
 giscus_comments: true
 related_posts: true
 pretty_table: true
-thumbnail: "assets/img/blogs/2026-05-19/fig_v17_literature_recovery.png"
+thumbnail: "assets/img/blogs/2026-05-19/PWFeb19Crease-original.jpg"
 ---
+
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/blogs/2026-05-19/PWFeb19Crease-original.jpg"
+  caption="Early period: Dmitri Mendeleev’s original hand-drawn table (left) was dated 17 February 1869 and is almost unrecognizable from the version we know and love today. The version on the right was published in his first scientific paper about the periodic table. To reach something resembling the modern table, you have to imagine rotating this diagram 90° clockwise and then flipping the elements left to right. (Courtesy: Sputnik/Science Photo Library; Universal History Archive / UIG / Science Photo Library by way of Physics World 29 Jan 2019, Robert P Crease)"
+  figure_class="inline-figure"
+  caption_class="caption small"
+%}
 
 I analyzed 11 multi-omic and single-omic cohorts including auto-immune inflammatory (RA), infection-inflammatory (COVID), and oncological data. These included the canonical metabolism-led story of IDH-glioma where IDH mutants are able to differentially metabolize TCA Cycle intermediates like 2-hydroxyglutarate (2HG). Notably, using single-omics techniques in the context of a forked and built-out Reactome graph we'll call GIZMO, we were able to recover characteristics predicting other omics approaches. For IDH-glioma, using only RNA-seq data, of all 6,406 nodes on the curated biochemistry graph, we found **2HG comes in at rank 74, top 1.1%.**
 
@@ -113,7 +121,7 @@ Organizing the 11 cohorts by what β and α each carry produces a (question-type
 
 Where the framework adds something distinct: when α (the mechanism-residual axis) is projected after per-module standardization, α-PC1 separates Basal from LumA at MW p ≈ 5×10⁻¹². β does so at p ≈ 8×10⁻⁷. Both axes carry signal; the standardized α subspace carries it more sharply on this cohort.
 
-An honest disclosure I owe given how recently this finding was added: I ran an 8-configuration ablation of the methodology (per-patient |F|-weighting, per-cohort module filter, z-score module standardization) to test which choices the headline depends on. Result: **standardization is load-bearing.** Without standardization, α-PC1 p collapses to ~0.34-0.48 (non-significant); with standardization, p ranges 3.4×10⁻⁷ (unweighted) to 4.9×10⁻¹² (with |F|-weighting). The module filter is cosmetic. β is independent at p = 7.99×10⁻⁷.
+An honest disclosure I owe given how recently this finding was added: I ran an 8-configuration ablation of the methodology (per-patient \|F\|-weighting, per-cohort module filter, z-score module standardization) to test which choices the headline depends on. Result: **standardization is load-bearing.** Without standardization, α-PC1 p collapses to ~0.34-0.48 (non-significant); with standardization, p ranges 3.4×10⁻⁷ (unweighted) to 4.9×10⁻¹² (with \|F\|-weighting). The module filter is cosmetic. β is independent at p = 7.99×10⁻⁷.
 
 The conservative headline is therefore: **when per-substrate-module variance is equalized via standardization, the α residual contains a PAM50 mechanism axis that supervised-on-the-hub-direction methods are not optimized to find.** Without standardization, β-magnitude on the hub direction is the better single-axis discriminator. This is a methodologically-defensible result, but the methodology choice is a real one; equal-weighting modules is what surfaces the α biology.
 
@@ -137,7 +145,7 @@ What this framework doesn't do:
 - **Doesn't always benefit from multi-modal input.** Adding NMR to RNA on the same 88 IDH-glioma patients doesn't improve discrimination. Multi-modal is conditionally beneficial.
 - **Doesn't work below ~n=50.** Crohn n=33, Gao_RA n=24-28 land at the per-patient α-decomposition noise floor. The GSE148892 obesity attempt (n=26) discussed above was negative under a proper permutation null (p ≈ 0.09). This is a small-n + curator-defined panel + post-hoc is exactly where the framework's operating conditions break.
 - **Cross-cohort aggregate is marginal.** Per-cohort effects can be strong, but the cross-cohort α-PCA aggregating across all 11 cohorts has permutation p = 0.059: visible inflammatory-vs-non separation but not significant at α = 0.05. Within-cohort biology is the framework's stronger claim; cross-cohort integration is still developing.
-- **The α · classification breast_TCGA result depends on three methodological choices** introduced during a late revision pass: per-patient |F|-weighted module projection, per-cohort module filter, z-score standardization. Robustness ablation tables under each individual choice are reported in supplementary materials;α-direction holds across configurations, exact magnitude varies.
+- **The α · classification breast_TCGA result depends on three methodological choices** introduced during a late revision pass: per-patient \|F\|-weighted module projection, per-cohort module filter, z-score standardization. Robustness ablation tables under each individual choice are reported in supplementary materials;α-direction holds across configurations, exact magnitude varies.
 - **The substrate is a curated choice.** Reactome reactions + StringDB PPI + curated metabolite/disease annotations is one particular construction; findings haven't been tested for robustness to alternative curations (KEGG-only, no PPI, etc.). Reserved for follow-up.
 
 ### What's in the paper that didn't fit the blog
@@ -148,7 +156,7 @@ This post is the strategic frame. The preprint contains the substantive validati
 - **Cross-pathway bridging vs WGCNA** — GIZMO modules span ≈5× more Bonferroni-significant Reactome pathways per module than WGCNA on the same input features in 10/10 cohorts. Different module-coherence axes; the structural-property claim that survives null testing.
 - **Smoothing-rescue analysis across the full 11-cohort panel** — Δ AUC of full-MAP vs no-smoothing ranges −0.114 (Crohn n=33 dilutes) to +0.225 (breast.TCGA RPPA hub-anchored rescues). Median +0.011. **MAP smoothing is conditionally beneficial, not universally** — the framework quantifies when it adds value vs hurts.
 - **Cross-modality CV-R² ≈ 0.5 across 27 cells** — quantitative version of "modalities share information through graph adjacency" — ~70% of within-modality patterns are recoverable from another modality via substrate-mediated diffusion. Metab is the most predictive modality (metab → gene CV-R² = 0.463 vs gene → metab = 0.313).
-- **Within-cohort α-PCA across 17 panel configurations** — the per-patient α-residual visualized per cohort, with explicit ablation of methodology (per-patient |F|-weighting, module filter, standardization) at the supplementary figure level.
+- **Within-cohort α-PCA across 17 panel configurations** — the per-patient α-residual visualized per cohort, with explicit ablation of methodology (per-patient \|F\|-weighting, module filter, standardization) at the supplementary figure level.
 - **8 pre-registered falsification entries** — the framework's scope was narrowed through 8 pre-registered null tests documented in git history. Each negative result eliminated a candidate framing. The surviving claims are what's left after the 8 falsifications.
 - **β-direction substrate composition annotation** — the top-50 substrate hub nodes annotated by category; 47/50 are transcription / signaling / immune / host-defense, only 1 is metabolism. β is the phenotype-presentation axis of the substrate, not bulk metabolism.
 
