@@ -65,7 +65,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-fragmented-language-the-liminal-space",
+        },{id: "post-ship-of-theseus-omics",
+        
+          title: "Ship of Theseus-Omics",
+        
+        description: "Using graph theory and contextualized tabular data to tell a more complete story",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/graph-substrate-projection/";
+          
+        },
+      },{id: "post-fragmented-language-the-liminal-space",
         
           title: "Fragmented language: the liminal space",
         
