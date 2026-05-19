@@ -8,7 +8,7 @@ categories: science methods
 giscus_comments: true
 related_posts: true
 pretty_table: true
-thumbnail: "assets/img/blogs/2026-05-19/gizmo.jpg"
+thumbnail: "assets/img/blogs/2026-05-19/gizmo.JPEG"
 ---
 
 {% include figure.liquid
