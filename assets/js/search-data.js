@@ -65,11 +65,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "post-ship-of-theseus-omics",
+        },{id: "post-mendeleev-omics",
         
-          title: "Ship of Theseus-Omics",
+          title: "Mendeleev-Omics",
         
-        description: "Using graph theory and contextualized tabular data to tell a more complete story",
+        description: "Using graph theory, interpolation, and contextualized tabular data to tell a more complete story",
         section: "Posts",
         handler: () => {
           
